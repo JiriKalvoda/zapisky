@@ -1,0 +1,36 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{}
+\section{Dvě roviny}
+\begin{description}
+\item[A5] Nechť $\alpha,\beta$ jsou takové dvě roviny, že $\alpha \cap \beta \ne \emptyset$, pak jejich průnikem je přimka.
+\end{description}
+
+\Poz Klasfikaci vzájemné polohy 2 rovin provedeme podle jejich průniku:
+\begin{itemize}
+	\item $\alpha = \beta$
+	\item $\alpha\ne\beta$, pak:
+		\begin{itemize}
+			\item $\alpha \cap \beta = \emptyset$
+			\item $\alpha \cap \beta\not\emptyset$ podle $A_5$ $imp$ $\exists p \subset \E_3 : \alpha \cap \beta = p$
+		\end{itemize}
+
+\end{itemize}
+\Def \dots
+\V[Kritérium rovnoběžnosti dvou rovin]
+Necť $\alpha , \beta$ jsou dvě roviny:
+Jestliže rovina $\alpha$ obsahuje 2 různoběžky $a,b$ takové, že $a\cap \bata = \emptyset \land b \cap \betha = \emptyset$, pak $\alpha || \betha$
+
+[Dk: Sporem]
+
+\V 
+Každým bodem lze ke každé rovině vézt právě jednu rovnoběžnou rovinu.
+$$\forall A \ in \E_3 , \alpha \subset \E_3: \exists ! \beta \subset \E_3 : B \in \beta \land \alpha || \beta$$
+
+\Pr Je dána krychle $ABCDEFGH$. Sestrojte průsečnici $p$ roviny $\pri{AES}$ s rovinou $\pri{BCG}$, kde $S$ je středem čtverce $BCGF$.
+\EndDoc

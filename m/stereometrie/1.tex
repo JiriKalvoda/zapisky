@@ -1,0 +1,35 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{}
+\section{Základní pojmy}
+\Poz V kapitole o stereometrii, což je geometrie v prostoru, budeme pracovat v základní množině $\E_3$ -- množina všech bodů v prostoru = 
+Eukleidovský prostor dimenze 3.
+V této množině jsou dva typy podmnožin:
+\begin{itemize}
+	\item přímky, množinu všech přímek nazvěme $P$.
+	\item roviny
+\end{itemize}
+\Def Body, které leží na jedné přímce, nazýváme \emph{kolineární}. Body, resp. přímky, které leží v jedné rovině nazýváme \emph{koplanární}
+{\Huge\dots}
+\subsection{Tři základní axiomy stereometrie}
+\begin{description}
+	\item[$A_1$] Každými dvěma různými body prochází právě jedna přímka.
+		$$\forall A,B \in \E_3 ,A\ne B: \exists! p \in P: A\in p \land B\in p$$
+	\item[$A_2$] Každá rovina je jednoznačné určena:
+		\begin{enumerate}[a)]
+			\item 3 nekolineárními body
+			\item přímkou a bodem, který na ni neleží
+			\item 2 různými rovnoběžnými přímkami
+			\item 2 různoběžnými pilkami
+		\end{enumerate}
+	\item[$A_3$] Jestliže 2 různé body dané přímky leží v dané rovině, pak i celá tato přímka leží v této rovině. 
+		Jestliže 2 různé body dané přímky leží v dané rovině, pak i celá tato přímka leží v této rovině.
+\end{description}
+
+
+\EndDoc

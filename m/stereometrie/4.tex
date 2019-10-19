@@ -1,0 +1,61 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{\sectionnum{4}}
+\section{Přímka a rovina}
+\Poz Klasifikaci vzájemné polohy přímky a roviny provedeme podle jejich společňého průniku:
+\begin{itemize}[a)]
+	\item prázdná množina
+	\item jednoprvková množina
+	\item alespoň dva prvky, tedy celá přimka
+\end{itemize}
+\Def
+Nechť $a\in\E_3,\alpha\subset \E_3$. Jestliže platí:
+\begin{itemize}[a)]
+	\item $a\cap \alpha = \emptyset$ $\imp$ Přímka $a$ je s rovinou $\alpha$ rovnoběžná.
+	\item $a\cap \alpha = \{P\}$ $\imp$ Přímka $a$ je s rovinou $\alpha$ různoběžná, bod $P$ je průsečíkem.
+	\item $a\cap \alpha = a$ $\imp$ Přímka $a$ leží v rovině $a$ ($a\subset\alpha$).
+\end{itemize}
+
+\Poz Je-li $a\in \alpha$, pokládáme přímku $a$ též za rovnoběžnou s rovinou $\alpha$
+
+\V[Kritérium povnoběžnosti přímky a roviny]
+Pro $\forall p \in P$ a $\forall \rho \in \E_3$ platí: $p\parallel\rho \ekv \exists q \in \rho: p \parallel q$
+
+[Dk: 
+\begin{enumerate}[1.]
+	\item \uv{$\imp$}: 
+\end{enumerate}
+]
+
+\V  Nechť $\forall p \in P, \forall \rho \subset \E_3 : p \parallel \rho \imp \forall \sigma \subset \E_3 : p \subset \sigma \nparallel \rho$: Pak rovina $\sigma$ protnw rovinu $\rho $ v průsečnici $q$, kde platí $p\parallel q$.
+
+\Pr Setrojte průsečík přímky $\pri{PQ}$ a krychle $ABCDEFGH$, kde $P\in\pri{DB}$za bodem $B$, $Q\in \pri{DH}$ za bodem $H$.
+
+\Poz Obecný způsob při stanovení průniku přímky $p$ a roviny $\rho$:
+\begin{itemize}
+	\item Přímkou $p$ proložíme libovolnou rovinu $\phi,\phi \nparallel \rho$.
+	\item Sestrojíme přůsečnici obou rovin $q$.
+	\item Průsečíkem $p\cap \phi$ je průsečík $p$ a $q$ (pokud existuje).\\
+\end{itemize}
+
+
+\Pr Je dána krychle $ABCDEFGH$, na jejíh hranách body $R,S,T$. Určete $\pri{FD}\cap\pri{RST}$
+%TODO 2. načrt
+\begin{itemize}
+	\item $\phi = \pri{DBF}; DF\subset\pri{DBF}$
+	\item $q=\pri{TX}; \pri{TX} \subset \pri{RST} \cap \phi; X\in \pri{DB} \cap \pri{RS}$
+	\item $Y;Y\in \pri{TX}\cap \pri{DF} = \pri{DF} \cap \pri{RST}$
+\end{itemize}
+
+\Pr Dú: šestrojte průnik příkmy $\pri{PQ}$ a krychle $ABCDEFGH$:
+\begin{itemize}
+	\item $H=$ střed $DP$ a $B=$ střed $DQ$.
+	\item $P\in\ppri{S_2SS_1}, Q\in\ppri{S_1S_3}$, kde $S_1,S_2,S_3$ jsou po řadě středy Hseček $AD,BC,BG$,
+\end{itemize}
+\EndDoc
+

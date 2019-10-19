@@ -1,0 +1,37 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{}
+\section{Dvě přímky v rovině}
+\Pr Je dána krychle $ABCDEFGH$, zobrazte ji ve volném rovnoběžném promítání a určete průniky přímek: $\pri{AC}$ a $\pri{BD}$, $\pri{EH}$ a $\pri{BC}$, $\pri{EF}$ a $\pri{BG}$.
+% todo
+
+$\pri{AC} \cap \pri{BD} = \{S\}$ -- jedná se o různoběžky.\\
+$\pri{EH} \cap \pri{BG} = \{\}$ -- jedná se o různé rovnoběžky.\\
+$\pri{EF} \cap \pri{BG} = \{\}$ -- jedná se o mimoběžky.\\
+
+\Def Nechť $p,q \in P$ jsou dvě přimky. Jestliže platí:
+\begin{enumerate}
+	\item $p\cap q=\emptyset \land p,q$ jsou komplanární $\imp$ \emph{různé rovnoběžky}
+	\item $p\cap q=\emptyset \land p,q$ jsou nekomplanární $\imp$ \emph{mimoběžky}
+	\item $p\cap q = \{P\}$ $\imp$ \emph {různoběžky} a $P$ je \emph{průsečík}
+	\item $p\cap q = p$ $\imp$ \emph{splívající (totožné) rovnoběžky}
+\end{enumerate}
+
+\begin{description}
+	\item[$A_4$] Axiom rovnoběžnosti:\\
+		Každým bodem v $\E_2$ lze vést ke každé přímce právě jednu rovnoběžku.
+
+\end{description}
+\V Každým bodem v $\E_3$ lze vést ke každé přimce právě jednu rovnoběžku.
+
+\V[Tranzitivnost rovnoběžek]
+$\forall a,b,c \subset \E_3 , a,b,c \in P: a || b \land b || c  \imp c||a$
+
+Důsledek: Všechny přimky rovnoběžné s danou přímku jsou navzájem rovnoběžné a vytvářejí tzv. \emph{směr}.
+
+\EndDoc

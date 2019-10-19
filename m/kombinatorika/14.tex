@@ -1,0 +1,113 @@
+\input{h.tex}
+\def\f{\frac}
+\BeginDoc{\sectionnum{14}}
+%\section{Posloupnost nezávisle opakovaných pokusů}
+\section{Statistika}
+\Def
+\emph{Statistický soubor} je množina všech objektů statistického pozorování
+\Def
+\emph{Statistická jednotka} prvek statistického souboru.
+\Def
+\emph{\underline{Rozsah souboru $n$}} je počet prvků statistického souboru.
+\Def
+\emph{Statistický znak} je společná vlastnost statistických jednotek, zpravidla se značí $x$.
+\Def
+\emph{Hodnota znaku} = jednotlivé údaje znaku
+Příklady stat. znaků:
+Při sčítání obyvatelstva: věk, pohlaví, zaměstnání\dots\\
+Hodnoty znaku mohou být vyjádřeny slovy nebo čísly (kvalitativní $\times$ kvantitativní znak)
+
+\Def \emph{\underline{Četnost (absolutní četnost)}} hodnoty znaku je počet statistických jednotek, které mají stejnou hodnotu znaku\\
+Značí se $n_j$ a platí $\sum_{j=1}^k n_j=n$.
+\Def
+\emph{\underline{Relativní četnost hodnoty znaku}} je podíl absolutní četnosti a rozsahu souboru.\\
+Značíme $\nu_j = \f{n_j}{n}$ a platí  $\sum_{j=1}^k v_j = 1$.
+
+\Def \emph{Rozdělení četnosti} -- všechny různé hodnoty znaku a jim odpovídající četnosti uspořádáme do tabulky nebo znázorňujeme graficky.
+\begin{itemize}
+	\item Spojnicový diagram (polygon četnosti)
+	\item Sloupkový diagram (histogram)
+	\item Kruhový diagram 	
+\end{itemize}
+\Def \emph{Skupinové (intervalové) rozdělení četnosti} -- blízké hodnoty znaku se sdružují do skupin tvořených obvykle intervaly. Hodnoty znaku, jež se dostali do téhož intervalu, lze potom reprezentovat jednou hodnotou -- střed intervalu = třídní znak.
+
+\subsection{Charakteristiky statistického souboru}
+\Poz Čísla, která podávají stručnou souhru informací o uvažovaném statistickém souboru z různých hledisek.
+
+\subsection{Charakteristiky polohy}
+\Poz Čísla, kolem nichž jedotlivé hodnoty znaku kolísají 
+\Def \emph{Aritmetrický průměr} hodnot $x_1,x_2,\dots,x_n$ kvantitativniho znaku $x$: $\overline{x}=\f{x_1+x_2+\dots+x_n}n$
+\Def \emph{Vážený aritmetrický průměr} statistického souboru, kde četnost hodnoty znaku $x_i$ je $n_i$: $\overline{x}=\f{n_1x_1+n_2x_2+\dots+n_kx_n}n$
+\Def \emph{Geometrický průměr} hodnot $x_1,x_2,\dots,x_n$ kvantitativniho znaku $x$: $\overline{x}_G=\sqrt[n]{x_1\*x_2\*\dots\*x_n}$
+\Def \emph{Harmonický průměr} hodnot $x_1,x_2,\dots,x_n$ kvantitativniho znaku $x$: $\overline{x}_H=\f{n}{\f{1}{x_1}+\f{1}{x_2}+\dots+\f{1}{x_n}}$
+
+\V[AG-nerovnost] $$\overline x \ge \overline x_G$$
+\Def \emph{Modus} hodnot $x_1,x_2,\dots,x_n$ \emph{znaku} $x$ je hodnota, která má největší četnost.\\
+Značí se ${\rm Mod}(x)$.\\
+Modus se užívá k odhadu střední hodnoty znaku souboru, nejčastěji tedy, máme-li sestavenou tabulku rozdělení četnosti pro statistický soubor s velkým rozsahem.
+\Def \emph{Medián} hodnot $x_1,x_2,\dots,x_n$ \emph{znaku} $x$ statistického ssouboru, v němž jsou prvky uspořádány dle velikosti hodnot sledovaného znaku je prostřední hodnota:\\
+\begin{itemize}
+	\item V souboru s lichým rozsahem se rovná prostřednímu členu.
+	\item V souboru se sudým počtem znaků se rovná aritmetrickému průměru dvou prostředních znků s indexy $\f n 2 $ a $\f n 2 + 1$.
+\end{itemize}
+
+\Pr Ve třídě 1.A je 16 děvčat: Údaje o výšce udává následující tabulka:
+$$ \begin{array}{|c||c|c|c|c|c|}\hline
+	\text{Výška} & 160-164 & 165-169 & 170-174 & 175-179 & 180-184 \\\hline
+	\text{Střed intervalu} & 162 & 167 & 72 & 177 & 182 \\\hline
+	\text{Počet} & 2 & 5 & 4 & 3 & 2\\\hline
+\end{array} $$
+Průměrná výška: $171\j{cm}$\\
+Modus: $167\j{cm}$\\
+Medián: $\f{172+172}2=172\j{cm}$
+
+\Pr  V testu při zkoušce dostalo 15 studentů znaámku 1, dalších 35 2, 30 3, 15 4 a zbylých 5 studentů dostalo známku 5.\\
+Vypočítejte průmernou známku, modus a medián.\\
+Průměr: $2.6$\\
+Medián: $2.5$\\
+Modus:  $2$
+
+\Pr  Vypočítejte pro $n=4,8,12,16$, že v právě $\f 1 2$ hodů padne pana.\\
+Celkem možností hodů: $2^n$
+Z toho padne pana polovině právě v ${\f n 2\choose n}$ případech.
+Celková pravdépodobnost tedy je:
+$$\f{n!}{2^n\*\f n 2 !\*\f n 2!}$$
+Číselně:\\
+$n=4 \Imp 0.375$\\
+$n=8 \Imp 0.2734375$\\
+$n=12 \Imp 0.2255859375$\\
+$n=16 \Imp 0.196380615234375$
+
+\Pr Hážeme 5 kostkami, určete pravděpodobnost toho, že na 3 z nich padnou stejná čísla:
+
+Počet všech možností: $6^5$\\
+Šance, že padne $x$ na alespoň 3 kostkách: ${3\choose 5} \* 5^2+ {4\choose 5} \* 5 + {5\choose 5} = 10 + 5 + 1$
+\dots
+
+\Pr Co je pravdépodobnéjší? Nad rovnoceným partnerem zvýtězím v $3$ z $4$ nebo z $5$ z 8:
+
+$3$ z 4: $\f{{3 \choose 4}}{2^4}$
+
+Z města $X$ do $Y$ se lze dostat 2 cestami dle mapy:
+Jaká je pravděpodobnost, že dojede do $Y$:
+
+$\f 1 2 \* \f 1 2 + \f 1 2 + \f 1 3 = \ 5 12$
+
+\Pr Maturant chce pokračovat na PřF a vybere si jeden z oborů M,F,Ch,Bi s pravděpodobností dle konzultanta 0.4, 0.3, 0.2, 0.1.
+Konzultant neví, co si zvolil, ale dozěděl se, že má výbornou.
+Pravděpodobnosti na výbornou jsou 0.1, 0.2, 0.3, 0.4.
+Vyčíslete pavděpodobnosti:
+
+Pravděpodobnosti na výběr a zároveň 1 jsou: 0.04, 0.06, 0.06, 0.04.
+Celkem tedy 0.128. Doplním na celek: 0.3125, 0,46875, 0.46875, 0.3125.
+
+\Pr  Při vyšetřování pacienta je podezdření na 3 navzájem se vylučující choroby s pravděpodobností 0.3 0.5 0.2. Laboratorní zkouška dává pozitivní u 15\%, 30\%, 20\% nemocných danou nemocí. Jaké jsou pravděpodobnosti nemocí po kladné lab. zkoušce?
+
+\Pr $2\times$ kostkou. Jaká je pravděpodobnost, že padle alespoň 10 ok, za předpokladu, že (právě při 1 z hodů, alespoň při 1 z hodů, při 1. hodu) padne 6.
+
+Právě při jednom hodu: $\f 2 5$\\
+Alespoň při jednom hodu: $\f 5 {11}$\\
+Při prvním hodu: $\f 3 6 = \f 1 2$
+
+
+\EndDoc

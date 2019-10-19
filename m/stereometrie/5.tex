@@ -1,0 +1,54 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{\sectionnum{5}}
+\section{Tři různé roviny}
+\V[Tranzitivnost rovnoběžnosti rovin]
+$$\forall \alpha,\beta,\gamma\subset\E_3:  \alpha || \beta \land \beta || \gamma \imp \alpha || \gamma$$
+
+\V[Vzájemná poloha 3 různých rovin]
+Nechť $\alpha,\beta,\gamma\subset \E_3$ jsou tři navzájem různé roviny, pak jejich  vzájemná poloha v prostoru je jedním z následujících 5 typů:
+\begin{itemize}
+	\item $\alpha||\beta||\gamma$ 
+	\item Některé 2 roviny (BÚNO $\alpha,\beta$ jsou různoběžné)\\
+		$a=\alpha\cap\beta$
+		\begin{itemize}
+			\item $a\cap \gamma = \emptyset$
+				\begin{itemize}
+					\item $\alpha || \gamma$ -- dvě různoběžné roviny protínají třetí.
+					\item $\alpha \not || \gamma$ -- rovnoběžně průsečnice.
+				\end{itemize}
+			\item $a\cap\gamma = {P}$ -- trs.
+			\item $a\cap \gamma = a$ -- společná přímka
+		\end{itemize}
+\end{itemize}
+
+\Poz Dvě rovnoběžné roviny protíná třetí v dvou rovnoběžných přímkách.
+\Poz Jsou li každé 2 ze 3 rovin různoběžné, a mají li tyto 3 roviny jediný společný bod, procházejí tímto společným bodem všechny jejich průsečnice.
+\Pr Sestrojte řez krychle $ABCDEFGH$ rovinou $\rho = \pri{UVW}$, kde $V=$ střed $AE$, $W$ je střed $AB$ a $U$ leží v třetině $GC$.
+\begin{enumerate}
+	\item $VW$ leží ve stěně
+	\item $\pri{ABFE} \parallel \pri{DCGH} =imp UZ \parallel VW$\\
+		$Z;Z\in GH \land UZ \parallel VW$
+	\item $\text{přední}\cap\text{pravá}\cap \rho = \{P_1\}$ \\
+		$P_1 \in \pri{VW} \cap \pri{BF}\imp \rho \cap \text{pravá} = \pri{XU}\imp X;X\in\pri{P_1U}\cap BC$
+	\item $WX$
+	\item $Y; Y \in EH \land VY \parallel XY$
+		(dk. viz 2)
+	\item $YZ$
+	\item 6-úhelník $VWXUZY$
+\Pr Druhé řešení pomocí průsečnic:
+\Pr Sestrojte řez krychle rovinou $\pri{PQR}$. Body volte dle obrázku:
+\Pr Sestrojte řez pravidelného čtyřstěného jehlanu určenou $p;p\parallel AC;L\in p$, kde $L$ je středem $DV$ a bodem $K$, kde $K$ je střed $DV$.
+\Pr Řez pravidelného čtyřbokého jehlanu $ABCDV$ rovinou $\rho = \pri{PQR}$, kde:\\
+		$P=\text{středem} AV$\\
+		$Q \in BV \land |BQ| : |QV| = 1:5$\\
+		$R\in CV \cap |CR|:|RV| = 1:3 $
+\end{enumerate}
+
+\EndDoc
+
