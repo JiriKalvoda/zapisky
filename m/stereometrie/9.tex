@@ -1,0 +1,58 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{\sectionnum{5}}
+
+\Pr Vyřešte rovnici:
+\begin{eqnarray*}
+	3 \cos 2x + \cos x &=& 1-4'sin^2 x
+\end{eqnarray*}
+
+\Pr Vyřešte rovnici:
+\begin{eqnarray*}
+	\sin x + \sin 2x = \tg x
+\end{eqnarray*}
+\section{Vzdálenost}
+\Def Nechť $A,B \in \E_3$. \emph{Vzdáleností dvou bodů} A,B nazýváme délku úsečky AB a označujeme ji $\rho(A,B)$.
+\Poz
+Vzdálenost bodů $A,B$ je tedy reálné číslo $\rho(A,B) = |AB|$.
+\Poz
+Vzdálenost $\rho(A,B)$ můžeme považovat za zobrazení $\rho: \E_3\times\E_3 \rightarrow \R$, které má vlastnosti:
+$\forall A,B,C \in \E_3:$
+\begin{enumerate}
+	\item $\rho(A,B) \ge 0$, přičemž $\rho(A,B) = 0 \ekv A=B$
+	\item $\rho(A,B)=\rho(B,A)$
+	\item $\rho(A,B) + \rho(B,C) \ge \rho(A,C)$, přičemž rovnost nastává $\ekv$ $B\in AC$
+\end{enumerate}
+\Poz Uvedené vlastnosti se používají při axiomatické definici vzdálenosti.
+\Def
+Necť $A\in\E_3$ je bod $\alpha\subset \E_3$ je rovina.\\
+\emph{Kolmým průmětem bodu $A$ do roviny} $\alpha$ nazýváme bod $A_0$ definovaný takto:
+\begin{itemize}
+\item $A\in\alpha \imp A_0=A$
+\item $A\not\in\alpha \imp A_0\imp\cap\alpha, p\perp\alpha , A\in p$
+\end{itemize}
+\V Nechť $A\in\E_3$ je bod, $\alpha\subset\E_3$ je rovina. Pak platí:
+$\rho (A,\alpha) = \min\{\rho{A,X},X\in\alpha\}$
+
+\Pr Vypočtěte vzdálenost $V$ od podstavy pravidelného čtyřbokého jehlanu $ABCDV$, je li $|AB|=a, |\angle VAB| = \f \pi 3$:
+
+$\f i{a\sqrt 2} 2 $
+
+\Def
+Necť $A\in\E_3$ je bod $p\subset \E_3$ je přímka.\\
+\emph{Kolmým průmětem bodu $A$ na přímku} $p$ nazýváme bod $A_0$ definovaný takto:
+\begin{itemize}
+\item $A\in p \imp A_0=A$
+\item $A\not\in p \imp A_0\in p\cap\alpha, p\perp\alpha , A\in p$
+\end{itemize}
+\V Nechť $A\in\E_3$ je bod, $p \subset\E_3$ je přímmka. Pak platí:
+$\rho (A,\alpha) = \min\{\rho{A,X},X\in p\}$
+
+\EndDoc
+
+
