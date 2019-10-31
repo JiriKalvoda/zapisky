@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.24)  31 OCT 2019 08:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.24)  31 OCT 2019 08:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**9.tex
-(./9.tex
+**10.tex
+(./10.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 31 language(s) loaded.
 (./h.tex (./h-include.tex
@@ -536,8 +536,8 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \c@chapter=\count108
 \c@roman=\count109
 \c@countOfBegin=\count110
-)) (./9.aux)
-\openout1 = `9.aux'.
+)) (./10.aux)
+\openout1 = `10.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -623,77 +623,55 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 19.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 9.
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
 
-Overfull \hbox (0.51398pt too wide) in paragraph at lines 20--21
- \OT1/cmr/m/n/10 Necht[] $\OML/cmm/m/it/10 A; B \OMS/cmsy/m/n/10 2 \U/msb/m/n/1
-0 E[]$\OT1/cmr/m/n/10 . \OT1/cmr/m/it/10 Vzd^^Salenost^^S^^P dvou bod^^Wu \OT1/
-cmr/m/n/10 A,B naz^^Syv^^Same d^^Selku ^^Suse^^Tcky AB a ozna^^Tcujeme
- []
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
-! Package enumitem Error: left undefined.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 19.
 
-See the enumitem package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 \Pozenum
-             
-? 
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 19.
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (30.56125pt too wide) in paragraph at lines 69--71
-[] \OT1/cmr/m/n/10 Vypo^^Tct^^Tete vzd^^Salenost $\OML/cmm/m/it/10 ^^Z\OT1/cmr/
-m/n/10 (\OML/cmm/m/it/10 F; []\OT1/cmr/m/n/10 )$ v pra-vi-deln^^Sem ^^Tcty^^Trb
-ok^^Sem hra-nolu (kv^^Sadru) $\OML/cmm/m/it/10 ABCDEFGH$\OT1/cmr/m/n/10 ,
- []
-
-[2] (./9.aux) )
-(\end occurred when \ifnum on line 78 was incomplete) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./10.aux) )
+(\end occurred when \ifnum on line 25 was incomplete) 
 Here is how much of TeX's memory you used:
- 4939 strings out of 494312
- 65577 string characters out of 6163334
- 146577 words of memory out of 5000000
- 8185 multiletter control sequences out of 15000+600000
- 6545 words of font info for 26 fonts, out of 8000000 for 9000
+ 4924 strings out of 494312
+ 65325 string characters out of 6163334
+ 140563 words of memory out of 5000000
+ 8171 multiletter control sequences out of 15000+600000
+ 6199 words of font info for 25 fonts, out of 8000000 for 9000
  360 hyphenation exceptions out of 8191
- 43i,14n,39p,330b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,6n,39p,331b,132s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 9.pdf (2 pages, 118198 bytes).
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb>
+Output written on 10.pdf (1 page, 76793 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

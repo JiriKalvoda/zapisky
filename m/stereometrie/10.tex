@@ -1,0 +1,27 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{\sectionnum{10}}
+\section{Odchylka}
+\Def Nechť $p,q\subset \E_3$ jsou  dvě komplanární přímky. Odchylku dvou komplanárních přímek
+$p,q$ označujeme $|\angle p ,q|$ a definujeme takto:
+\begin{enumerate}
+	\item Je-li $p\parallel q \imp |\angle p,q| = 0\d$
+	\item Je-li $p\not\parallel q \imp $ odchylkou rozumíme velikost ostrého nebo pravého úhlu, který svírají.
+\end{enumerate}
+
+\Poz Odchylka leží v intervalu $<0\d;90\d>$.
+\V  Nechť $p',q', p, q \subset\E_3$ jsou takové přímky, že $p'\parallel p, q'\parallel q$ (tedy dvojice $p, p'$ a $q, q'$ jsou
+komplanární). Pak platí: $|\angle p ,q| =  |\angle p’, q’|$.
+\Def Nechť $p, q \subset \E_3$ jsou dvě mimoběžné přímky. Odchylku dvou mimoběžných přímek $p,q$
+označujeme $|\angle p ,q|$ a definujeme takto: $|\angle p ,q| = |\angle p', q'|$, kde $p\parallel p$ a $q' \parallel q$. a $p',q'$
+jsou komplanární a různoběžné.
+
+
+\EndDoc
+
+
