@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.24)  1 OCT 2019 08:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.24)  19 NOV 2019 08:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**1.tex
+**14.tex
 (./14.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 31 language(s) loaded.
@@ -709,15 +709,15 @@ t^^S^^P
  []
 
 [3] (./14.aux) )
-(\end occurred when \ifnum on line 113 was incomplete) 
+(\end occurred when \ifnum on line 119 was incomplete) 
 Here is how much of TeX's memory you used:
  4935 strings out of 494312
- 65434 string characters out of 6163334
+ 65441 string characters out of 6163334
  147517 words of memory out of 5000000
- 8180 multiletter control sequences out of 15000+600000
+ 8181 multiletter control sequences out of 15000+600000
  7150 words of font info for 28 fonts, out of 8000000 for 9000
  360 hyphenation exceptions out of 8191
- 43i,9n,39p,330b,166s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,9n,39p,331b,166s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts
@@ -730,7 +730,7 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on 14.pdf (3 pages, 130909 bytes).
+Output written on 14.pdf (3 pages, 131371 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
