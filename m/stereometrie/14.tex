@@ -1,0 +1,56 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{\sectionnum{14}}
+\section{Čtyřstěn}
+\Def Zvolme v prostoru body $A,B,C,D$, které neleží
+v jedné rovině. Čtyřstěnem $ABCD$ rozumíme
+množinu bodů, které jsou ohraničené
+trojúhelníky $\triangle ABC , \triangle ABD , \triangle ACD , \triangle BCD$. Tyto
+trojúhelníky tvoří stěny čtyřstěnu $ABCD$, úsečky
+$AB, AC, AD, BC, BD, CD$ jsou jeho hranami a
+body $A,B,C,D$ jeho vrcholy.
+
+\Poz Ty hrany čtyřstěnu, které nejsou různoběžné, ale
+mimoběžné, se nazývají protější hrany čtyřstěnu. V čtyřstěnu ABCD jsou tři dvojice
+protějších hran $(AB, CD), (AC,BD), (AD,BC)$.
+
+\V Středy všech tří úseček, které spojují vždy středy dvou protějších hran čtyřstěnu,
+splývají.
+
+\Def Spojnice lib. vrcholu čtyřstěnu s těžištěm protější stěny, se nazývá těžnice čtyřstěnu.
+
+\V Všechny čtyři těžnice čtyřstěnu procházejí jedním bodem (tzv. těžištěm čtyřstěnu), který
+dělí úsečku s krajními body ve vrcholu čtyřstěnu a v těžišti protější stěny v poměru 3:1.
+
+\Def Úsečka procházející vrcholem čtyřstěnu, která je kolmá na rovinu, v níž leží protější stěna
+čtyřstěnu, se nazývá výška čtyřstěnu.
+
+\V Výšky čtyřstěnu ABCD vedené body A, D jsou právě tehdy různoběžné, je-li hrana AD
+kolmá k protější hraně BC. Je-li tato podmínka splněna, leží průsečík V výšek čtyřstěnu
+vedených body A,D na přímce, která je s oběma přímkami AD, BC různoběžná a k nim
+kolmá.
+
+\Poz Výšky čtyřstěnu ABCD vedené body A, D jsou právě tehdy různoběžné, jsou-li
+různoběžné výšky čtyřstěnu vedené body B,C. To nastane právě tehdy, když jsou přímky
+AD a BC navzájem kolmé.
+
+\V V čtyřstěnu mohou nastat právě tyto 3 navzájem se vylučující situace:
+\begin{enumerate}
+\item Žádné dvě protější hrany čtyřstěnu nejsou navzájem kolmé a každé dvě výšky
+čtyřstěnu jsou mimoběžné.
+\item Pouze jedna dvojice protějších hran čtyřstěnu je tvořena dvojicí navzájem kolmých
+přímek, výšky čtyřstěnu vedené vrcholy na každé z těchto hran jsou různoběžné, každé
+dvě jiné výšky čtyřstěnu jsou mimoběžné.
+\item Každé dvě protější hrany jsou navzájem kolmé, všechny čtyři výšky čtyřstěnu
+procházejí jedním bodem. Takovýto bod čtyřstěnu se nazývá ortocentrum a takovýto
+čtyřstěn ortocentrický.
+\end{enumerate}
+
+\EndDoc
+
+
