@@ -1,0 +1,58 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{\sectionnum{15}}
+\section{Hranol, Válec}
+\Def
+Hranol
+Mějme v prostoru rovinu $\rho$, v ní konvexní
+mnohoúhelník $A_1 A_2 A_3 \dots A_n$ a nechť $A_1'$ je bod,
+který v rovině $\rho$ neleží. Nechť $T : E_3 \rightarrow E_3$ je
+takové posunutí, že $A_1' =T(A_1 )$. Při tomto
+zobrazení se rovina $\rho$ zobrazí na rovinu $\rho'$ ,
+tyto dvě roviny jsou rovnoběžné. Množinu
+všech bodů $X$, všech úseček $BB'$ takových, že
+$B \subset A_1 A_2 A_3 \dots A_n$ a $B'$ je obraz bodu $B$ v posunutí
+$T$, nazýváme hranolem.
+Mnohoúhelníky $A_1 A_2 A_3 ... A_n$ a $A_1' A_2' A_3' \dots A_n'$
+nazýváme podstavami, rovnoběžníky $A_i A_{i+1}  A_{i+1}' A_i'$, kde ( $i \in \{ 1 , 2 ,\dots, n \}, n+1 \rightarrow 1 $).
+nazýváme bočními stěnami hranolu. Všechny boční stěny tvoří plášť hranolu. Podstavy
+spolu s bočními stěnami tvoří stěny hranolu. Úsečky $A_i A_i'$ (respektive $A_i A_{i+1}$ a $A_i'A_{i+1}'$ ) se nazývají
+boční (respektive podstavné) hrany hranolu. Body $A_1 , A_2 , A_3 ,\dots, A_n$ a $A_1' , A_2' , A_3' ,\dots, A_n'$
+se nazývají vrcholy.
+
+\Poz
+Podle hodnoty $n$ rozlišujeme hranoly na trojboký, čtyřboký, ...a $n$-boký hranol.
+
+\Def
+Je-li směr posunutí kolmý k rovině podstavy, mluvíme o hranolu kolmém, jinak jde o
+hranol kosý. Kolmý hranol, jehož podstavami jsou pravidelné n-úhelníky, se nazývá
+pravidelný
+n - boký hranol. Hranol, jehož podstavy jsou rovnoběžníky, se nazývá rovnoběžnostěn.
+Rovnoběžnostěn, jehož všechny stěny jsou pravoúhelníky (resp. čtverce), nazýváme kvádr
+(respektive krychle).
+
+\Poz
+Čtyři zřejmé vlastnosti objemu $V(T)$ tělesa $T$:
+\begin{enumerate}
+	\item Dvě shodná tělesa mají tentýž objem.
+	\item Skládá-li se těleso $T$ z nepřekrývajících se těles $T_1 ,T_2$, je objem tělesa $T$ součtem objemů
+těles $T_1 ,T_2 : V(T)=V(T_1 )+V(T_2 )$.
+\item Za jednotku objemu bereme objem krychle o hraně délky 1.
+\item Cavalieriho princip:
+Nechť tělesa $T_1 ,T_2$ leží mezi dvěma rovnoběžnými rovinami $\alpha_1$ ,$\alpha_2$ a každá rovina $\rho$
+rovnoběžná s rovinami $\rho_1 , \rho_2$ protne tělesa $T_1 ,T_2$ v konvexních rovinných útvarech
+s obsahy $P_1 , P_2$. Jestliže pro každou rovinu $\rho$ platí, že $P_1 = P_2$ , mají tělesa $T_1 ,T_2$ stejný
+objem.
+Jestliže pro každou rovinu $\rho$ , platí, že $P_1 = m\*P_2$ , kde $m$ je pevné číslo, nezávislé na
+volbě roviny $\rho$, je objem tělesa $T_1$-násobkem objemu tělesa $T_2$: $V ( T_1 ) = m \* V ( T_2 )$
+\end{enumerate}
+	
+
+\EndDoc
+
+
