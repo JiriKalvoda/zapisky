@@ -1,0 +1,34 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{}
+%\section{Základní pojmy}
+
+\Pr Na množině $\R^{(2)} = \{[x,y]\}$ všech uspořádaných dvojic $\R$ čísel definujeme operaci sčítání a vnějšího násobení takto:
+
+$$ \forall \pri{u_1} = [x_1,y_1]; \forall \pri{u_2} = [x_2,y_2] : \pri{u_1}+\pri{u_2} = \[x_1+x_2 , y_1+y_2\] \in \R^{(2)}$$
+$$ \forall \pri{u1} = [x_1,y_1]; \forall p \in \R  : p\*\pri{u_1} = \[[p\*x_1 , p\*y_1\] \in \R^{(2)}$$
+
+Dokažte, že takto definovaná struktura je vektorovým prostorem:
+\begin{enumerate}
+	\item Komutativita: 
+		$$ \pri{u_1} + \pri{u_2} = (x_1 + x_2 m, y_1 + y_2) =  (x_2 + x_1 m, y_2 + y_1) = \pri{u_2} + \pri{u_1} $$
+	\item Asociativita:
+		$$ \pri{u_1} + \( \pri{u_2} + \pri{u_3}  \) = (x_1+(x_2+x_3),y_1+(y_2+y_3)) = (x_1+x_2+x_3,y_1+y_2+y_3)$$ 
+		$$ \( \pri{u_1} +  \pri{u_2} \) + \pri{u_3} = ((x_1+x_2)+x_3,(y_1+y_2)+y_3) = (x_1+x_2+x_3,y_1+y_2+y_3)$$ 
+	\item Nulový prvek:
+		$ \exists \pri o \in V : \pri u + \pri o =  \pri o + \pri u = u:$
+		$$ \pri o = (0,0): (x+y)+(0,0) = (x+0,y+0) = (x+y)$$
+	\item Roznásobení
+	\item Roznásobení
+
+	\item Exstence neutrálního prvku násobení:
+
+\end{enumerate}
+\Poz Analogicky můžeme dokázat, že množina všech uspořádanych $n$-tic reálných čísel tvoří vzhledem k analogickým definicím sčítání a vnějšího násobení vektorový prostor.
+
+\EndDoc
