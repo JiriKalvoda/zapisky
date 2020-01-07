@@ -1,0 +1,42 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{}
+\section{Podprostory vektorového prostoru}
+\Def Nechť $V$ je vektorový prostor $\ppri{u_1},\ppri{u_2},\dots,\ppri{u_k} \in V$ vektory,
+$p_1,p_2,\dots,p_k \in \R$.
+Vektor $\ppri x = \sum_{i-1}^k p_i\ppri{u_i}$ nazýváme lineární kombinací vektorů.
+Reálná čísla $p_i$ nazyváme \emph{koeficienty lineárni kombinace}.
+
+Lineární kombinaci, kde $\forall i: p_i = 0$, tedy $\ppri x= \ppri 0$ nazyváme triviální lineárni kombinací. 
+
+\Def Podmnožinu $W$ vektorového prostoru $V$ nazýváme \emph{podprostorem vektorového prosotoru} $V$ právě tehdy, když $W$ je vektorovým prostorem vzhledem k operacím sčítání a vnějšího násobení definovaným ve $V$.
+\V ňeprázdná množina $W$ je podprostorem vektorového prostoru $V$ právě tehdy, když platí:
+\begin{itemize}
+	\item $\forall \ppri u,\ppri v \in W : \ppri u+\ppri v \in W$
+	\item $\forall p \in \R, \forall \ppri u \in W : p\*\ppri u \in W$
+\end{itemize}
+[Dk:
+\begin{itemize}
+	\item[\uv{$\imp$}] Z definice.
+	\item[\uv{$\rimp$}] kommutativita a asociativita plyne z komutativity a asociativity ve $V$, platí $\ppri u \in W \imp 0\* \ppri u  = \ppri 0 \in W ^ (-1) \* \ppri u = -\ppri u \in W$.
+		Wlastnost 5.-8. z definice vektorového prostoru platí ve $W$, protože platí  ve $V$. 
+\end{itemize}
+]
+\Pr Nechť $\R^{(2)}$ je aritmetrický prostor. Rozhodnéte, zda nálsledujíci množiny jsou podprostory $\R^{(2)}$
+\begin{enumerate}
+	\item $ S = \{(x,0);x\in\R\}$:\\
+		$S$ je podprostorem.
+	\item $ S = \{(x,0);x\in\R\}$:\\
+		Není: $2\*(1,1) = (2,2)\not\in T$
+	\item $U = \{(z,z);z\in\R\}$:\\
+		Nechť $\ppri u = (u,u); \ppri v = (v,v)$, pak $\ppri u + \ppri v = \(u+v,u+v\) \in U$.
+		je podprostorem.
+
+\end{enumerate}
+\EndDoc
+
