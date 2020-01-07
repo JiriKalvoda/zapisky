@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.24)  26 DEC 2019 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.24)  4 JAN 2020 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -362,7 +362,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-No file slohovka-vyklad.aux.
+(./slohovka-vyklad.aux)
 \openout1 = `slohovka-vyklad.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -393,8 +393,8 @@ jes-kynn^^S^^Pho d^^Somu. []Ulomky
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./slohovka-vyklad.aux) ) 
 Here is how much of TeX's memory you used:
- 1152 strings out of 494312
- 12891 string characters out of 6163334
+ 1154 strings out of 494312
+ 12931 string characters out of 6163334
  74640 words of memory out of 5000000
  4553 multiletter control sequences out of 15000+600000
  6675 words of font info for 24 fonts, out of 8000000 for 9000
@@ -404,7 +404,7 @@ Here is how much of TeX's memory you used:
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on slohovka-vyklad.pdf (1 page, 41332 bytes).
+Output written on slohovka-vyklad.pdf (1 page, 39629 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream
