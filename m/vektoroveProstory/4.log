@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.24)  7 JAN 2020 08:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.24)  9 JAN 2020 08:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,7 +645,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./4.aux) )
-(\end occurred when \ifnum on line 41 was incomplete) 
+(\end occurred when \ifnum on line 43 was incomplete) 
 Here is how much of TeX's memory you used:
  4932 strings out of 494312
  65417 string characters out of 6163334
@@ -665,7 +665,7 @@ mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 4.pdf (1 page, 103627 bytes).
+Output written on 4.pdf (1 page, 104122 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
