@@ -1,0 +1,250 @@
+Figure Cabri II Plus vers. MS-Windows 1.2.5
+
+Window center x: 1.74cm y: -0.76cm Window size x: 24.39cm y: 15.13cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+invisible, 
+
+2: Axes, Const: 1, cart, Val: 1 0 0 1
+invisible, 
+
+3: Num, Val: -325 -287 4, nA, nP, 
+NbD:2, nFD, WU, 
+4
+TP:  -8.55263157894737,  7.55263157894737, TS:  8.55263157894737,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+4: Num, Val: -324 -251 2, nA, nP, 
+NbD:2, nFD, WU, 
+2
+TP:  -8.52631578947369,  6.60526315789474, TS:  8.52631578947369,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+5: Pt, Val: -3.57894736842105 -2.57894736842105
+"A"
+TP:  -3.81578947368421,  -2.63157894736842, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+6: Ray, Const: 5, Val: 14.6315789473684 -2.61778902648458E-015
+invisible, 
+
+7: Perp, Const: 5,  6, 
+invisible, 
+
+8: Transf, Const: 6,  3, 
+"B"
+TP:  0.526315789473684,  -2.55263157894737, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+9: Pt/, Const: 7, Val: -3.57894736842105 5.6316795560834
+invisible, 
+
+10: Ray, Const: 5,  9, 
+invisible, 
+
+11: Transf, Const: 10,  3, 
+"E"
+TP:  -3.97368421052632,  1.76315789473684, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+12: Perp, Const: 11,  10, 
+invisible, 
+
+13: Perp, Const: 8,  6, 
+invisible, 
+
+14: Num, Val: 193 -278 45, nA, nP, 
+invisible, NbD:2, nFD, WU, 
+45
+TP:  5.07894736842105,  7.31578947368421, TS:  0.473684210526316,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+15: Biss, Const: 11,  5,  8, 
+invisible, 
+
+17: Int, Const: 13,  12, int ind:0, 
+"F"
+TP:  0.684210526315789,  1.65789473684211, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+18: Pt/, Const: 6, Val: 7.60540020502251 -2.57894736842105
+invisible, 
+
+19: Biss, Const: 17,  8,  18, 
+invisible, 
+
+20: Biss, Const: 9,  11,  17, 
+invisible, 
+
+21: Pt/, Const: 20, Val: 1.50127773274518 6.50127773274518
+invisible, 
+
+22: Ray, Const: 11,  21, 
+invisible, 
+
+23: Pt/, Const: 15, Val: 5.63869215475636 6.63869215475636
+invisible, 
+
+24: Ray, Const: 17,  23, 
+invisible, 
+
+25: Pt/, Const: 15, Val: 5.03640320863965 6.03640320863965
+invisible, 
+
+26: Ray, Const: 5,  25, 
+invisible, 
+
+27: Pt/, Const: 19, Val: 7.00034012944706 4.00034012944706
+invisible, 
+
+28: Ray, Const: 8,  27, 
+invisible, 
+
+29: Transf, Const: 22,  4, 
+"H"
+TP:  -2.23684210526316,  3.60526315789474, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+30: Transf, Const: 26,  4, 
+"D"
+TP:  -2,  -1.18421052631579, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+31: Transf, Const: 24,  4, 
+"G"
+TP:  1.97368421052632,  3.47368421052632, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+32: Transf, Const: 28,  4, 
+"C"
+TP:  1.86842105263158,  -1.15789473684211, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+33: Seg, Const: 29,  31, 
+color:B, 
+
+34: Seg, Const: 31,  32, 
+color:B, 
+
+35: Seg, Const: 29,  30, 
+color:B, DS:8 14, 
+
+36: Seg, Const: 5,  8, 
+color:B, 
+
+37: Seg, Const: 8,  32, 
+color:B, 
+
+38: Seg, Const: 5,  11, 
+color:B, 
+
+39: Seg, Const: 11,  29, 
+color:B, 
+
+40: Seg, Const: 17,  8, 
+color:B, 
+
+41: Seg, Const: 17,  11, 
+color:B, 
+
+42: Seg, Const: 17,  31, 
+color:B, 
+
+43: Text, Val: -424 -288 0, nA, nP, 
+"delší strana"
+TP:  -11.1578947368421,  7.57894736842105, TS:  2.63157894736842,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+44: Text, Val: -448 -251 0, nA, nP, 
+"zkosená strana"
+TP:  -11.7894736842105,  6.60526315789474, TS:  3.05263157894737,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+45: Text, Val: 168 48 0, nA, nP, 
+invisible, 
+"Sestrojte mnohoúhelník shodný s øezem krychle ABCDEFGH rovinou APQ, kde P je støed HG a Q støed EH. Dále vypoètìte jeho obvod a obsah."
+TP:  4.42105263157895,  -1.26315789473684, TS:  5.71052631578947,  2.36842105263158
+p: 0, Arial, S: 12, C: 40, Fa: 0, p: 32, Arial CE, S: 12, C: 40, Fa: 0, p: 134, Arial, S: 12, C: 40, Fa: 0
+
+46: Mid, Const: 11,  29, 
+"Q"
+TP:  -3.26315789473684,  2.60526315789474, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 7 Fa: 0
+
+47: Mid, Const: 29,  31, 
+"P"
+TP:  -0.210526315789474,  3.39473684210526, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 7 Fa: 0
+
+48: Seg, Const: 46,  47, 
+color:ma, 
+
+49: Seg, Const: 47,  32, 
+color:ma, 
+
+50: Seg, Const: 46,  5, 
+color:ma, DS:5 8, 
+
+51: Seg, Const: 5,  32, 
+color:ma, DS:5 8, 
+
+52: Seg, Const: 5,  17, 
+color:dBr, 
+"IACI"
+TP:  -1.10526315789474,  -0.184210526315789, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 19 Fa: 0
+
+53: Mid, Const: 5,  17, 
+invisible, 
+
+54: Mid, Const: 53,  5, 
+invisible, 
+
+55: Mid, Const: 17,  53, 
+invisible, 
+
+56: Perp, Const: 55,  52, 
+color:dob, invisible, 
+
+57: Perp, Const: 54,  52, 
+color:dob, invisible, 
+
+58: Mid, Const: 8,  17, 
+
+59: Seg, Const: 5,  58, 
+color:lig, 
+"IAQI"
+TP:  -1.05263157894737,  -1.28947368421053, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 26 Fa: 0
+
+Ma: Compass, Const: 58 i: 0 5 i: 0 17 i: 0
+62: Ma R, F No1, 
+
+63: Cir, Const: 5,  58, 
+
+65: Int, Const: 56,  62, int ind:0x10000, 
+
+66: Seg, Const: 17,  65, 
+color:dBr, 
+
+68: Int, Const: 57,  63, int ind:0x10000, 
+
+69: Seg, Const: 65,  68, 
+color:dBr, 
+
+70: Seg, Const: 68,  5, 
+color:dBr, 
+
+71: Seg, Const: 5,  30, 
+color:B, DS:8 14, 
+
+72: Seg, Const: 30,  32, 
+color:B, DS:8 14, 
+
+73: Text, Val: 196 46 0, nA, nP, 
+invisible, 
+"Øezem je rovnoramenný lichobìžník ACPQ."
+TP:  5.15789473684211,  -1.21052631578947, TS:  2.63157894736842,  1.89473684210526
+p: 0, Arial, S: 12 C: 40 Fa: 0
+

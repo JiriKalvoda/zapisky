@@ -1,0 +1,514 @@
+Figure Cabri II Plus vers. MS-Windows 1.2.5
+
+Window center x: -0.74cm y: -1.34cm Window size x: 23.18cm y: 13.55cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+invisible, 
+
+2: Axes, Const: 1, cart, Val: 1 0 0 1
+invisible, 
+
+3: Num, Val: -283 -274 3, nA, nP, 
+NbD:2, nFD, WU, 
+3
+TP:  -7.44736842105263,  7.21052631578947, TS:  0.236842105263158,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+4: Num, Val: -296 -215 6, nA, nP, 
+NbD:2, nFD, WU, 
+6
+TP:  -7.78947368421053,  5.65789473684211, TS:  0.236842105263158,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+5: Text, Val: -399 -274 0, nA, nP, 
+"délka hrany"
+TP:  -10.5,  7.21052631578947, TS:  2.63157894736842,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+6: Text, Val: -391 -215 0, nA, nP, 
+"výška"
+TP:  -10.2894736842105,  5.65789473684211, TS:  2.63157894736842,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+7: Pt, Val: -1.39473684210526 -5.23684210526316
+invisible, 
+
+8: Ray, Const: 7, Val: 11.2105263157895 2.24381916555821E-015
+invisible, 
+
+9: Transf, Const: 8,  3, 
+"D"
+TP:  1.71052631578947,  -4.73684210526316, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+10: Cir, Const: 7,  9, 
+invisible, 
+
+11: Cir, Const: 9,  7, 
+invisible, 
+
+13: Int, Const: 10,  11, int ind:0x10000, 
+invisible, 
+
+14: Cir, Const: 13,  7, 
+invisible, 
+
+15: Int, Const: 10,  11, int ind:0, 
+invisible, 
+
+16: Cir, Const: 15,  7, 
+invisible, 
+
+18: Int, Const: 10,  16, int ind:0, 
+invisible, 
+
+19: Cir, Const: 18,  7, 
+invisible, 
+
+21: Int, Const: 10,  14, int ind:0x10000, 
+invisible, 
+
+22: Seg, Const: 21,  13, 
+invisible, 
+
+23: Seg, Const: 13,  9, 
+invisible, 
+
+24: Seg, Const: 9,  15, 
+invisible, 
+
+25: Seg, Const: 15,  18, 
+invisible, 
+
+27: Int, Const: 10,  19, int ind:0, 
+"A"
+TP:  -4.68421052631579,  -5.23684210526316, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+28: Seg, Const: 18,  27, 
+invisible, 
+
+29: Seg, Const: 27,  21, 
+invisible, 
+
+30: Seg, Const: 27,  9, 
+invisible, 
+
+31: Seg, Const: 15,  13, 
+invisible, 
+
+32: Seg, Const: 18,  21, 
+invisible, 
+
+34: Int, Const: 30,  31, int ind:0, 
+invisible, 
+
+36: Int, Const: 30,  32, int ind:0, 
+invisible, 
+
+37: Biss, Const: 13,  34,  9, 
+invisible, 
+
+38: Biss, Const: 21,  36,  34, 
+invisible, 
+
+39: Formula, Const: 3, Val: -216 -205 2.59808, A, P, 
+NbD:2, nFD, WU, 
+a * sqrt(3) / 2
+TP:  -5.68421052631579,  5.39473684210526, TS:  0.815789473684211,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+40: Text, inc.elmts: 39, Val: -209 -275 0, nA, nP, 
+"výška: "#"
+TP:  -5.5,  7.23684210526316, TS:  3.42105263157895,  0.473684210526316
+p: 0, Arial CE, S: 12, C: 40, Fa: 0, p: 10, System, S: 10, C: 40, Fa: 1
+
+41: Formula, Const: 39, Val: -301 -205 1.29904, A, P, 
+NbD:2, nFD, WU, 
+a / 2
+TP:  -7.92105263157895,  5.39473684210526, TS:  0.815789473684211,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+42: Text, inc.elmts: 41, Val: -208 -240 0, nA, nP, 
+"zkosená výška: "#"
+TP:  -5.47368421052632,  6.31578947368421, TS:  3.71052631578947,  0.473684210526316
+p: 0, Arial CE, S: 12, C: 40, Fa: 0, p: 18, System, S: 10, C: 40, Fa: 1
+
+43: Pt/, Const: 38, Val: 2.49451185961077 0.15240659645287
+invisible, 
+
+44: Ray, Const: 36,  43, 
+invisible, 
+
+45: Pt/, Const: 37, Val: 6.40919040652969 1.06708514337179
+invisible, 
+
+46: Ray, Const: 34,  45, 
+invisible, 
+
+47: Pt/, Const: 38, Val: -6.19776052826075 -8.53986579141864
+invisible, 
+
+48: Ray, Const: 36,  47, 
+invisible, 
+
+49: Pt/, Const: 37, Val: -4.8441979527683 -10.1863032159262
+invisible, 
+
+50: Ray, Const: 34,  49, 
+invisible, 
+
+51: Transf, Const: 44,  41, 
+"F"
+TP:  -2.02631578947368,  -4.36842105263158, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+52: Transf, Const: 46,  41, 
+"E"
+TP:  0.710526315789474,  -4.47368421052632, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+53: Transf, Const: 48,  41, 
+"B"
+TP:  -4.02631578947368,  -6.31578947368421, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+54: Transf, Const: 50,  41, 
+"C"
+TP:  -0.763157894736842,  -6.18421052631579, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+55: Seg, Const: 51,  52, 
+color:B, DS:8 14, 
+
+56: Seg, Const: 52,  9, 
+color:B, DS:8 14, 
+
+57: Seg, Const: 9,  54, 
+color:B, 
+
+58: Seg, Const: 54,  53, 
+color:B, 
+
+59: Seg, Const: 53,  27, 
+color:B, 
+
+60: Seg, Const: 27,  51, 
+color:B, DS:8 14, 
+
+61: Perp, Const: 54,  58, 
+color:B, invisible, 
+
+62: Perp, Const: 9,  58, 
+color:B, invisible, 
+
+63: Perp, Const: 52,  58, 
+color:B, invisible, 
+
+64: Perp, Const: 51,  58, 
+color:B, invisible, 
+
+65: Perp, Const: 53,  58, 
+color:B, invisible, 
+
+66: Perp, Const: 27,  58, 
+color:B, invisible, 
+
+67: Pt/, Const: 66, Val: -4.39473684210526 4.01832244996349
+invisible, 
+
+68: Ray, Const: 27,  67, 
+color:B, invisible, 
+
+69: Pt/, Const: 65, Val: -3.81329549564895 4.41630504542783
+invisible, 
+
+70: Ray, Const: 53,  69, 
+color:B, invisible, 
+
+71: Pt/, Const: 61, Val: -0.813295495648947 4.4520189035418
+invisible, 
+
+72: Ray, Const: 54,  71, 
+color:B, invisible, 
+
+73: Pt/, Const: 62, Val: 1.60526315789474 3.74759317079929
+invisible, 
+
+74: Ray, Const: 9,  73, 
+color:B, invisible, 
+
+75: Pt/, Const: 63, Val: 1.02382181143844 3.37593034421128
+invisible, 
+
+76: Ray, Const: 52,  75, 
+color:B, invisible, 
+
+77: Pt/, Const: 64, Val: -1.97617818856157 3.99821070800528
+invisible, 
+
+78: Ray, Const: 51,  77, 
+color:B, invisible, 
+
+79: Transf, Const: 78,  4, 
+"F´"
+TP:  -2.44736842105263,  2.23684210526316, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+80: Transf, Const: 72,  4, 
+"C´"
+TP:  -0.605263157894737,  -0.184210526315789, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+81: Transf, Const: 76,  4, 
+"E´"
+TP:  1.26315789473684,  2.15789473684211, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+82: Transf, Const: 74,  4, 
+"D´"
+TP:  1.71052631578947,  1.07894736842105, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+83: Transf, Const: 70,  4, 
+"B´"
+TP:  -3.60526315789474,  -0.289473684210526, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+84: Transf, Const: 68,  4, 
+"A´"
+TP:  -5.02631578947368,  1.10526315789474, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+85: Seg, Const: 84,  83, 
+color:B, 
+
+86: Seg, Const: 83,  80, 
+color:B, 
+
+87: Seg, Const: 80,  82, 
+color:B, 
+
+88: Seg, Const: 82,  81, 
+color:B, 
+
+89: Seg, Const: 81,  79, 
+color:B, 
+
+90: Seg, Const: 79,  84, 
+color:B, 
+
+91: Seg, Const: 84,  27, 
+color:B, 
+
+92: Seg, Const: 83,  53, 
+color:B, 
+
+93: Seg, Const: 79,  51, 
+color:B, DS:8 14, 
+
+94: Seg, Const: 81,  52, 
+color:B, DS:8 14, 
+
+95: Seg, Const: 82,  9, 
+color:B, 
+
+96: Seg, Const: 80,  54, 
+color:B, 
+
+97: Pt/, Const: 55, Val: -0.529949362738867 -4.31828345171947
+invisible, 
+
+98: Pt/, Const: 91, Val: -4.39473684210526 -4.07894736842105
+color:B, thicker, 
+"K"
+TP:  -4.89473684210526,  -3.76315789473684, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+99: Pt/, Const: 58, Val: -2.92105263157895 -6.15540075880685
+color:B, thicker, 
+"L"
+TP:  -3.07894736842105,  -6.28947368421053, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+100: Pt/, Const: 95, Val: 1.60526315789474 -0.289473684210526
+color:B, thicker, 
+"M"
+TP:  1.89473684210526,  -0.210526315789474, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+101: Line, Const: 100,  98, 
+color:dG, DS:8 14, 
+
+102: Line, Const: 9,  27, 
+color:dG, DS:8 14, 
+
+104: Int, Const: 101,  102, int ind:0, 
+color:B, thicker, 
+"P1"
+TP:  -6.31578947368421,  -5.36842105263158, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+105: Line, Const: 104,  99, 
+color:dG, DS:8 14, 
+
+107: Int, Const: 59,  105, int ind:0, 
+color:B, thicker, 
+"N"
+TP:  -4.34210526315789,  -5.84210526315789, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+108: Seg, Const: 107,  99, 
+color:O, thicker, DS:8 14, 
+
+109: Seg, Const: 107,  98, 
+color:O, thicker, 
+
+110: Ray, Const: 9,  54, 
+color:dG, DS:8 14, 
+
+112: Int, Const: 105,  110, int ind:0, 
+color:B, thicker, 
+"P2"
+TP:  -1.71052631578947,  -6.76315789473684, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+113: Line, Const: 112,  100, 
+color:dG, DS:8 14, 
+
+115: Int, Const: 96,  113, int ind:0, 
+color:B, thicker, 
+"O"
+TP:  -1.42105263157895,  -4.36842105263158, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+116: Seg, Const: 115,  100, 
+color:O, thicker, 
+
+117: Seg, Const: 99,  115, 
+color:O, thicker, 
+
+118: Ray, Const: 52,  9, 
+color:dG, DS:8 14, 
+
+119: Par, Const: 100,  109, 
+color:dG, DS:8 14, 
+
+121: Int, Const: 88,  119, int ind:0, 
+color:B, thicker, 
+"P"
+TP:  1.5,  1.71052631578947, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+122: Par, Const: 121,  105, 
+color:Br, DS:8 14, 
+
+124: Int, Const: 89,  122, int ind:0, 
+color:B, thicker, 
+"Q"
+TP:  -0.184210526315789,  2.28947368421053, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+125: Par, Const: 124,  117, 
+color:dG, DS:8 14, 
+
+126: Seg, Const: 100,  121, 
+color:O, thicker, DS:8 14, 
+
+128: Int, Const: 93,  125, int ind:0, 
+color:B, thicker, 
+"R"
+TP:  -2.39473684210526,  1.05263157894737, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+129: Seg, Const: 124,  128, 
+color:O, thicker, DS:8 14, 
+
+130: Seg, Const: 128,  98, 
+color:O, thicker, DS:8 14, 
+
+131: Seg, Const: 124,  121, 
+color:O, thicker, 
+
+132: Pt/, Const: 85, Val: -3.97829397246351 0.105263157894737
+color:B, thicker, 
+"K'"
+TP:  -3.97368421052632,  0.657894736842105, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+133: Pt/, Const: 87, Val: 0.763157894736842 0.443329770851979
+color:B, thicker, 
+"L'"
+TP:  0.394736842105263,  1, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+134: Pt/, Const: 96, Val: -0.813295495648953 -5.86842105263158
+color:B, thicker, 
+"M'"
+TP:  -0.605263157894737,  -5.47368421052632, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+135: Seg, Const: 133,  134, 
+color:Bl, thicker, 
+
+136: Line, Const: 132,  133, 
+color:Br, DS:8 14, 
+
+137: Seg, Const: 132,  133, 
+color:Bl, thicker, 
+
+138: Ray, Const: 80,  83, 
+color:dG, DS:8 14, 
+
+140: Int, Const: 136,  138, int ind:0, 
+color:B, thicker, 
+"P1'"
+TP:  -8.07894736842105,  -0.342105263157895, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+141: Line, Const: 140,  134, 
+color:dG, DS:8 14, 
+
+143: Int, Const: 92,  141, int ind:0, 
+color:Bl, thicker, 
+"N'"
+TP:  -3.71052631578947,  -2.89473684210526, TS:  0.473684210526316,  0.473684210526316
+p: 0, Arial CE, S: 12, C: 40, Fa: 0, p: 2, System, S: 10, C: 40, Fa: 1
+
+144: Seg, Const: 143,  134, 
+color:Bl, thicker, 
+
+145: Seg, Const: 143,  132, 
+color:Bl, thicker, 
+
+147: Int, Const: 122,  136, int ind:0, 
+color:B, thicker, 
+"Y"
+TP:  3.65789473684211,  0.421052631578947, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+149: Int, Const: 116,  135, int ind:0, 
+color:B, thicker, 
+"X"
+TP:  -0.131578947368421,  -3.78947368421053, TS:  0.605263157894737,  0.473684210526316
+p: 0, Arial CE, S: 12, C: 40, Fa: 0, p: 1, System, S: 10, C: 40, Fa: 1
+
+150: Line, Const: 149,  147, 
+color:dep, thicker, 
+
+151: Text, Val: 137 29 0, nA, nP, 
+"1. Sestrojíme øez rovinou KLM."
+TP:  3.60526315789474,  -0.763157894736842, TS:  3.73684210526316,  0.947368421052632
+p: 0, Arial CE, S: 12, C: 40, Fa: 0, p: 26, Arial CE, S: 12, C: 8, Fa: 0, p: 29, Arial CE, S: 12, C: 40, Fa: 0
+
+152: Text, Val: 139 75 0, nA, nP, 
+"2. Sestrojíme øez rovinou K´L´M´."
+TP:  3.65789473684211,  -1.97368421052632, TS:  3.36842105263158,  0.947368421052632
+p: 0, Arial CE, S: 12, C: 40, Fa: 0, p: 26, Arial CE, S: 12, C: 15, Fa: 0, p: 32, Arial CE, S: 12, C: 40, Fa: 0
+
+153: Text, Val: 137 128 0, nA, nP, 
+"3. V rovinách stìn, kde se oba øezy protnou najdeme body X a Y, které hledanou prùseènici urèují."
+TP:  3.60526315789474,  -3.36842105263158, TS:  6.15789473684211,  1.42105263157895
+p: 0, Arial CE, S: 12, C: 40, Fa: 0, p: 57, Arial CE, S: 12, C: 36, Fa: 0, p: 58, Arial CE, S: 12, C: 40, Fa: 0, p: 61, Arial CE, S: 12, C: 36, Fa: 0, p: 62, Arial CE, S: 12, C: 40, Fa: 0, p: 79, Arial CE, S: 12, C: 36, Fa: 0, p: 89, Arial CE, S: 12, C: 40, Fa: 0
+
