@@ -1,0 +1,31 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{}
+\section{Lineárni závislost a nezávislost}
+\Def Nechť $=S = \{ \ppri{u_1},\ppri{u_1},\dots,\ppri{u_1}$\} je konečná množina vektorů vektorového prostoru $V$.
+Řekneme, že \emph{množina vektorů} $S$ je:
+\begin{enumerate}
+	\item \emph{lineárně nezávislá}, jestliže platrí:
+		$$ p_1 \* \ppri{u_1} + p_1 \* \ppri{u_1} + \cdots + p_1 \* \ppri{u_1} = \ppri 0 \Ekv p_1=p_2=\cdots=p_k = 0$$
+	\item \emph{lineárně závislá}, jestliže platrí:
+		$$\exists p_i\neq 0:  p_1 \* \ppri{u_1} + p_1 \* \ppri{u_1} + \cdots + p_1 \* \ppri{u_1}  = \ppri 0 ( i \in \{ 1,2,\dots,k\} ) $$
+\end{enumerate}
+
+\V Obsahuje li $S$ vektorr $\ppri 0$, pak je lineárně závislá.
+
+Když $S = \{ \ppri u \}$, pak $S$ je závislá $\ekv \ppri u = \ppri 0$.
+
+\V Vektoru jsou lineárně závislé právě tehdy, když alespon 1 z nich lze vyjádřit jako lineární kombinaci ostatních.
+
+\Poz Ne každý z lineárně závislych vektorů může být vyjádřen jako lin. kombinace ostatních.
+
+
+
+
+\EndDoc
+
