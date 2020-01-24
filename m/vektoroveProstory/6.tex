@@ -1,0 +1,211 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{}
+\section{Lineárni závislost a nezávislost}
+
+\Pr Dokažte, že vektory $\ppri{e_1} = (1,1,1,1),\ppri{e_1} = (1,1,-1,-1),\ppri{e_1} = (1,-1,1,-1),\ppri{e_1} = (1,-1,-1,1)$  tvoří bázy VP $\R^{(4)}$. Určete souřadnice vektorů $\ppri x = (1,2,1,1), \ppri = (0,0,0,1)$ v této bázi.
+
+
+ $ \begin{pmatrix}
+1 &1 &1 & 1 \\ 
+1 &1 &-1 & -1 \\ 
+1 &-1 &1 & -1 \\ 
+1 &-1 &-1 & 1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 & 1 \\ 
+0 &0 &-2 & -2 \\ 
+0 &-2 &0 & -2 \\ 
+0 &-2 &-2 & 0 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 & 1 \\ 
+0 &0 &1 & 1 \\ 
+0 &1 &0 & 1 \\ 
+0 &1 &1 & 0 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 & 1 \\ 
+0 &1 &0 & 1 \\ 
+0 &1 &1 & 0 \\ 
+0 &0 &1 & 1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 & 1 \\ 
+0 &1 &0 & 1 \\ 
+0 &0 &1 & -1 \\ 
+0 &0 &1 & 1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 & 1 \\ 
+0 &1 &0 & 1 \\ 
+0 &0 &1 & -1 \\ 
+0 &0 &0 & 2 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 & 1 \\ 
+0 &1 &0 & 1 \\ 
+0 &0 &1 & -1 \\ 
+0 &0 &0 & 1 \\ 
+\end{pmatrix} $
+
+Vektory jsou tedy lineárně nezávislé.
+
+ $ \begin{pmatrix}
+1 &1 &1 &1 &\vline& 1 \\ 
+1 &1 &-1 &-1 &\vline& 2 \\ 
+1 &-1 &1 &-1 &\vline& 1 \\ 
+1 &-1 &-1 &1 &\vline& 1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 1 \\ 
+0 &0 &-2 &-2 &\vline& 1 \\ 
+0 &-2 &0 &-2 &\vline& 0 \\ 
+0 &-2 &-2 &0 &\vline& 0 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 1 \\ 
+0 &0 &2 &2 &\vline& -1 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &1 &1 &0 &\vline& 0 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 1 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &1 &1 &0 &\vline& 0 \\ 
+0 &0 &2 &2 &\vline& -1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 1 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &0 &1 &-1 &\vline& 0 \\ 
+0 &0 &2 &2 &\vline& -1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 1 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &0 &1 &-1 &\vline& 0 \\ 
+0 &0 &0 &4 &\vline& -1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &0 &1 &0 &\vline& 1 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &0 &1 &-1 &\vline& 0 \\ 
+0 &0 &0 &4 &\vline& -1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &0 &0 &1 &\vline& 1 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &0 &1 &-1 &\vline& 0 \\ 
+0 &0 &0 &4 &\vline& -1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+4 &0 &0 &0 &\vline& 5 \\ 
+0 &4 &0 &0 &\vline& 1 \\ 
+0 &0 &4 &0 &\vline& -1 \\ 
+0 &0 &0 &4 &\vline& -1 \\ 
+\end{pmatrix}
+$
+$$ \ppri x = \frac{5}{4}\*\ppri{e_1}+ \frac{1}{4}\*\ppri{e_2} - \frac{1}{4}\*\ppri{e_3} - \frac{1}{4}\*\ppri{e_4} $$ 
+
+
+
+ $ \begin{pmatrix}
+1 &1 &1 &1 &\vline& 0 \\ 
+1 &1 &-1 &-1 &\vline& 0 \\ 
+1 &-1 &1 &-1 &\vline& 0 \\ 
+1 &-1 &-1 &1 &\vline& 1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 0 \\ 
+0 &0 &-2 &-2 &\vline& 0 \\ 
+0 &-2 &0 &-2 &\vline& 0 \\ 
+0 &-2 &-2 &0 &\vline& 1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 0 \\ 
+0 &0 &1 &1 &\vline& 0 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &2 &2 &0 &\vline& -1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 0 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &2 &2 &0 &\vline& -1 \\ 
+0 &0 &1 &1 &\vline& 0 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 0 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &0 &2 &-2 &\vline& -1 \\ 
+0 &0 &1 &1 &\vline& 0 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 0 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &0 &1 &1 &\vline& 0 \\ 
+0 &0 &2 &-2 &\vline& -1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 0 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &0 &1 &1 &\vline& 0 \\ 
+0 &0 &0 &-4 &\vline& -1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &1 &1 &1 &\vline& 0 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &0 &1 &1 &\vline& 0 \\ 
+0 &0 &0 &4 &\vline& 1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &0 &1 &0 &\vline& 0 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &0 &1 &1 &\vline& 0 \\ 
+0 &0 &0 &4 &\vline& 1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+1 &0 &0 &-1 &\vline& 0 \\ 
+0 &1 &0 &1 &\vline& 0 \\ 
+0 &0 &1 &1 &\vline& 0 \\ 
+0 &0 &0 &4 &\vline& 1 \\ 
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+4 &0 &0 &0 &\vline& 1 \\ 
+0 &4 &0 &0 &\vline& -1 \\ 
+0 &0 &4 &0 &\vline& -1 \\ 
+0 &0 &0 &4 &\vline& 1 \\ 
+\end{pmatrix}
+$
+$$ \ppri y = \frac{1}{4}\*\ppri{e_1}- \frac{1}{4}\*\ppri{e_2} - \frac{1}{4}\*\ppri{e_3} + \frac{1}{4}\*\ppri{e_4} $$ 
+\EndDoc
+
