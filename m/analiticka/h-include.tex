@@ -1,0 +1,88 @@
+\def\HINCLUDE{}
+\global\newdimen\Okraje
+\global\Okraje =4cm
+\input{$HOME/souteze/_hlavicka/h-.tex}
+
+%\definecolor{colorV}{RGB}{255,127,0}
+%\definecolor{colorPoz}{RGB}{153,51,0}
+%\definecolor{orangeV}{RGB}{255,127,0}
+%\definecolor{colorPr}{RGB}{0,5,255}
+%\definecolor{colorDef}{RGB}{0.255,0}
+
+\usepackage[shortlabels]{enumitem}
+\setlength{\marginparsep}{2pt}
+\setlength{\marginparwidth}{35pt}
+
+\def\st{{\rm st}}
+\def\P{{\rm P}}
+
+\def\ISENUM{}
+\def\inMargin#1{\End
+		
+		\hskip0pt \marginpar{{{#1}}}}
+\newcounter{V}[section] 
+\newcommand{\V}[1][]{\stepcounter{V}\inMargin{\textcolor{green}{V.\arabic{section}.\theV.:}}\ifx^#1^\else\textcolor{green}{\underline{{#1}:}}\addcontentsline{toc}{subsubsection}{V.\arabic{section}.\theV.:$\quad$ {#1}}\\\fi}
+\def\Def{\inMargin{\textcolor{red}{Def:}}}
+\def\Poz{{\inMargin{\textcolor{brown}{Pozn:}}}}
+\def\Pr{{\inMargin{\textcolor{blue}{Př:}}}}
+\def\Pozenum
+{
+	\begin{enumerate}[1)]%, left = 0pt ]
+		\item\inMargin{\textcolor{brown}{Pozn:}}\def\ISENUM{a}}
+\def\End
+{
+	\if	^\ISENUM^
+	\else \end{enumerate}
+	\fi
+	\def\ISENUM{}
+}
+\reversemarginpar
+
+\makeatletter
+\renewcommand\thesection{§\arabic{section}.}
+\renewcommand\thesubsection{\Alph{subsection})}
+\renewcommand\thesubsubsection{\alph{subsubsection})}
+\newcounter{chapter}
+\setcounter{chapter}{0}
+\renewcommand\thechapter{\Alph{chapter})}
+\newcounter{roman}
+\setcounter{roman}{0}
+\renewcommand\theroman{\Roman{roman}.}
+\makeatother
+\def\sectionnum#1{\setcounter{section}{#1}\addtocounter{section}{-1}}
+\def\subsectionnum#1{\setcounter{subsection}{#1}\addtocounter{subsection}{-1}}
+\def\subsubsectionnum#1{\setcounter{subsubsection}{#1}\addtocounter{subsubsection}{-1}}
+\def\chapternum#1{\setcounter{chapter}{#1}\addtocounter{chapter}{-1}}
+\def\chapter#1{
+
+	\addtocounter{chapter}{1}\sectionnum{1}
+	\addcontentsline{toc}{section}{\large{\thechapter$\quad${#1}}}
+	
+	{\LARGE  \textbf{\begin{minipage}[t]{0.1\textwidth}\thechapter\end{minipage}\begin{minipage}[t]{0.95\textwidth}#1\end{minipage}}}
+
+}
+\def\ROM{}
+\def\Rom#1#2{\setcounter{roman}{#1}\renewcommand\ROM{#2}}
+
+\Rom{6}{Funkce}
+\title{\Huge\textbf{\theroman\quad \ROM}}
+\author{Jiří Kalvoda}
+
+\newcounter{countOfBegin}
+\setcounter{countOfBegin}{0}
+\newcommand{\BeginDoc}[1][]
+{
+	\ifnum\value{countOfBegin}=0
+	\begin{document}
+		#1
+		\fi
+	\addtocounter{countOfBegin}{1}
+		
+}
+\def\EndDoc
+{
+	\addtocounter{countOfBegin}{-1}
+	\ifnum\value{countOfBegin}=0
+	\end{document}
+	\fi
+}

@@ -1,0 +1,62 @@
+\input{h.tex}
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\BeginDoc{}
+\section{\dots}
+
+\Pr $p=\{[1+t,2-t];t\in\R\}$
+\begin{itemize}
+	\item Způsob vyloučení parametru:\\
+		$x=1+t$\\
+		$y=2-t$
+		$x+y-3=0$
+	\item Přes normálový vektor:\\
+		směrový vektor: $\ppri u = (1,-1)$\\
+		normálový vektor: $\ppri n = (1,1)$\\
+		\begin{eqnarray*}
+			ax+bx+c&=&0\\
+			x+y+c &=& 0\\
+		\end{eqnarray*}
+		Dosadím $A[1,2]\in p$: $1+2+c=0 \imp c= -3$.
+\end{itemize}
+\Pr Napište parametrické rovnice $p: x-2y+1=0$.
+\begin{itemize}
+	\item Substitucí:
+		$x = 2t -1$\\
+		$y=t$\\
+		$p = {[2t-1,t];t\in\R}$.
+	\item Přes normálový vektor:\\
+		normálnový vektor: $\ppri u = (-2,1)$.
+		směrnvý vektor: $\ppri u = (2,1)$.
+		$[2t+a,t]\in p \imp 2t+a-2t+1=0 \imp a=-1$ 
+		$p = {[2t-1,t];t\in\R}$.
+\end{itemize}
+DÚ: 145/17,18
+$A = [0,5]$\\
+$B = [6,7]$\\
+$C = [1,4]$\\
+$A_0=[\f 7 2 ; \f{11}2]$\\
+$B_0=[\f 1 2 ; \f{ 9}2]$\\
+$C_0=[\f 6 2 ; \f{12}2]$\\
+$x-7y+35=0$\\
+$5x-11y+47$\\
+$x-y+3=0$
+
+$6x-y-\f32=0$
+
+
+{\Huge \dots}
+\Pr Dáno $A=[0,2],B=[3;0]$. Napište rovnice přímky:
+Úsekový: $$ \f x 3 + \f y 2 = 1 $$ 
+Obecný $$ 2 x + \f 3 y - 6 =0 $$
+Směrnicový $$ y=-\f 23 x +2  $$
+Parametrický: $$ p = \{ [t,-\f 23 t +2];t\in\R \}$$
+
+Dú: 150/21,22,23,24
+
+
+\EndDoc
