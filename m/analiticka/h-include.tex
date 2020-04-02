@@ -64,13 +64,13 @@
 \def\ROM{}
 \def\Rom#1#2{\setcounter{roman}{#1}\renewcommand\ROM{#2}}
 
-\Rom{6}{Funkce}
+\Rom{9}{Analitická geometrie lineárních útvarů}
 \title{\Huge\textbf{\theroman\quad \ROM}}
 \author{Jiří Kalvoda}
 
 \newcounter{countOfBegin}
 \setcounter{countOfBegin}{0}
-\newcommand{\BeginDoc}[1][]
+\newcommand{\BeginDoc}[1]
 {
 	\ifnum\value{countOfBegin}=0
 	\begin{document}
@@ -86,3 +86,23 @@
 	\end{document}
 	\fi
 }
+
+
+
+
+\newcommand{\fce}[1]{\mathop{\rm {#1}}\nolimits}
+\newcommand{\fcez}[2]{\mathop{\rm {#1}}\nolimits\left({#2}\right)}
+\newcommand{\z}[1]{\left({#1}\right)}
+\newcommand{\zh}[1]{\left[{#1}\right]}
+\newcommand{\zs}[1]{\left\{{#1}\right\}}
+
+
+\let\braceru=\relax \let\bracelu=\relax 
+\def\o#1{\setbox0=
+	\hbox{$\kern2pt\overbrace{\kern-2pt#1\kern-2pt}\kern2pt$}\ht0=2.1ex\box0}
+\def\to#1{\hbox{#1\rlap{\t{}}}}
+\def\rad{\rm{rad}}
+\def\f{\frac}
+\def\ve{\ppri}
+\def\<{\left<}
+\def\>{\right>}

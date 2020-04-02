@@ -1,0 +1,82 @@
+\input{h.tex}
+\BeginDoc{\sectionnum{9}}
+\def\mc{\mathcal}
+
+\Pr 86/69:
+\pdf[0.3]{9-cv69.pdf}
+\begin{enumerate}[a)]
+	\item $\ve{n_p} = (2;1); \ve{n_q} = (6;-2)$
+		$$
+		|\angle p,q| = \arccos\f{|12-2|}{\sqrt 5\*\sqrt{40}}=\arccos \f{\sqrt 2}2 = \f\pi 4
+		$$
+	\item $\ve{u} = (1;-1); \ve{n_q} = (2;4)\sim(1;2)$
+		$$
+		|\angle p,q| = \arcsin\f{|1-2|}{\sqrt 2\*\sqrt{5}}=\arcsin \f{\sqrt {10}}{10}
+		$$
+
+\end{enumerate}
+\Pr 86/70:
+\pdf[0.3]{9-cv70.pdf}
+$\ve{n} = (1;-2)$
+
+Otočím o $+30\d$:
+$\ve{n_1} = \ve n \* e^{i\f\pi6} = (1-2i)\*\(\f{\sqrt 3}2+\f i 2\) = \(\f{\sqrt 3}2+1\)+\(\f12-\sqrt 3  \)i$\\
+$p_1:(\sqrt 3 +2)x + (1-2\sqrt 3 )y + c_1=0$\\
+$A[0;\f32]\in p_1 \imp -\f{3}{2}\(-2\sqrt 3 + 1\)  = c_1$
+$$p_1 :(2\sqrt 3 +4)x + (-4\sqrt 3 +2) + \(6\sqrt 3 - 3\)=0$$
+
+Otočím o $-30\d$:
+$\ve{n_1} = \ve n \* e^{-i\f\pi6} = (1-2i)\*\(\f{\sqrt 3}2-\f i 2\) = \(\f{\sqrt 3}2-1\)+\(-\f12-\sqrt 3  \)i$\\
+$p_1:(\sqrt 3 -2)x + (-1-2\sqrt 3 )y + c_2=0$\\
+$A[0;\f32]\in p_1 \imp -\f{3}{2}\(-2\sqrt 3 - 1\)  = c_1$
+$$p_2 :(2\sqrt 3 -4)x + (-4\sqrt 3 -2)y + \(6\sqrt 3 + 3\)=0$$
+
+
+
+\Pr 86/71:
+\pdf[0.3]{9-cv71.pdf}
+$p:6x+4y+9$\\
+$\ve{n_p} = (6;4) \sim (3,2)$\\
+$6\*5+7\*4-9 \neq 0 \imp A\not\in p \imp \pri{BC} = p$
+
+Najdu $\pri{AC}\perp{BC}$: $\pri{AC}: 2x-3y+c=0$\\
+$A\in \pri{AC} \imp 10-21+c=0 \imp c = 11$
+$$\pri{AC}: 2x-3y+11=0$$
+
+Najdu $\pri{AB}$:
+
+Otočím $p$ o $+45\d$:\\
+$\ve{n_1} = \ve{n_p}\*e^{i \f\pi4} = (3+2i)(\f{\sqrt 2}2+\frac{\sqrt 2}2i) = \f{\sqrt 2}2+\f{5\sqrt 2}2i$\\
+$\pri{BC}_1:  x + 5 y + d = 0$\\
+$A\in\pri{AB}_1 \imp  5 + 5 \*7 + d = 0 \imp d=-40$\\
+$$\pri{BC}_1:  x + 5 y -40 = 0$$\\
+
+Otočím $p$ o $-45\d$:\\
+$\ve{n_2} = \ve{n_p}\*e^{-i \f\pi4} = (3+2i)(\f{\sqrt 2}2-\frac{\sqrt 2}2i) = \f{5\sqrt 2}2-\f{\sqrt 2}2i$\\
+$\pri{BC}_2:  5x - y + e = 0$\\
+$A\in\pri{AB}_2 \imp  5\*5 - 7 + e = 0 \imp e=-18$\\
+$$\pri{BC}_2:  5x - y -18 = 0$$\\
+
+
+
+\Pr 86/73:
+\pdf[0.3]{9-cv73.pdf}
+
+$\ve{AB} = (-2,2) \sin (-1;1)$\\
+$\ve{BC} = (4,-2) \sin (2;-1)$\\
+$\ve{AC} = (2,0) \sin (1;0)$
+
+$$
+\cos \alpha = \f{-1}{\sqrt 2 \* \sqrt 1} = -\f{\sqrt 2}2
+$$
+$$
+\cos \beta = \f{2+1}{\sqrt 2 \* \sqrt 5} = \f{3\sqrt {10}}{10}
+$$
+$$
+\cos \gamma = \f{2}{\sqrt 5 \* \sqrt 1} = \f{2\sqrt 5}5
+$$
+
+
+
+
+\EndDoc

@@ -1,0 +1,260 @@
+\input{h.tex}
+\BeginDoc{\sectionnum{9}}
+\def\mc{\mathcal}
+\section{Odchylka}
+\Def
+Nechť $\ve u, \ve v$ jsou dva nenulové vektory. \emph{Odchylkou dvou vektorů} $\ve u, \ve v$ označujeme $\varphi = |\angle \ve u,\ve v|$ a definujeme takto:
+\begin{enumerate}[1.]
+	\item Je-li $\ve u = k \ve v ; k \in \R^+ \imp |\angle \ve u,\ve v| = 0\d$
+	\item Je-li $\ve u = k \ve v ; k \in \R^- \imp |\angle \ve u,\ve v| = 0180\d$
+	\item Je-li $\ve u \neq k \ve v$ pro $\forall k \in \R-\zs{0}| \imp $ odchylkou vektorů $\ve u , \ve v$ rozumíme velikost konvexního úhlu, který oba vektory svírají.
+\end{enumerate}
+\Poz $0\d \le | \angle \ve u , \ve v| \le 180\d$
+
+\V Nechť $\ve u,\ve v$ jsou dva nenulové vektory. Pak platí:
+$$
+\begin{array}{|c|}\hline\\[-8px]
+\displaystyle	|\angle\ve u , \ve v| = \arccos \f{\ve u \* \ve v}{|\ve u|\*|\ve v|}
+	\\[-8px]\\\hline
+
+\end{array}
+$$
+[Dk: Plyne z definice skalárního součinu] 
+\Poz Jestliže jsou dva podprostory $\mc A, \mc B \subset \E_3$ rovnoběžné, jejich odchylka je $0\d$. 
+
+\subsection{Odchylka dvou přímek v $\E_2$}
+\Poz Nechť $p,q$ jsou 2 různoběžné přímky. Odchylka přímek $p,q$ je velikost ostrého nebo pravého úhlu, který svírají.
+$0\d \le |\angle p,q| \le 90\d$
+
+\V Nechť $p(A,\ve u),q(B,\ve v)$ jsou dvě různoběžné přímky, pak platí:
+$$
+\begin{array}{|c|}\hline\\[-8px]
+\displaystyle	|\angle p,q| = \arccos \f{|\ve u \* \ve v|}{|\ve u|\*|\ve v|}
+	\\[-8px]\\\hline
+
+\end{array}
+$$
+[Dk.: Plyne z V.9.1. a z toho, že funkce $y = \arccos x$ má pro definiční obor $\<0;1\>$ obor hodnot $\<0;\f\pi2\>$].
+
+\V Nechť
+$p: ax+by+c=0\quad ((a,b)\neq\ve0)$, 
+$p: ex+fy+g=0\quad ((e,f)\neq\ve0)$ jsou 2 různoběžné přímky a nechť $\ve{n_p} = (a,b), \ve{n_q}=(e,f)$. Pak platí:
+$$
+\begin{array}{|c|}\hline\\[-8px]
+	\displaystyle	|\angle p,q| = \arccos \f{|\ve{n_p} \* \ve{n_q}|}{|\ve u|\*|\ve v|}
+	\\[-8px]\\\hline
+
+\end{array}
+$$
+[Dk.: Plyne z V.9.2. a z toho, že normálové vektory přímek svírají stejný úhel jako přímky samé.]
+
+\V Nechť
+$p(A,\ve u)$, 
+$p: ax+by+c=0\quad ((a,b)\neq\ve0)$ jsou 2 různoběžné přímky a nechť $\ve{n_q} = (a,b)$. Pak platí:
+$$
+\begin{array}{|c|}\hline\\[-8px]
+	\displaystyle	|\angle p , q| = \arcsin \f{|\ve u \* \ve {n_q}|}{|\ve u|\*|\ve v|}
+	\\[-8px]\\\hline
+
+\end{array}
+$$
+[Dk.: Plyne z V.9.2., z toho, že odchylka normálového vektoru 1 přímky a směrového vektoru 2.přímky svírá úhel $\f\pi2-\varphi$ a $\cos\(\f\pi2-\varphi\) = \sin \varphi$ ($\varphi$ je odchylka obou přímek).]
+
+\Pr Určete $\angle p,q|$:
+\begin{enumerate}[a)]
+	\item
+		$p(A,\ve u),q(B,\ve v);A[1;0],B[3;1],\ve u (1;1),\ve (-1;0)$
+
+		$$
+		|\angle p,q| = \arccos \f{|-1|}{\sqrt 2+\*\sqrt 1} = \arccos \f{\sqrt 2 }2 = \f\pi 4
+		$$
+	\item
+		$p:5x+3y-7=0;q:4x-y+5=0$
+
+		$\ve{n_p}=(5,3);\ve{n_q}=(4;-1)$
+		$$
+		|\angle p,q| = \arccos \f{|20-3|}{\sqrt{25+9}+\*\sqrt{16+1}} = \arccos \f{17}{\sqrt{34}\sqrt{17}} = \arccos \f{\sqrt 2}2 = \f\pi 4
+		$$
+
+	\item 
+		$p = \ve{AB};A[1;0];B[2;1];q:x+2y-6=0$
+
+		$\ve u = (1;1); \ve{n_q}=(1,2)$
+		$$
+		|\angle p,q|=\arcsin\f{|1+2|}{\sqrt 2 \* \sqrt 5} = \arcsin \f{3\sqrt{10}}{10}
+		$$
+\end{enumerate}
+
+\Pr 86/69:
+\pdf[0.3]{9-cv69.pdf}
+\begin{enumerate}[a)]
+	\item $\ve{n_p} = (2;1); \ve{n_q} = (6;-2)$
+		$$
+		|\angle p,q| = \arccos\f{|12-2|}{\sqrt 5\*\sqrt{40}}=\arccos \f{\sqrt 2}2 = \f\pi 4
+		$$
+	\item $\ve{u} = (1;-1); \ve{n_q} = (2;4)\sim(1;2)$
+		$$
+		|\angle p,q| = \arcsin\f{|1-2|}{\sqrt 2\*\sqrt{5}}=\arcsin \f{\sqrt {10}}{10}
+		$$
+
+\end{enumerate}
+\Pr 86/70:
+\pdf[0.3]{9-cv70.pdf}
+$\ve{n} = (1;-2)$
+
+Otočím o $+30\d$:
+$\ve{n_1} = \ve n \* e^{i\f\pi6} = (1-2i)\*\(\f{\sqrt 3}2+\f i 2\) = \(\f{\sqrt 3}2+1\)+\(\f12-\sqrt 3  \)i$\\
+$p_1:(\sqrt 3 +2)x + (1-2\sqrt 3 )y + c_1=0$\\
+$A[0;\f32]\in p_1 \imp -\f{3}{2}\(-2\sqrt 3 + 1\)  = c_1$
+$$p_1 :(2\sqrt 3 +4)x + (-4\sqrt 3 +2) + \(6\sqrt 3 - 3\)=0$$
+
+Otočím o $-30\d$:
+$\ve{n_1} = \ve n \* e^{-i\f\pi6} = (1-2i)\*\(\f{\sqrt 3}2-\f i 2\) = \(\f{\sqrt 3}2-1\)+\(-\f12-\sqrt 3  \)i$\\
+$p_1:(\sqrt 3 -2)x + (-1-2\sqrt 3 )y + c_2=0$\\
+$A[0;\f32]\in p_1 \imp -\f{3}{2}\(-2\sqrt 3 - 1\)  = c_1$
+$$p_2 :(2\sqrt 3 -4)x + (-4\sqrt 3 -2)y + \(6\sqrt 3 + 3\)=0$$
+
+
+
+\Pr 86/71:
+\pdf[0.3]{9-cv71.pdf}
+$p:6x+4y+9$\\
+$\ve{n_p} = (6;4) \sim (3,2)$\\
+$6\*5+7\*4-9 \neq 0 \imp A\not\in p \imp \pri{BC} = p$
+
+Najdu $\pri{AC}\perp{BC}$: $\pri{AC}: 2x-3y+c=0$\\
+$A\in \pri{AC} \imp 10-21+c=0 \imp c = 11$
+$$\pri{AC}: 2x-3y+11=0$$
+
+Najdu $\pri{AB}$:
+
+Otočím $p$ o $+45\d$:\\
+$\ve{n_1} = \ve{n_p}\*e^{i \f\pi4} = (3+2i)(\f{\sqrt 2}2+\frac{\sqrt 2}2i) = \f{\sqrt 2}2+\f{5\sqrt 2}2i$\\
+$\pri{BC}_1:  x + 5 y + d = 0$\\
+$A\in\pri{AB}_1 \imp  5 + 5 \*7 + d = 0 \imp d=-40$\\
+$$\pri{BC}_1:  x + 5 y -40 = 0$$\\
+
+Otočím $p$ o $-45\d$:\\
+$\ve{n_2} = \ve{n_p}\*e^{-i \f\pi4} = (3+2i)(\f{\sqrt 2}2-\frac{\sqrt 2}2i) = \f{5\sqrt 2}2-\f{\sqrt 2}2i$\\
+$\pri{BC}_2:  5x - y + e = 0$\\
+$A\in\pri{AB}_2 \imp  5\*5 - 7 + e = 0 \imp e=-18$\\
+$$\pri{BC}_2:  5x - y -18 = 0$$\\
+
+
+
+\Pr 86/73:
+\pdf[0.3]{9-cv73.pdf}
+
+$\ve{AB} = (-2,2) \sin (-1;1)$\\
+$\ve{BC} = (4,-2) \sin (2;-1)$\\
+$\ve{AC} = (2,0) \sin (1;0)$
+
+$$
+\cos \alpha = \f{-1}{\sqrt 2 \* \sqrt 1} = -\f{\sqrt 2}2
+$$
+$$
+\cos \beta = \f{2+1}{\sqrt 2 \* \sqrt 5} = \f{3\sqrt {10}}{10}
+$$
+$$
+\cos \gamma = \f{2}{\sqrt 5 \* \sqrt 1} = \f{2\sqrt 5}5
+$$
+
+
+
+
+\subsection{Odchylka dvou přímek v $\E_3$}
+\Poz Nechť $p, q$ jsou 2 různoběžné přímky. Pak jejich odchylka je rovna velikosti ostrého nebo pravého úhlu, který svírají.\\
+Nechť $p, q$ jsou 2 mimoběžné přímky. Pak jejich odchylka je rovna $|\angle p',q'|$, kde $p'\parallel p,q'\parallel q$ jsou různoběžky.\\
+$0\d \le |\angle p,q| \le 90\d$
+
+\V Nechť $p(A,\ve u),q(B,\ve v)$ jsou dvě různoběžné přímky, pak platí:
+$$
+\begin{array}{|c|}\hline\\[-8px]
+\displaystyle	|\angle\ve p,q| = \arccos \f{|\ve u \* \ve v|}{|\ve u|\*|\ve v|}
+	\\[-8px]\\\hline
+
+\end{array}
+$$
+[Dk.: viz V.9.2].
+
+\Pr Určete odchylku přímek $\ve{A'B},\ve{BC'}$ krychle $ABCDA'B'C'D'$:
+
+\begin{minipage}{0.4\textwidth}
+	\pdf[0.2]{9-B.pdf}
+\end{minipage}
+\begin{minipage}{0.6\textwidth}
+	Analytické řešení:\\
+	$A[1;0;0];A'[1;0;1],$\\
+	$B[1;1;0];B'[1;1;1],$\\
+	$C[0;1;0];C'[0;1;1],$\\
+	$D[0;0;0];D'[0;0;1],$\\
+	$\ve{A'B} = (0;1;-1); \ve{BC'}  = (-1;0;1)$\\
+	$\underline{|\angle \pri{A'B},\pri{B,C'}|} = \arccos \f{-1}{\sqrt 2 \* \sqrt 2} = \arccos \f 12 = \underline{\f\pi3}$
+\end{minipage}
+Stereometrické řešení:\\
+Celý problém se evidentně odehrává v rovině $A'BC'$:
+Úsečky $A'B,BC'$ a $A'C'$ mají evidentně stejnou vzdálenost, protože se jedná o stěnové úhlopříčky. $\triangle A'BC'$ je tedy rovnostroný, pročež $|\angle \pri{A'B},\pri{BC'}| = |\angle A'BC'|= \f\pi3$.
+
+\Pr 177/11:\\
+$\ve u = (-1;1;-1)$\\
+$\ve v = (1;1;1)$
+
+$$ |\angle p,\pri{AB}|=\arccos\f{|\ve u \* \ve v|}{|\ve u|\*|\ve v|} = \f{|-1|}{\sqrt 3 \* \sqrt 3} = \arccos \f{1}3$$.
+
+\Pr 177/12:\\
+$\ve u (2;2;10) \sim (1;1;5)$
+
+$|\angle \pri{AB},x| = \arccos \f{|1|}{\sqrt{1}\*\sqrt{27}} = \arccos \f{\sqrt3}9$
+
+$|\angle \pri{AB},y| = \arccos \f{|1|}{\sqrt{1}\*\sqrt{27}} = \arccos \f{\sqrt3}9$
+
+$|\angle \pri{AB},z| = \arccos \f{|5|}{\sqrt{1}\*\sqrt{27}} = \arccos \f{5\sqrt3}9$
+
+$\f{3}{81}+\f3{81}+{75}{81} = \f{81}{81} = 1$ \emph{QED}.
+
+\Pr 178/17:
+\begin{enumerate}
+	\item $\ve u (1,1,1)$\\
+		$\ve v (-1,1,1)$
+$$ |\angle p,q|=\arccos\f{|\ve u \* \ve v|}{|\ve u|\*|\ve v|} = \f{|1|}{\sqrt 3 \* \sqrt 3} = \arccos \f{1}3$$.
+	\item $\ve u (1,1,1)$\\
+		$\ve v (-1,1,0)$
+$$ |\angle p,q|=\arccos\f{|\ve u \* \ve v|}{|\ve u|\*|\ve v|} = \f{|0|}{\sqrt 3 \* \sqrt 2} = \arccos 0 = \f\pi2$$.
+\end{enumerate}
+
+\Pr 178/18:
+\begin{enumerate}
+	\item $\pri {AB}$ a $\pri{CD}$:\\
+		$\ve u (-6;5;0)$\\
+		$\ve v (-3;-3;8)$\\
+		$$ |\angle \pri{AB},\pri{CD}|=\arccos\f{|\ve u \* \ve v|}{|\ve u|\*|\ve v|} = \f{|18-15|}{\sqrt {36+25} \* \sqrt {9+9+64}} = \arccos \f{3\sqrt{5002}}{5002}$$
+
+	\item $\pri {AC}$ a $\pri{BD}$:\\
+		$\ve u (-1;6;0)$\\
+		$\ve v (2;-2;8)\sim(1;-1;4)$\\
+		$$ |\angle \pri{AC},\pri{BD}|=\arccos\f{|\ve u \* \ve v|}{|\ve u|\*|\ve v|} = \f{|-1-6|}{\sqrt {1+36} \* \sqrt {1+1+8}} = \arccos \f{7\sqrt{370}}{370}$$
+
+	\item $\pri {AD}$ a $\pri{BC}$:\\
+		$\ve u (-4;3;8)$\\
+		$\ve v (5;1;0)$\\
+		$$ |\angle \pri{AD},\pri{BC}|=\arccos\f{|\ve u \* \ve v|}{|\ve u|\*|\ve v|} = \f{|-20+3|}{\sqrt {16+9+64} \* \sqrt {25+1}} = \arccos \f{17\*\sqrt{2314}}{2314}$$
+\end{enumerate}
+
+\subsection{Odchylka přímky od roviny v $\E_3$}
+\Poz Nechť $p,\alpha$ jsou přímka a rovina navzájem různoběžné. Pak platí:
+$|\angle p,\alpha| = |\angle p,q|$, kde $q = \alpha \cap \beta \land \beta \perp \alpha \land p \subset \beta$.\\
+$0\d \le |\angle p,\alpha| \le 90\d$
+
+\V Nechť
+$p(A,\ve u)$ je přímka a 
+$\alpha: ax+by+cz+d=0\quad ((a,b,c)\neq\ve0)$ je rovina a nechť $\ve{n} = (a,b,c)$. Pak platí:
+$$
+\begin{array}{|c|}\hline\\[-8px]
+\displaystyle	|\angle p , \alpha| = \arcsin \f{|\ve u \* \ve n|}{|\ve u|\*|\ve n|}
+	\\[-8px]\\\hline
+
+\end{array}
+$$
+[Dk.: Plyne z V.9.5., z toho, že odchylka normálového vektoru roviny  a směrového vektoru přímky svírá úhel $\f\pi2-\varphi$ a $\cos\(\f\pi2-\varphi\) = \sin \varphi$ ($\varphi$ je odchylka přímky od roviny).]
+
+\EndDoc

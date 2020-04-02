@@ -1,0 +1,382 @@
+\input{h.tex}
+\BeginDoc{\sectionnum{6}}
+\section{Vzájemná poloha přímky a roviny}
+\V [Věta o vzájemné poloze přímky a roviny dané parametrickými rovnicemi]
+Nechť $p(A,\ve u)$ je přímka,$\rho(B,\ve v,\ve w)$ rovina. Pak platí:
+\begin{itemize}
+	\item $p \subset \phi \ekv \dim\<\ve v, \ve w,\ve u\> = 2 \land \dim \<\ve v,\ve w,\ve u,\ve{AB}\> = 2$
+	\item $p \parallel \phi \ekv \dim\<\ve v, \ve w,\ve u\> = 2 \land \dim \<\ve v,\ve w,\ve u,\ve{AB}\> = 3$
+	\item $p \nparallel \phi \ekv \dim\<\ve v, \ve w,\ve u\> = 3$
+\end{itemize}
+
+\Pr Rozhodněte vzájemnou polohu přímky a roviny:
+$ p = \{[3+t;1+2t;2-t]|t\in\R\}  \imp p: A=[3;1;2],\ve u = (1;2;-1)$\\
+$ \rho = \{[1-3r+s;2r-s;1+4r-s]|r,s\in\R\} \imp \rho: B = [1;0;1],\ve v = (-3;2;4),\ve w = (1;-1;-1)$\\
+$\imp \ve{AB}  = (-2;-1;-1) $
+
+ $\begin{pmatrix}
+	 1 &-1 & -1 \\ 
+	 -3 &2 & 4 \\ 
+	 1 &2 & -1 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &-1 & -1 \\ 
+	 3 &-2 & -4 \\ 
+	 1 &2 & -1 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &-1 & -1 \\ 
+	 1 &2 & -1 \\ 
+	 3 &-2 & -4 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &-1 & -1 \\ 
+	 0 &3 & 0 \\ 
+	 0 &1 & -1 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &-1 & -1 \\ 
+	 0 &1 & 0 \\ 
+	 0 &1 & -1 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &-1 & -1 \\ 
+	 0 &1 & 0 \\ 
+	 0 &0 & -1 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &-1 & -1 \\ 
+	 0 &1 & 0 \\ 
+	 0 &0 & 1 \\ 
+ \end{pmatrix}
+  $ 
+
+  $\dim\<\ve u, \ve v,\ve w\> = 3 \imp $ přímka je různoběžná.
+
+  Určení průsečíku:\\
+  porovnáme souřadnice $p$ a $\rho$:
+  $ 3+t = 1 - 3r + s $\\
+  $ 1 + 2t = 2r - s$\\
+  $2-t = 1+4r - s $\\
+  $\imp$ 3 rovnice o třech neznámích -- vyřešením dostaneme $t=-2$.
+  Dosadím: \underline{$P = [1;-3;4]$}
+
+
+
+\V[Věta o vzájemné poloze přímky a roviny dané obecnou rovnicí]
+Nechť $p(A,\ve u)$ je přímka, $\rho: ax+by+cz+d=0,[a,b,c]\neq[0,0,0]$ rovina.
+Nechť $\ve n = (a,b,c)$. Pak platí:
+\begin{itemize}
+	\item $p\subset\rho \ekv \ve u \* \ve n = 0 \land A \in \rho$
+	\item $p\parallel\rho \ekv \ve u \* \ve n = 0 \land A \not\in \rho$
+	\item $p\nparallel\rho \ekv \ve u \* \ve n \neq 0$
+\end{itemize}
+
+\Pr
+Rozhodněte o vzájemné poloze přímky $p$ a roviny $\rho$:
+\begin{itemize}
+	\item $p = {[1-t,1+3t;-2]|t\in\R}, rho: 3x+y+5z+7 = 0$\\
+		$\imp \ve u = (-1;3;0), \ve n = (3;1;5)$.\\
+		$\pri u \* \pri n = -3 + 3 +0 = 0 \imp$ přímka je s rovinou rovnoběžná.
+		Rozhodneme, jestli $p$ leží v rovině $\rho$, tzn. jestli $A\in \rho$:\\
+		$A[1;1;-2]$\\
+		$3+1-10+7=1\neq 0 \imp 0$ \underline{rovnoběžné různé.}
+	\item
+		$p = {[3+t;1-t;2t]|t\in\R}, \rho: x-2y+z-3 = 0$\\
+		$\ve u = (1;-1;2)$\\
+		$\ve n = (1;-2;1)$\\
+		$\ve u \* \ve n  = 1+2+2 = 5 \ne 0 \imp p\nparallel \rho $
+
+		Určení průsečíku:\\
+		Dosadíme rovnici přímky do rovnice roviny $\rho$:
+		$3+t-2+2t+2t-3 = 0 \imp t = \f 25$.
+		$$ p = \[\f{17}5;\f 35 ; \f 45\] $$
+\end{itemize}
+\Pr 188/26:\\
+$\ve u = \ve{PQ} = (1;0;2)$\\
+$\ve n =  (2;1;1)$\\
+$\ve n \* \ve u = 2+0+2 = 4 \imp $ nejsou rovnoběžné.
+
+$2\*t + 0 + 2 t + 8 = 0 \imp t = -2 \imp \pri{PQ} \cap \rho = P+\ve{PQ}\*(-2) = \[-2;0;-4\]$
+
+\Pr 188/27:\\
+Určím rovnoběžnou rovinu procházející $A$:
+$$ 2\*3-2-1+a = 0 \imp a = -3$$
+Rovnicí tedy je $\varphi: 2x - y - z -3 = 0$.\\
+Dosadím: $6 - y + 2 - 3 = 0 \imp \underline{y=5}$.
+
+\Pr 189/28:
+\begin{itemize}
+	\item
+$\ve t  = (-1,1,-3)$\\
+$\ve n =  (-1;2;1)$\\
+$\ve t \* \ve n = 1 + 2 - 3 = 0 \imp $ rovnoběžné\\
+
+$A=[1,0,2]$. Dosadím: $-1+0+2-1 = 0$.
+Průnikem je $p$.
+
+\item
+	$\ve t = (-1,3,1)$\\
+		$\ve n = (1,1,-1)$\\
+		$\ve t \* \ve n = -1 + 3 -1 = 1 \imp $ nejsou rovnoběžné.
+
+		Průsečík:
+		$2-t+3t-t = 4 \imp t = 2 \imp q\cap \sigma = {[-1,1,-4]}$.
+
+	\item
+		$\ve t = (3;-4;2) $\\
+		$\ve n = (2;1;-1)$\\
+		$\ve t \* \ve n = 6 -4 -2 = 0 \imp $ rovnoběžné.
+
+		$A[2;1;0]$ dosadím: $4+1=5\neq0 \imp m \cap \tau = \emptyset$. 
+\end{itemize}
+
+\Pr 189/29:
+Průsečnice $p$:
+ $ \begin{pmatrix}
+	 3 &-4 &1 &\vline& 7 \\ 
+	 1 &3 &-2 &\vline& -8 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &3 &-2 &\vline& -8 \\ 
+	 3 &-4 &1 &\vline& 7 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &3 &-2 &\vline& -8 \\ 
+	 0 &-13 &7 &\vline& 31 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &3 &-2 &\vline& -8 \\ 
+	 0 &13 &-7 &\vline& -31 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 13 &0 &-5 &\vline& -11 \\ 
+	 0 &13 &-7 &\vline& -31 \\ 
+ \end{pmatrix}
+  $ 
+   $$ 
+    p = \zs{\zh{\frac{-11+5 t}{13}; \frac{-31+7 t}{13}; a}:t \in \mathbb{R}}\imp p \(A\[-\f{11}{13};-\f{31}{13};0\];\ve u  = \(5;7;13\)\)
+     $$ 
+     $$
+     \rho (B[5;3;1],\ve v = (-1;1;0),\ve w = (2,-1,5)
+     $$
+
+      $ \begin{pmatrix}
+	      5 &7 & 13 \\ 
+	      -1 &1 & 0 \\ 
+	      2 &-1 & 5 \\ 
+      \end{pmatrix}
+      \sim
+      \begin{pmatrix}
+	      5 &7 & 13 \\ 
+	      1 &-1 & 0 \\ 
+	      2 &-1 & 5 \\ 
+      \end{pmatrix}
+      \sim
+      \begin{pmatrix}
+	      1 &-1 & 0 \\ 
+	      2 &-1 & 5 \\ 
+	      5 &7 & 13 \\ 
+      \end{pmatrix}
+      \sim
+      \begin{pmatrix}
+	      1 &-1 & 0 \\ 
+	      0 &1 & 5 \\ 
+	      0 &12 & 13 \\ 
+      \end{pmatrix}
+      \sim
+      \begin{pmatrix}
+	      1 &-1 & 0 \\ 
+	      0 &1 & 5 \\ 
+	      0 &0 & -47 \\ 
+      \end{pmatrix}
+      \sim
+      \begin{pmatrix}
+	      1 &-1 & 0 \\ 
+	      0 &1 & 5 \\ 
+	      0 &0 & 1 \\ 
+      \end{pmatrix}
+       $
+
+       Nejsou rovnoběžné.
+
+       Převedu $\rho$ na obecnou rovnici roviny:
+       $x+y = 8 + s \imp 5x + 5y - z = 40-1 = 39$
+       Spočítám průsečím všech rovnic:
+
+ $ \bar{A} = \begin{pmatrix}
+	 3 &-4 &1 &\vline& 7 \\ 
+	 1 &3 &-2 &\vline& -8 \\ 
+	 5 &5 &-1 &\vline& 39 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &3 &-2 &\vline& -8 \\ 
+	 3 &-4 &1 &\vline& 7 \\ 
+	 5 &5 &-1 &\vline& 39 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &3 &-2 &\vline& -8 \\ 
+	 0 &-13 &7 &\vline& 31 \\ 
+	 0 &-10 &9 &\vline& 79 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &3 &-2 &\vline& -8 \\ 
+	 0 &13 &-7 &\vline& -31 \\ 
+	 0 &10 &-9 &\vline& -79 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &3 &-2 &\vline& -8 \\ 
+	 0 &10 &-9 &\vline& -79 \\ 
+	 0 &13 &-7 &\vline& -31 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 1 &3 &-2 &\vline& -8 \\ 
+	 0 &10 &-9 &\vline& -79 \\ 
+	 0 &0 &47 &\vline& 717 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 10 &0 &7 &\vline& 157 \\ 
+	 0 &10 &-9 &\vline& -79 \\ 
+	 0 &0 &47 &\vline& 717 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 470 &0 &0 &\vline& 2360 \\ 
+	 0 &470 &0 &\vline& 2740 \\ 
+	 0 &0 &47 &\vline& 717 \\ 
+ \end{pmatrix}
+ \sim
+ \begin{pmatrix}
+	 47 &0 &0 &\vline& 236 \\ 
+	 0 &47 &0 &\vline& 274 \\ 
+	 0 &0 &47 &\vline& 717 \\ 
+ \end{pmatrix}
+  $ 
+   $$ 
+    P = \zs{\zh{\frac{236}{47}; \frac{274}{47}; \frac{717}{47}}} 
+     $$ 
+
+
+       \Pr 
+       Převedu $\gamma$ na obecnou rovnici:
+       $x + z = -6 + r \imp x-y+z  = -5$
+
+       Průsečík:
+        $ \begin{pmatrix}
+		3 &-1 &1 &\vline& -1 \\ 
+		-1 &2 &-1 &\vline& 5 \\ 
+		1 &-1 &1 &\vline& -5 \\ 
+	\end{pmatrix}
+	\sim
+	\begin{pmatrix}
+		3 &-1 &1 &\vline& -1 \\ 
+		1 &-2 &1 &\vline& -5 \\ 
+		1 &-1 &1 &\vline& -5 \\ 
+	\end{pmatrix}
+	\sim
+	\begin{pmatrix}
+		1 &-2 &1 &\vline& -5 \\ 
+		1 &-1 &1 &\vline& -5 \\ 
+		3 &-1 &1 &\vline& -1 \\ 
+	\end{pmatrix}
+	\sim
+	\begin{pmatrix}
+		1 &-2 &1 &\vline& -5 \\ 
+		0 &1 &0 &\vline& 0 \\ 
+		0 &5 &-2 &\vline& 14 \\ 
+	\end{pmatrix}
+	\sim
+	\begin{pmatrix}
+		1 &-2 &1 &\vline& -5 \\ 
+		0 &1 &0 &\vline& 0 \\ 
+		0 &0 &-2 &\vline& 14 \\ 
+	\end{pmatrix}
+	\sim
+	\begin{pmatrix}
+		1 &-2 &1 &\vline& -5 \\ 
+		0 &1 &0 &\vline& 0 \\ 
+		0 &0 &1 &\vline& -7 \\ 
+	\end{pmatrix}
+	\sim
+	\begin{pmatrix}
+		1 &0 &1 &\vline& -5 \\ 
+		0 &1 &0 &\vline& 0 \\ 
+		0 &0 &1 &\vline& -7 \\ 
+	\end{pmatrix}
+	\sim
+	\begin{pmatrix}
+		1 &0 &0 &\vline& 2 \\ 
+		0 &1 &0 &\vline& 0 \\ 
+		0 &0 &1 &\vline& -7 \\ 
+	\end{pmatrix}
+	 $ 
+	  $$ 
+	   P = \zs{\zh{2; 0; -7}} 
+	    $$ 
+
+	    Převedu $\delta$ na obecnou:
+	    $x+3y = 12 +7t \imp x+3y+7z =19$
+	    
+	    $$ 1+0-49+a=0 \imp a=48$$
+	    
+	    \underline{$\epsilon: x+3y+7z+48=0$}
+	    \Pr 32
+	    Jelikož se roviny prtínají v právě jednom bodě, musí průsečnice protínat $\gamma$ v jednom bodě.
+
+	    Spočítám dimenzi vektorového prostoru tvořeného normálovými vektory k rovinám:
+	     $ \begin{pmatrix}
+		     3 &-1 & 1 \\ 
+		     -1 &2 & -1 \\ 
+		     1 &3 & 7 \\ 
+	     \end{pmatrix}
+	     \sim
+	     \begin{pmatrix}
+		     3 &-1 & 1 \\ 
+		     1 &-2 & 1 \\ 
+		     1 &3 & 7 \\ 
+	     \end{pmatrix}
+	     \sim
+	     \begin{pmatrix}
+		     1 &-2 & 1 \\ 
+		     1 &3 & 7 \\ 
+		     3 &-1 & 1 \\ 
+	     \end{pmatrix}
+	     \sim
+	     \begin{pmatrix}
+		     1 &-2 & 1 \\ 
+		     0 &5 & 6 \\ 
+		     0 &5 & -2 \\ 
+	     \end{pmatrix}
+	     \sim
+	     \begin{pmatrix}
+		     1 &-2 & 1 \\ 
+		     0 &5 & 6 \\ 
+		     0 &0 & -8 \\ 
+	     \end{pmatrix}
+	     \sim
+	     \begin{pmatrix}
+		     1 &-2 & 1 \\ 
+		     0 &5 & 6 \\ 
+		     0 &0 & 1 \\ 
+	     \end{pmatrix}
+	      $ 
+	      Jelikož dimenze je 3,roviny se protínají v právě jednom bodě.
+	      Jelikož $\epsilon$ má stejný normálový vektor jako $\delta$, výsledk se nezmění.
+
+\EndDoc
