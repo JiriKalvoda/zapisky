@@ -257,4 +257,187 @@ $$
 $$
 [Dk.: Plyne z V.9.5., z toho, že odchylka normálového vektoru roviny  a směrového vektoru přímky svírá úhel $\f\pi2-\varphi$ a $\cos\(\f\pi2-\varphi\) = \sin \varphi$ ($\varphi$ je odchylka přímky od roviny).]
 
+\Pr Určete $|\angle p,\alpha|$:\\
+$p=\pri{AB};A[1;1;-2];B[-1;0;-1]$\\
+$\alpha 2x-3y+z+4=0$
+
+$$|\angle p,\alpha| = \arcsin \f{|-4+3+1|}{\sqrt 6 \* \sqrt{14}} = \arcsin 0 = 0 \imp p\parallel \alpha$$
+
+\subsection{Odchylka dvou rovin v $\E_3$}
+\Poz Nechť $\alpha,\beta$ jsou dvě různoběžné roviny. Pak platí:
+$|\angle \alpha,\beta| = |\angle p,q|$, kde $p\subset r \alpha;q\subset \beta ;p\perp r;q\perp r;r = \alpha \cap \beta$.\\
+$0\d \le |\angle \alpha,\beta| \le 90\d$
+
+\V Nechť\\
+$\alpha: ax+by+cz+d=0\quad ((a,b,c)\neq\ve0)$\\
+$\beta:  ex+fy+gz+h=0\quad ((e,f,q)\neq\ve0)$\\
+jsou dvě roviny. Nechť $\ve{n_\alpha}=(a,b,c)$ a $\ve{n_\beta}=(e,f,g)$. Pak platí:
+$$
+\begin{array}{|c|}\hline\\[-8px]
+	\displaystyle	|\angle  \alpha,\beta| = \arccos \f{|\ve{n_\alpha} \* \ve {n_\beta}|}{|\ve{n_\alpha}|\*|\ve{n_\beta}|}
+	\\[-8px]\\\hline
+
+\end{array}
+$$
+[Dk.: Plyne z V.9.5. a z toho, že normálové vektory rovin svírají stejný úhel jako roviny samé.]
+
+\Pr Určete $|\angle \alpha,\beta|$:\\
+$\alpha: 2x+3y+z-5 = 0$\\
+$\beta : x-y+z+12=0$\\
+
+$$|\angle \alpha,\beta| = \arccos\f{|2-3+1|}{\sqrt{14}\*\sqrt{3}} = \arccos 0 = \f\pi2\imp\alpha\perp\beta$$
+
+\Pr 192/34:
+
+	$A[0;0;0];A'[0;0;1],$\\
+	$B[0;1;0];B'[0;1;1],$\\
+	$C[1;1;0];C'[1;1;1],$\\
+	$D[1;0;0];D'[1;0;1],$\\
+
+	$\pri{ACB'} = \zs{[s,s+t,t];s,t\in\R}$\\
+	$\pri{ACB'}: x-y+z=0$\\
+	$\pri{ACB} = \zs{[s,s+t,0];s,t\in\R}$\\
+	$\pri{ACB}: 0x+0y+z=0$\\
+$$|\angle \pri{ACB'},\pri{ACB}| = \arccos\f{|1|}{\sqrt{3}\*\sqrt{1}} = \arccos \f{\sqrt3}3 $$
+
+\Pr 192/35:
+
+\begin{enumerate}[a)]
+	\item
+		$\alpha:x+y+0z-2=0$\\
+		$\beta:0x+9y+2z-16=0$\\
+		$$|\angle \alpha,\beta| = \arccos\f{|0+9+0|}{\sqrt{2}\*\sqrt{85}} = \arccos\f{9\sqrt{170}}{170}$$
+
+	\item
+		$\alpha:-3x+y-2z+16=0$\\
+		$\beta:0x+1y+4z+2=0$\\
+		$$|\angle \alpha,\beta| = \arccos\f{|0+1-8|}{\sqrt{14}\*\sqrt{17}} = \arccos\f{\sqrt{238}}{34}$$
+	\item
+		$\alpha:13x-2y+5z-56=0$\\
+		$\beta:3x+0y+2x-16=0$\\
+		$$|\angle \alpha,\beta| = \arccos\f{|39+10|}{\sqrt{198}\*\sqrt{13}} = \arccos\f{49\sqrt{286}}{858}$$
+	\item Analogicky.
+	\item $p([3;-1;3],(1;-1;-3))$\\
+	$\alpha:6x+3y+4z-32=0$\\
+		$$|\angle \alpha,p| = \arcsin\f{|6-3-12|}{\sqrt{11}\*\sqrt{61}} = \arcsin\f{9\sqrt{671}}{671}$$
+	\item
+		$p([2;0;5],(4;2;-6)\sim(2;1;-3))$\\
+	$\alpha:13x-2y+5z-56=0$\\
+		$$|\angle \alpha,p| = \arcsin\f{|26-2-5|}{\sqrt{14}\*\sqrt{198}} = \arcsin\f{19\sqrt{77}}{462}$$
+\end{enumerate}
+
+\Pr \pdf[0.3]{cv75.pdf}
+$q=\zs{[4+t;3+4t;1-3t]|t\in\R}$\\
+$p\in\pri{[0;0;0]q} =\alpha= \zs{[4s+t;3s+4t;s-3t]|s,t\in\R}$\\
+$\alpha: x-y-z=0$\\
+$p=\zs{[at,bt,ct]|t\in\R}$\\
+BŮNO $a=1$ (když $a=0$, tak $b=1\land c=-1$, což evidentně nesedí)\\
+$p\in\alpha \imp a-b-c = 0 \imp c=1-b$
+$\ve u=(1,b,1-b)$\\
+$\ve v=(1,4,-3)$\\
+$\cos 30\d = \f{|1+4b-3+3b|}{\sqrt{26}\sqrt{2x^2-2x+2}}$\\
+$\sqrt 3 \sqrt{26}\sqrt{2x^2-2x+2} = 2\*|7b-2|$\\
+$ 3 \*{26}\*(2b^2-2b+2) = 196b^2-112b+16$\\
+$0 = 40b^2+44b-140$\\
+$b = -\f52 \lor b=\f75$
+
+\underline{$p_1 = \zs{[2t;5t;3t]|t\in\R}$}\\
+\underline{$p_2 = \zs{[5t;7t;-2t]|t\in\R}$}
+
+\Pr \pdf[0.3]{cv76.pdf}
+$\ve n = (1;-1;3)$\\
+
+$A[0;4;-1]\in p$\\
+$A_0 = k\*\ve n + A \in \alpha$:\\
+$k-(4-k)+3(-1+3k)+2=0 \imp k = \f 5{11}$\\
+$A_0[0+1\*\f5{11};4-1\*\f5{11};-1+3\*\f5{11}] = [\f5{11};\f{39}{11};\f4{11}]$
+
+$B[-4;1;1]\in p$\\
+$B_0 = k\*\ve n + B \in \alpha$:\\
+$-4+k-(1-k)+3(1+3k)+2=0 \imp k = 0$\\
+$B_0 = B[-4;1;1]$\\
+
+$\ve{B_0A_0} = \(\f{49}{11};\f{28}{11};\f{-7}{11}\) = ({49};{28};{-7})$
+
+$$\underline{p_0 = \zs{[-4+49t;1+28t;1-7t]|t\in\R}}$$
+
+\Pr \pdf[0.3]{cv77.pdf}
+$p=\zs{[t;2t;-t]|t\in\R}$\\
+$\ve v  = (1,2,-1)$\\
+$\ve n = (2,1,1)$
+
+$$|\angle p,\alpha|= \arcsin\f{|2+2-1|}{\sqrt{6}\sqrt{6}} = \arcsin\f36 = \underline{\f\pi6}$$
+\Pr \pdf[0.3]{cv79.pdf}
+$x=3t+3s$\\
+$y=-t-s $\\
+$z=2t-5s$\\
+$\alpha:x+3y = 0$
+
+$\beta:2x+y-\sqrt{5}z+9=0$
+$$|\angle \alpha,\beta|= \arccos\f{|2+3|}{\sqrt{10}\sqrt{10}} = \arccos\f12 = \underline{\f\pi3}$$
+
+\Pr  177/14:
+$\ve a = (-2;1)$\\
+$\ve b = (0.5;1) ~ (1,2)$\\
+$\ve c = (-1;1)$\\
+$\ve d = (0;1)$\\
+
+\begin{enumerate}
+	\item $|\angle \ve{a}\ve{b}| = \arccos \f{|-2+2|}{\sqrt{5}\*\sqrt 5} = \arccos \f{0}{5} = \f\pi2$
+	\item $|\angle \ve{a}\ve{c}| = \arccos \f{|2+1|}{\sqrt{5}\*\sqrt 2} = \arccos \f{3\sqrt{10}}{10} $
+	\item $|\angle \ve{a}\ve{d}| = \arccos \f{|1|}{\sqrt{5}\*\sqrt 1} = \arccos \f{\sqrt 5}{5}$
+	\item $|\angle \ve{b}\ve{c}| = \arccos \f{|-1+2|}{\sqrt{5}\*\sqrt 2} = \arccos \f{\sqrt{10}}{10} $
+	\item $|\angle \ve{b}\ve{d}| = \arccos \f{|+2|}{\sqrt{5}\*\sqrt 1} = \arccos \f{2\sqrt5}{5}$
+	\item $|\angle \ve{c}\ve{d}| = \arccos \f{|1|}{\sqrt{2}\*\sqrt 1} = \arccos \f{\sqrt 2}{2} = \f\pi4$
+\end{enumerate}
+
+\Pr 177/15:
+$\ve u = (2,9)$\\
+$\ve v = (9,-2)$
+
+$p:9x-2y+c  = 0 $\\
+$A\in p : 9\*0-2(-5)+c = 0 \imp c = -10$
+$$p:9x-2y-10  = 0 $$
+
+\Pr 192/36:
+$\ve u = (1,2,-1)$
+\begin{enumerate}
+	\item  $ \ve a = (0;1;-1) $
+		$$|\angle \ve{u}\ve{a}| = \arcsin \f{|2+1|}{\sqrt{6}\*\sqrt 2} = \arcsin \f{\sqrt 3}{2} = \f\pi34$$
+	\item  $ \ve b = (1;3;-5) $
+		$$|\angle \ve{u}\ve{a}| = \arcsin \f{|1+6+5|}{\sqrt{6}\*\sqrt{35}} = \arcsin \f{2\sqrt{210}}{36}$$
+
+	\item  $ \ve c = (8;-1;3) $
+		$$|\angle \ve{u}\ve{a}| = \arcsin \f{|8-2-3|}{\sqrt{6}\*\sqrt{77}} = \arcsin \f{\sqrt 462}{154}$$
+
+\end{enumerate}
+
+\Pr 192/37:
+
+$x=5-r+2s$\\
+$y=-3+2r-5s$\\
+$z=1-3r+3s$
+
+$2x+y = 7 - s $\\
+$3x-z = 14 + 3 s$
+
+$3(2x+y)+(3x-z) = 9x+3y-z = 35$
+
+$\ve v = (9;3;-1)$
+
+
+\begin{enumerate}
+	\item  $ \ve a = (0;1;-1) $
+		$$|\angle \ve{u}\ve{a}| = \arcsin \f{|3+1|}{\sqrt{81}\*\sqrt 2} = \arcsin \f{\sqrt 3}{2} = \f\pi34$$
+	\item  $ \ve b = (1;3;-5) $
+		$$|\angle \ve{u}\ve{a}| = \arcsin \f{|9+9+5|}{\sqrt{81}\*\sqrt{35}} = \arcsin \f{2\sqrt{210}}{36}$$
+
+	\item  $ \ve c = (8;-1;3) $
+		$$|\angle \ve{u}\ve{a}| = \arcsin \f{|72-3-3|}{\sqrt{81}\*\sqrt{77}} = \arcsin \f{\sqrt 462}{154}$$
+
+\end{enumerate}
+
+
+
+
 \EndDoc

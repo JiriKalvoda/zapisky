@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.1)  20 APR 2020 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.1)  17 APR 2020 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**9.tex -DDEB
-(./9.tex
+**du2.tex -DDEB
+(./du2.tex
 LaTeX2e <2019-10-01> patch level 1
 (./h.tex (./h-include.tex
 \Okraje=\dimen102
@@ -224,8 +224,9 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \c@chapter=\count110
 \c@roman=\count111
 \c@countOfBegin=\count112
-)) (./9.aux)
-\openout1 = `9.aux'.
+))
+No file du2.aux.
+\openout1 = `du2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
@@ -240,7 +241,6 @@ LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 \AtBeginShipoutBox=\box32
-
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
@@ -306,14 +306,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 (/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-.
-
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 4.
+<cv75.pdf, id=1, 1056.94875pt x 128.48pt>
+File: cv75.pdf Graphic file (type pdf)
+<use cv75.pdf>
+Package pdftex.def Info: cv75.pdf  used on input line 5.
+(pdftex.def)             Requested size: 317.08707pt x 38.54428pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -323,185 +320,59 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<9-cv69.pdf, id=19, 1026.83624pt x 181.67876pt>
-File: 9-cv69.pdf Graphic file (type pdf)
-<use 9-cv69.pdf>
-Package pdftex.def Info: 9-cv69.pdf  used on input line 89.
-(pdftex.def)             Requested size: 308.05325pt x 54.50404pt.
-<9-cv70.pdf, id=20, 1194.4625pt x 99.37125pt>
-File: 9-cv70.pdf Graphic file (type pdf)
-<use 9-cv70.pdf>
-Package pdftex.def Info: 9-cv70.pdf  used on input line 102.
-(pdftex.def)             Requested size: 358.3415pt x 29.8116pt.
- [2 <./9-cv69.pdf> <./9-cv70.pdf>]
-<9-cv71.pdf, id=38, 1244.65pt x 192.72pt>
-File: 9-cv71.pdf Graphic file (type pdf)
-<use 9-cv71.pdf>
-Package pdftex.def Info: 9-cv71.pdf  used on input line 120.
-(pdftex.def)             Requested size: 373.39787pt x 57.81644pt.
-
-Overfull \hbox (3.51204pt too wide) in paragraph at lines 120--120
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-
- []
-
-<9-cv73.pdf, id=39, 1109.14375pt x 101.37875pt>
-File: 9-cv73.pdf Graphic file (type pdf)
-<use 9-cv73.pdf>
-Package pdftex.def Info: 9-cv73.pdf  used on input line 146.
-(pdftex.def)             Requested size: 332.7457pt x 30.41385pt.
-[3 <./9-cv71.pdf> <./9-cv73.pdf>]
-<9-B.pdf, id=55, 641.39626pt x 633.36626pt>
-File: 9-B.pdf Graphic file (type pdf)
-<use 9-B.pdf>
-Package pdftex.def Info: 9-B.pdf  used on input line 183.
-(pdftex.def)             Requested size: 128.27698pt x 126.671pt.
-
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 182--197
-[]$[]$ $[]$
- []
-
-[4 <./9-B.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 227--230
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--240
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 284--287
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--296
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 297--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 312--314
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--318
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--322
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--326
-
- []
-
-<cv75.pdf, id=71, 1056.94875pt x 128.48pt>
-File: cv75.pdf Graphic file (type pdf)
-<use cv75.pdf>
-Package pdftex.def Info: cv75.pdf  used on input line 329.
-(pdftex.def)             Requested size: 317.08707pt x 38.54428pt.
-[7 <./cv75.pdf>]
-<cv76.pdf, id=82, 1041.8925pt x 110.4125pt>
+)
+<cv76.pdf, id=2, 1041.8925pt x 110.4125pt>
 File: cv76.pdf Graphic file (type pdf)
 <use cv76.pdf>
-Package pdftex.def Info: cv76.pdf  used on input line 347.
+Package pdftex.def Info: cv76.pdf  used on input line 23.
 (pdftex.def)             Requested size: 312.57016pt x 33.124pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--359
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
 
  []
 
-<cv77.pdf, id=83, 807.015pt x 120.45pt>
+<cv77.pdf, id=3, 807.015pt x 120.45pt>
 File: cv77.pdf Graphic file (type pdf)
 <use cv77.pdf>
-Package pdftex.def Info: cv77.pdf  used on input line 364.
+Package pdftex.def Info: cv77.pdf  used on input line 40.
 (pdftex.def)             Requested size: 242.10637pt x 36.13527pt.
-<cv79.pdf, id=84, 925.4575pt x 91.34125pt>
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./cv75.pdf> <./cv76.pdf> <
+./cv77.pdf>]
+<cv79.pdf, id=36, 925.4575pt x 91.34125pt>
 File: cv79.pdf Graphic file (type pdf)
 <use cv79.pdf>
-Package pdftex.def Info: cv79.pdf  used on input line 370.
+Package pdftex.def Info: cv79.pdf  used on input line 46.
 (pdftex.def)             Requested size: 277.63939pt x 27.40257pt.
-[8 <./cv76.pdf> <./cv77.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 379--384
-
- []
-
-[9 <./cv79.pdf>] [10] (./9.aux) )
-(\end occurred when \ifnum on line 424 was incomplete) 
+ [2 <./cv79.pdf>] (./du2.aux) )
+(\end occurred when \ifnum on line 60 was incomplete) 
 Here is how much of TeX's memory you used:
- 5142 strings out of 492167
- 68354 string characters out of 6131559
- 175437 words of memory out of 5000000
- 9392 multiletter control sequences out of 15000+600000
- 11497 words of font info for 45 fonts, out of 8000000 for 9000
+ 5036 strings out of 492167
+ 66928 string characters out of 6131559
+ 161437 words of memory out of 5000000
+ 9308 multiletter control sequences out of 15000+600000
+ 5339 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,19n,51p,336b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
-fb>
-Output written on 9.pdf (10 pages, 550092 bytes).
+ 49i,14n,51p,338b,176s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
+pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on du2.pdf (2 pages, 209331 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 79 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
