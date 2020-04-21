@@ -1,0 +1,37 @@
+\input{h.tex}
+\BeginDoc{}
+\section{Analytické vyjádření kružnice a kruhu}
+\Def
+Kružnice: $k(S,r = \zs{X\in\rho;|SX|=r}$\\
+Kruh: $k(S,r = \zs{X\in\rho;|SX|\le r}$\\
+\V Útvary uvedené v levém sloupc mají analitická vyjádření v pravém sloupci:\\
+\begin{tabular}{|l|c|c|}\hline
+
+	kružnice se středem $S[m,n]$ a poloměrem $r>0$ & $|SX|^2 = r^2$ & $(x-m)^2 + (y-n)^2 = r^2$ \\\hline
+	vnitřní oblast kružnice $k(S,r)$& $|SX|^2 < r^2$ & $(x-m)^2 + (y-n)^2 < r^2$ \\\hline
+	kruh $K(S,r)$& $|SX|^2 \le r^2$ & $(x-m)^2 + (y-n)^2 \le r^2$ \\\hline
+	vnější oblast kružnice $k(S,r)$& $|SX|^2 > r^2$ & $(x-m)^2 + (y-n)^2 < r^2$ \\\hline
+\end{tabular}
+\pdf[0.3]{1-1.pdf}
+\Pr 205/2:
+Napište analitické vyjádření kruhu $k(S,r)$, je li dáno $S[2;-5]$ a $r=3$:
+$$ (x-2)^2+(y+5)^2 \ge 9$$
+Zakreslete kružnici, která má rovnici $(x+3)^2+(y+2)^2 = 8$.
+$$ k(S[-3;-2];r=2\sqrt 2) $$
+\Pr 205/2:
+\begin{itemize}
+	\item $(x+2)^2+(y+1)^2 = 4^2$
+	\item $(x-5)^2+(y+3)^2 \le 6^2$
+	\item $(x-2)^2+(y+4)^2 < 5$
+	\item $(x-5)^2+(y-1)^2 > (1+\sqrt 2)^2 = 1+2\sqrt 2 +2 = 3 + 2 \sqrt 2$
+\end{itemize}
+\Pr 206/3:
+\begin{itemize}
+	\item Kružnice a její vnější oblast: Střed $[4;-2]$, poloměr $1$.
+	\item Kružnice: Střed $[-2;-5]$, poloměr $5$.
+	\item Vnější oblast: Střed $[-3;\sqrt 3]$, poloměr $\sqrt{13}$.
+	\item Vnitřní oblast: Střed $[-3;-2]$, poloměr $4$.
+	\item Kruh: Střed $[-1;\sqrt 2]$, poloměr $2\sqrt 2$.
+	\item Kružnice: Střed $[2;-\sqrt{12}]$, poloměr $2 \sqrt 5$.
+\end{itemize}
+\EndDoc
