@@ -1,0 +1,68 @@
+\input{h.tex}
+\BeginDoc{}
+ \Pr Určete rovnice vešech kružnic, které prochází bodem $A[1;2]$, dotýká se osy $y$ a mají střed na přímce $p$, která má rovnici $y+x = 4$:
+
+ Hledám $(x-m)^2 + (y-n)^2 = r^2$\\
+$k$ se dotýká $y$ $\imp$ $m^2 = r^2$\\
+$S \in P \imp m + n  = 4$\\
+$A \in k \imp (1-m)^2 + (2-n)^2 = r^2$
+
+$m+n = 4$\\
+$(11-m)^2 + (2-n)^2 = m^2 $\\
+
+Řešení:
+$(x-1)^2 + (y-3)^2 = 1$
+a
+$(x-5)^2 + (y+1)^2 = 25$
+
+\Pr 210/7:
+Hledám $(x-m)^2 + (y-n)^2 = r^2$:
+
+Dotýká se $x$ $\imp$ $r^2 = m^2$.\\
+Dotýká se $x$ $\imp$ $r^2 = n^2$.\\
+$K \in k \imp (9-n)^2 + (2-m)^2 = r^2 $ 
+
+Když $m=n=\pm r$
+$K \in k \imp (9-n)^2 + (2-n)^2 = n^2 \imp x^2-22x + 85 =0$ 
+
+$m=n=r=5 \lor m=n=r = 17$
+
+$$ (x+5)^2 + (y+5) = 5^2 $$
+$$ (x+17)^2 + (y+17) = 5^2 $$
+
+Když $m=-n=\pm r$
+$K \in k \imp (9+n)^2 + (2-n)^2 = n^2 \imp x^2-15x + 85 =0 \imp D=255-4\*85 = -115 < 0$ 
+
+\Pr 210/8:
+Hledám $(x-m)^2 + (y-n)^2 = r^2$:
+
+$m+3n-6 = 0 \imp m = 6-3n$\\
+$r=5$\\
+$M[6;9] \in k \imp (6-m)^2 + (9-n)^2 = 25 \imp (6-6+3n)^2 + (9-n)^2 = 25 \imp 9n^2 -18n+56 = 0 \imp D = 18^2 - 4 \* 9 \* 56 = -1692 < 0$.
+
+Neexistuje řešení.
+
+\Pr 210/9/a:
+
+Osa přímek, na které musí náležet střed je buď $x=0$ nebo $y=0$:
+
+Jelikož $p\perp q$, průsečík přímek, body doteku a střed tvoří čtverec o straně $r$, tedy $|[0;0]S| = 2\sqrt 2$:
+
+Řešením tedy jsou:
+$$ (x-2\sqrt 2)^2 + y^2 = 2 $$
+$$ x^2 + (y-2\sqrt 2)^2 = 2 $$
+$$ (x+2\sqrt 2)^2 + y^2 = 2 $$
+$$ x^2 + (y+2\sqrt 2)^2 = 2 $$
+
+\Pr 210/9/b:
+
+$(m-4)^2 = 4  \imp m = 2 \lor m = 6$\\
+$S \in r \parallel p$
+$\rho(r,q) = 2 \imp r:x-y+2\pm 2\sqrt 2=0  \imp n = 2\pm 2\sqrt 2  +m $
+
+$$ (x-2)^2 + (y-4-2 \sqrt 2)^2 = 2 $$
+$$ (x-2)^2 + (y-4+2 \sqrt 2)^2 = 2 $$
+$$ (x-2)^2 + (y-8-2 \sqrt 2)^2 = 2 $$
+$$ (x-2)^2 + (y-8+2 \sqrt 2)^2 = 2 $$
+
+\EndDoc

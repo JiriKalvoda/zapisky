@@ -1,0 +1,96 @@
+\input{h.tex}
+\BeginDoc{}
+\section{Kulová plocha, koule}
+
+\Def
+Nechť je dán bod $S$ a kladné reálné číslo $r$.
+\emph{Kulovou plochu se středem $S$ a poloměrem $r$} nazýváme množinu všech bodů $X$ prostoru, pro které platí $|SX| = r$
+\emph{Koulí se středem $S$ a poloměrem $r$} se nazývá množina všech bodů $X$ prostoru, pro která platí, že $|SX| \le r^2$.
+
+\Poz Při analitickém vyjadřování těchto útvarů uplatníme ekvivalenci charakteristických vlastností:
+$$ |SX| = r \Ekv  |SX|^2 = r^2 $$
+$$ |SX|\le r \Ekv  |SX|^2\le r^2 $$
+\V Má-li bod $S$ souřadnice $[m,n,q]$ a bod $X[x,y,z]$, pak kulová plocha $k(S,r)$
+je analyticka vyjádřena rovnicí:
+$$ (x-m)^2 + (y-n)^2 + (z-q)^2 = r^2 $$
+a koule $K(S,r)$ nerovnicí:
+$$ (x-m)^2 + (y-n)^2 + (z-q)^2 \le r^2 $$
+
+\Poz
+Úloha o vzájemné poloze přímky a kulové plochy povede obdobným způsobem ke kvadratické rovnici. Může tedy mít následující typy výsledků:
+\begin{itemize}
+	\item prázdná množina
+	\item jednobodová množina
+	\item dvoubodová množina
+\end{itemize}
+
+\Pr
+Určete hodnotu parametru $k$, pro kterou má rovina $\rho : 2x-3y+z+k = 0$ neprázdný průnik s kulovou plochou $k$ středu $S[2;-3;1]$ a poloměru 3.
+
+$\rho \cap k \neq \emptyset \Ekv \rho(S,\rho) \le 3$
+
+Nerovnici vyjádřím analiticky:
+\begin{eqnarray*}
+	\f{|2\*2-3(-3)+1\*1+k|}{\sqrt{4+9+1}} &\le& 3\\
+	|14+k| &\le& 3\* 14 
+\end{eqnarray*}
+
+Hledané hodnoty parametru $k$ patří do intervalu $\< - 14 - 3 \sqrt{14};-14+3\sqrt{14} \>$.
+
+\Poz
+Jak víme ze stereometrie, tečnou rovinu kulové plochy můžeme charakterizovat kteroukoliv z těchto tří vlastností:
+\begin{itemize}
+	\item Má s kulovou plochou jednobodový průnik
+	\item Má od středu vzdálenost rovnou poloměru
+	\item je kolmá k poloměru kulové plochy obsahující bod dotyku
+\end{itemize}
+
+Bod $X$ je libovolným bodem roviny $\tau, X \neq T$. Z rovnosti $\ve{ST} \* \ve {SX} = r^2$ můžeme odvodit rovnici tečné kruhové roviny $\tau$ kulové plochy $K$ zcela obdobně jako rovnici tečny kružnice.
+
+\V
+Rovnice $(x_0-m)(x-m) + (y_0-n)(t-n) + (z_0-q)(z-q) = r^2$
+je analytickým vyjádřením tečné roviny kulové plochy $K:(x-m)^2 + (y-n)^2 + (z-q)^2 = r^2$ v jejím bodě $T[x_0,y_0,z_0]$.
+
+\Poz Úpravy obecné rovnice kulové plochy na  středový tvar se provádí stejnými kroky jako úpravy rovnice kružnice.
+Platí také, že ne každá rovnice typu $x^2 + y^2 + z^2 + ax + by + cz + d = 0$ vyjadřuje kulovou plochu.
+
+\Pr 222/21:
+$\ve{SA} = (0,-2,3) \imp |\ve{SA}| = \sqrt {13}$
+$\ve{SB} = (0,-5,3) \imp |\ve{SA}| = \sqrt {34}$
+$\ve{SC} = (5,0,4) \imp |\ve{SA}| = \sqrt {41}$
+
+$r=\sqrt{41}$
+
+$$ (x-1)^2 + (y-2)^2 + (z+3)^2 \le 41 $$
+
+\Pr 22/24:
+$ (1-t-1)^2 + (2+t)^2 + (3-2t-1)^2 = r^2 $\\
+$ (1-t)^2 + (2+t)^2 + (3-2t-6)^2 = r^2 $
+
+$ (1-t-1)^2 + (2+t)^2 + (3-2t-1)^2 = 
+ (1-t)^2 + (2+t)^2 + (3-2t-6)^2  $\\
+ $6t^2-4t+8 = 6t^2 + 14t + 14$\\
+ $18t=6$\\
+ $t=-\f 1 3 $
+
+$S\[\f 2 3; \f 7 5 ; \f 7 5 \]$\\
+$ r^2 = 10$
+
+$$ \(x-\f 2 3\)^2 + \(y-\f 75\)^2 + \(z-\f 7 5\)^2 = 10$$
+
+\Pr 222/25:
+
+$\ve {AB} = (1;-2;2)$
+
+$\pri{AB} = \zs{[4+t;5-2t;6+2t]|t\in\R}$
+
+$$ (4+t-2)^2 + (5-2t-3)^2 + (6+2t-5)^2 = 36$$
+$$ 9t^2 - 27 = 0$$
+$t=\pm \sqrt 3$
+
+\begin{enumerate}
+	\item $\emptyset$
+	\item $\zs{[4+\sqrt3;5-2\sqrt 3;6+2\sqrt 3]}$
+	\item $\zs{[4-\sqrt3;5+2\sqrt 3;6-2\sqrt 3];[4+\sqrt3;5-2\sqrt 3;6+2\sqrt 3]}$
+\end{enumerate}
+\EndDoc

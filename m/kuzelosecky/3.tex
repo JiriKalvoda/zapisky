@@ -1,0 +1,88 @@
+\input{h.tex}
+\BeginDoc{}
+\section{Analytické vyjádření kružnice a kruhu}
+\Def
+\section{Vzájemná poloha kružnic, kruhů a lineárních útvarů}
+\Poz Úloha požadující určení průniku dvou útvarů vede k řešení soustavy rovnic či nerovnic, ve kterých  jsou zahrnuta anaitická vyjádření těchto útvarů.
+
+\Pr
+
+Je dáná kružnice $k(S[2;3,r=5)$ a body $A[-3;-4]$ a $B[1;6]$.
+Určete průsečík $k$ s:
+\begin{enumerate}
+	\item s úsečkou $AB$
+	\item s polopřímkou $AB$
+	\item s přímkou $AB$
+\end{enumerate}
+
+Kružnici vyjádřím: $(x-2)^2 + (y-3)^2 = 25$.\\
+Přímku vyjádřím parametricky: $x=-3+4t; y=-4+10t | t\in\R$.
+
+Dosadím: $(-5+4t)^2 + (-7+10t)^2 = 25$\\
+$116t^2-180t+49=0$\\
+$t_{1,2}=\f{180\pm\sqrt{9664}}{232} $
+
+\begin{enumerate}
+	\item Úsečka: $t\in\<0;1\>$. Zde leží pouze $t_2$:
+		tedy $\zs{[-3+4t_2;-4+10t_2]}$
+	\item Polopříka: $t>0$: Zde leží obě dvě hodnoty:
+		tedy $\zs{[-3+4t_1;-4+10t_1],[-3+4t_2;-4+10t_2]}$
+	\item Přímka:\\
+		tedy $\zs{[-3+4t_1;-4+10t_1],[-3+4t_2;-4+10t_2]}$
+\end{enumerate}
+\pdf[0.5]{3-1.pdf}
+\Pr 214/10:\\
+\begin{enumerate}
+	\item $(x-2)^2 + (y+1)^2 = 100$\\
+		$x=0: y^2-6y = 0 \imp y^2 -95=0 \imp y=-1\pm 4 \sqrt 6$\\
+		$A_1[0;-1+4\sqrt 6]$\\
+		$A_2[0;-1-4\sqrt 6]$\\
+		$y=0:  ix^2-2x+4+1= 100 \imp y^2-4x-95=0 \imp y=2\pm 3 \sqrt{11}$\\
+		$B_1[2+3\sqrt{11};0]$\\
+		$B_2[2-3\sqrt{11};0]$
+	\item $(x-4)^2+(y-3)^2 = 25$\\
+		$x=0: y^2-6y = 0 \imp y=0 \lor y=6$\\
+		$A_1[0;0]$\\
+		$A_2[0;6]$\\
+		$y=0: x^2 - 8x = 0 \imp y=0 \lor y=8$\\
+		$B_1[0;0]$\\
+		$B_2[8;0]$
+	\item $(x+3)^2+(y+4)^2 = 16$\\
+		$x=0:y^2+8y+16+9=16\imp y = -4 \pm \sqrt 7$\\
+		$A_1 [0;-4+\sqrt 7]$\\
+		$A_2 [0;-4-\sqrt 7]$\\
+		$y=0: (x+3)^2=0 \imp x=3$
+		$B [3;0]$.
+\end{enumerate}
+
+\Pr 214/13:\\
+$K: x^2 + (y-3)^2 \le= 25$\\
+
+\begin{enumerate}
+\item
+$\pri{HL} = \zs{[-4+4t;8t]|t\in\R}$
+$(-4+4t)^2 + (8t-3)^2 \le 25 \imp 80t^2 - 80 t \le 0 \imp t\in\<0;1\>$
+$$\zs{[-4+4t;8t]|t\in\<0;1\>}$$
+\item
+$\pri{HM} = \zs{[-4+12t;4t]|t\in\R}$
+$(-4+12t)^2 + (4t-3)^2 \le 25 \imp 160 t^2 - 120 t \le 0 \imp t\in\<0;\f 34\>$
+$$\zs{[-4+12t;4t]|t\in\<0;\f 3 4\>i}$$
+\item Analogicky
+\end{enumerate}
+
+\Pr 214/14:\\
+$y= 2x + c$\\
+$ (x-3)^2 + (2x + c +1)^2 = 4$\\
+$ x^2-6x+9 + c^2 + 4cx + 2c + 4x^2 + 4x + 1 = 4$\\
+$ x^2-6x+9 + c^2 + 4cx + 2c + 4x^2 + 4x + 1 = 4$\\
+$ 5 x^2 +(4c-2)x + (2c+c^2+6) =0$
+
+$D = (4c-2)^2-4\*5 ( 2c+c^2 + 6) = -4 c^2 - 56 c - 116 = (c-(-7+2\sqrt 5))(c-(-7-2 \sqrt 5))$
+
+\begin{itemize}
+	\item prázdný: $c \in (-\infty;-7-2\sqrt 5) \cup (-7+2\sqrt 5;\infty)$
+	\item jednobodový: $c \in \zs{-7-2\sqrt 5 ; -7+2\sqrt 5}$
+	\item výcebodový: $c \in (-7-2\sqrt 5 ; -7+2\sqrt 5)$
+\end{itemize}
+
+\EndDoc
