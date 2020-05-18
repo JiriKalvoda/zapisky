@@ -1,0 +1,3 @@
+/home/jiri/skola/inf/opencv/1/CMakeFiles/rebuild_cache.dir
+/home/jiri/skola/inf/opencv/1/CMakeFiles/edit_cache.dir
+/home/jiri/skola/inf/opencv/1/CMakeFiles/main.dir
