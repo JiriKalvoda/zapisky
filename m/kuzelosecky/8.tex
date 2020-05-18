@@ -1,0 +1,111 @@
+\input{h.tex}
+\BeginDoc{}
+\section{Parabola}
+\Poz Paraboly známe jako grafy kvadratických funkcí $y=ax^2 + bx + c$, kde $a\neq 0$.
+Graf každé kvadratick funkce lze získat vhodným posunutím grfu $y=ax^2$.
+K těmto poznatkům dojdeme opět znovu uplatněním obecného analitického vyjádření parabol.
+
+Geometrická definice paraboly pomocí vzdáleností jejíc bodů od dané přímky a daného bodu.
+
+\Def
+Nechť je dána přímka $d$ a bod $F\not \in d$.
+Množinu všech bodů $X$ rovniny $dF$, pro která platí $\rho (X,d) = |FX|$, nazýváme \emph{parabola s ohnismek $F$ a řídící přímkou $d$.}
+Označme ji $P(F,d)$.
+
+\Poz
+\pdf[0.7]{8-1.pdf}
+$F$ -- ohnisko\\
+$d$ -- řídící přímka\\
+$o$ -- osa\\
+$V$ -- vrchol
+
+\Poz Vliv $\rho(F,d)$ na tvar paraboly budeme zkoumat pomocí sítě na obrázku, kde jsou ke ružnici se středem $F$ přípsaná čísla udávající vzdálenost jejich bodů od $F$.
+
+Návod k práci s obrázkem:
+\begin{enumerate}
+	\item Položte průsvitku a vyznačte $F$ a jednu z přímek jako $d$.
+		Na prímky v polorovniě $\ve{dF}$ připište vzdálenosti od $d$.
+	\item Vyznačte body, které leží na kružnici a přímce se steným číslem.
+	\item Zhustěte síť a opakujte
+	\item spojete body hladkým obloukem.
+\end{enumerate}
+\pdf[0.5]{8-2.pdf}
+
+\Poz Odvozujeme analitické vyjádření parabol $P(F,d)$ pro $V[0;0]$ a osu $y$:
+Pomocí vzorců pro vzdálenosti vyjádřime charakteristicku vlastnost bodů parabol.
+
+\begin{eqnarray*}
+	\rho(X,d) &=& |FX|\\
+	|y\pm 0.5 q| &=& \sqrt{x^2 + (y-0.5q)^2}\\
+	y^2\pm qy + 0.25 0.5 q^2 &=& x^2 + (y-0.5q)^2\\
+	y^2 \pm qy + 0.25 q^2 &=& x^2 + y^2 \mp qy + 0.25 q^2\\
+	\pm 2qy &=& x^2
+\end{eqnarray*}
+
+Snadno ověríme, že každý bod $X$, který svými souřadnicemi splňuje poslední rovnici, má charakteristickou vlastnost bodu paraboly.
+
+\V 
+Každá parabola $P(F,d)$, která má vrchol $V[0;0]$ a svou osu v ose $y$, má analitické vyjádření $2py = x^2$, přitom $F[0;2.5p], d:y=-0.5p$.
+
+[Dokázáno výše]
+
+\V Každá parabola, která má rovnici $2py = x2$, kde $a\neq 0$ je grafem kvadratické funkce $y=sx^2$.
+Zároveň graf každé kvadratické funkce $y=ax^2$ je parabolou o rovnici $2py=x^2$, přitom $p = \f 1{2a},a=\f1{2p}$.
+
+[Dk: plyne z toho, že rovnice $y=ax^2, 2py = x^2$ jsou ekvivalentní při uvedeném vzttau mezi $a,p$.].
+
+\Pr Určete rovnici všech parabl $P$, které mají osu rovnoběžnou s osou $x$ a procházi body $A[-4;-2];B[4;2];C[2;4]$.
+
+Z podmínky rovnoběžnosti plyne, že se jedná o kvadratickou funkci $x = f(y)$, tedy $x = a y^2 + by + c$.
+
+Dosadíme:
+\begin{eqnarray}
+	-4 &=& 4a -2 b +c \\
+	 4 &=& 4a +2 b +c\\
+	 2 &=& 16a + 4b +c\\
+\end{eqnarray}
+
+$ 8 =  4b \imp 2 = b$\\
+$ 4a = - c$\\
+$ 2 =  - 4c + 8 + c \imp 3c = 6 \imp c = 3  \imp a  = - \f 3 4$
+
+$$ \f 3 4 y^2 + 2 y + 3 = x$$
+
+\Pr 239/6:
+\begin{enumerate}[a)]
+	\item $V[3,0]$, $q = 2 \imp 4(y)= (x-3)^2$y
+	\item $V[-3,-6]$, $q = -8 \imp -16(y+6)= (x+3)^2$y
+	\item $V[4,1]$, $q = -6 \imp -12(y-1)= (x-4)^2$y
+	\item $V[-2,\f 1 2]$, $q = -3 \imp -6(y-\f 12)= (x+2)^2$
+\end{enumerate}
+
+\Pr 239/8:
+$y = \pm x^2 \imp a = 1\imp q = \f 1 2 \imp p: y = \mp \f 1 4 \land F[0,\pm \f 1 4]$
+
+\begin{enumerate}[a)]
+	\item $p:y = -\f 1 4$ $F[3;\f 1 4]$
+	\item $p:y = 5-\f 1 4$ $F[0;5\f 1 4]$
+	\item $p:y = 2+\f 1 4$ $F[0;2-\f 1 4]$
+	\item $y-3 = (x-2)^2$
+		$p:y = -\f 1 4$ $F[0;\f 1 4]$
+	\item $ y - 13  =  - (x+2)^2 $
+		$p:y = 13+\f 1 4$ $F[-2;13-\f 1 4]$
+	\item $y + 4 = -4(x-1)$
+		$p:y = -4+\f 1 4$ $F[1;-4-\f 1 4]$
+	%\item $p:y = -\f 1 4$ $F[0;\f 1 4]$
+\end{enumerate}
+
+\Pr 240/10:
+\Pr $y  =  a x^2 + b x + c $
+
+\begin{eqnarray}
+	-2 = 16 a - 4 b + c\\
+	2 = 16 a + 4 b + c \\
+	4 = 4 a + 2 b  + c
+\end{eqnarray}
+
+$4 = 8 b \imp b = \f 12$\\
+$-16a = c$\\
+$4 = 4a +1 -16 a \imp 12 a = -3 \imp a = -\f 14 \imp c=4$
+$$ y = - \f 14 x^2 + \f 12 x + 4$$
+\EndDoc

@@ -1,0 +1,172 @@
+\input{h.tex}
+\BeginDoc{}
+\section{Vzájemná poloha parabol a přímek, tečna paraboly}
+
+\Pr
+Mějme parabolu s rovnicí $2py  = x^2$, její bod $T[x_0,y_0]$ a hledejme rovnice všech přímkek, které prochází $T$ a mají s paraboloy právě jeden společný bod.
+
+Libovolná přímka procházejicí $T$ má rovnici $x = x_0$ nebo $y-y_0 = k (x-x_0)$, kde $k\in\R$.
+
+Pro $x = x_0$ má přímka právě jeden společný bod, protože $f(x)$ je funkcí.
+
+Pro $y-y_0 = k(x-x_0)$ řešíme soustavu:
+\begin{eqnarray}
+	2py &=& x^2\\
+	2p(y-y_0) &=& 2pk(x-x_0)\\
+\end{eqnarray}
+
+Po dosazení $2py$ získám kvadratickou rovnici:
+$$ x^2 - 2pkx - 2p (y_0 - kx_0)  = 0 $$
+Disriminant rovice lze upravit na mocninu dvojčlenu:
+$$ D = (2pk)^2 - 4 (-2p)(y_0-kx_0) = 4p^2k^2 - 8 pkx_0 + 4 x_0^2 = (2pk - 2x_0)^2 $$
+
+Rovnice má jediný kořen když $D = 0 \imp pk = x_0$, tedy:
+$$y-y_0 = \f{x_0}{p} (x-x_0)$$
+Po dosazenía roznásobení:
+$$ py + py_0 = xx_0 $$
+
+Existují ted dvě přímky s požadovanými vlastnostmi.
+
+\Poz Chceme-li definovat tečnu paraboly, musíme použít pojem vnitřní oblast paraboly.
+Charakteristické vlastnosti jejich bodů snadno vyšetříme:
+$$ \rho(X,d) = \rho(Z,d) + |ZX| = |FZ| + |ZX| > |FX| $$
+
+Přímka $t$ je tečnou paraboly, nebosahuje-li žádný bod vnitřní oblasi paraboly.
+
+\Def
+\emph{Vnitřní oblastí paraboly} $P(F,d)$ nazýváme množinu všech bodů $X$ rovniny, pro keré platí $\rho(X,d) > |FX|$.
+
+\Def
+\emph{Tečnou paraboly} nazýváme přímku, která obsahuje jeden bod paraboly a neobsahuje žádný vnitřní bod paraoly.
+
+\V Má-li parabola rovnici $2py = x^2$, pak její vnitřní oblast je analyticky vyjádřena nerovnicí typu $2py > x^2$.
+
+[Postačí v úvahách o parabole zaměnit rovnost za nerovnost.]
+\V
+\begin{enumerate}
+	\item Má-li parabola rovnici $2py = x^2$ a je-li $T[x_0,y_0]$ jejím bodem, pak tečna paraboly v $T$ má rovnici $p(y+y_0) = xx_0$.
+	\item Každá rovnice $p(y+y_0) = xx_0$, kde $p\neq 0$, vyjadřuje tečnu paraboly $2py = x^2$ v bodě $T[x_0,y_0]$ paraboly.
+\end{enumerate}
+
+[První tvrzení je důsledkem příkladu.\\
+U druhého tvrzení potvrdíme tří vlastnosti přímky:
+\begin{enumerate}
+	\item Rovnice $x_0x - py - py_0 = 0$ vyjadřuje přímku, protože $(x_0,-p) \neq \ve 0$.
+	\item Obsauje jedinný bod $T$ paraboly:\\
+		Soustava rovnic $p(y+y_0) = xx_0; 2py =x^2$ vede po dosažení k rovnici $(x-x_0)^2 = 0$ s jedinným kořenem $x_0$, proto přímka obsahuje jedinný bod paraboly.
+	\item Neobsahuje žádný bod vnitřní oblasti paraboly:\\
+		Předpokládejme, že nějaký bod $X[x,y]$ přímky je bodem vnitřní oblasti paraboly, pak platí:
+		$2py_0 = x_0^2, p(y+y_0) = xx_0 ; 2py> x^2$\\
+		$2xx_0 = 2py + 2py_0 > x^2 + x_0^2, 0 > (x-x_0)^2$.
+
+		To je spor, neplatí tedy předpoklad a přímka má požadovanou vlastnost.
+\end{enumerate}
+]
+\Pr 245/13:\\
+$V[2,1]$, $q = 4 \imp P: y = \f 1 8 (x-2)^2 +1$
+\begin{enumerate}
+	\item
+		$\ve{AC} = (9,6) \imp AC = \zs{[-4+9t;-3+6t] | t \in \<0,1\>} $\\
+		$-3+6t = \f 18 (-4+9t-2)^2 + 1$\\
+		$-\f{81}{8} t^2 + \f{39}2 t - \f{17}2$\\
+		$t = \f 2 3 \lor t = \f{34}{27} > 1$
+		$$X = [-4+6;-3+4] $$
+	\item
+		$\ve{BA} = (-4;-8)\sim(-1;-2) \imp \ve{BA} = \zs{[-t;5-2t] | t \in \R^+_0}$ \\
+		$5-2t = \f 1 8 (-t-2)^2  + 1$\\
+		$-\f{t^2}8 - \f 52 t + \f 72 =0$\\
+		$t = -10 \pm 8\sqrt 2 \imp t = -10 + 8\sqrt 2$
+		$$ Y = [10-8\sqrt 2 ; 25-16\sqrt 5]$$
+	\item $\ve{BC} = (5,-2) \imp \pri{BC} = \zs{[5t;5-2t]|t\in \R}$\\
+		$5-2t = \f 1 8 (5t-2)^2 + 1$
+		$0 = \f{25}8 t^2 - \f t 2 - \f 7 2 = 0$
+		$ t = \f 2 {25} \pm \f{8\sqrt 11}{25}$
+		$$Z_1 = \[\f 25 - \f{8\sqrt{11}}5 ; \f{121}{25}+\f{16\sqrt{11}}{25}\]$$
+		$$Z_1 = \[\f 25 + \f{8\sqrt{11}}5 ; \f{121}{25}-\f{16\sqrt{11}}{25}\]$$
+		
+\end{enumerate}
+\Pr 245/14:\\
+Analogicky.
+
+\Pr 244/4:\\
+Je dána parabola, která má rovnici $0.8(y+2) = (x-3)^2$ a přímka $q:x+5y - 3 = 0$.
+Určete rovnici všech tečen paraboly, které jsou kolmé k $q$.
+
+Rovnice tečny v bodě $T[x_0,y_0]$:
+$$t: 0.4(y+2) + 0.4(y_0 + 2)  = (x-3)(x_0-3)$$
+Po úpravé:
+$$ (x_0-3) x - 0.4 y + \dots =0 $$
+Tedy vektor kolmý k tečně je $\ve n = (x_0-3;-0.4)$.
+Vektor kolmý k $q$ je $\ve m = (1,5)$, tedy $0 = \ve m \* \ve n = (x_0-3) - 2 \imp x_0 = 5$.
+Z rovnice paraboly pak $y_0 = 3$.
+Tedy rovnice tečny po dosazení je
+$$ t: 2x - 0.4 y - 3\* 5 - 0.8 - 0.4 (3+2) = 0$$
+$$ t: 2x - 0.4 y - 22 = 0$$
+
+\Pr 244/5:\\
+Je dána parabola $P:-4(x+2) = (y-5)^2$ a bod $M[0;4]$.
+Určete rovnice všech tečen paraboly procházejících $M$.
+
+Rovnice tečny je:
+$$t:-2(x+2) - 2 (x_0+5) = (y-5)(y_0-5)$$
+Jelikož $M \not\in P$, budeme hledat všechny body $T[x_0,y_0] \in P$, ve kterých má parabola tečnu $t$ procházející $M$.
+$$
+\begin{array}{r@{\ }r@{\ =\ }l}
+	T\in P :& -4 (x_0+2) & (y_0-5)^2 \\
+	& -4 (x_0+2) & (y-5)^2 \\
+	M\in t :& -2 ( 0 + 2) - 2 (x_0 + 2 ) & (4-5)(y_0 - 5)\\
+	& - 2 (x_0 + 2 ) & -(y_0 - 5) + 4\\
+\end{array}
+$$
+Odečtením dvojnásobku druhé rovnice získám:
+$$ 0 = (y_0 - 5 )^ 2 + 2(y_0-5) $$
+Rovnice má dva kořeny $y_0 = 1$ a $y_0'=7$.
+K nim dopočítáme body dotyku a tečny:
+$ T[-6;1]; T'[-3;7]$
+$$ t: x-2y+8=0$$
+$$ t': x+y-4 = 0$$
+
+\Pr 245/16:
+\begin{enumerate}[a)]
+	\item $$y = \f{x^2 + 2x +9}4$$ 
+		$\ve{AB} = (-5-4)$ tedy rovnoběžka v $\pri{AB}$ má rovnici $y = \f 4 5 x + c$.
+		$$P': y = \f{2x + 2}4 = \f 12 x + \f 12$$
+		Derivace (směrnice) paraboly musí být v bodě dotyku stejná jako směrnice tečny, tedy $$\f 4 5  = \f 1 2 x + \f 1 2 \imp x = \f 3 5 $$
+		Dosadím: $y = \f{\f{9 + 30 +225}{25}}4 = \f{284}{100}$.
+		Z rovnice tečmy: $2.84 = \f 4 5 0.6 + c \imp c = 10.8$
+		$$t: 4x - 5y = -10.8$$
+
+
+	\item[b,c,d)] Analogicky
+\end{enumerate}
+\Pr 245/16
+\begin{enumerate}[a)]
+	\item Zavedy si posunuté souřadnice $y'+2 = y; x' - 1 =x$.
+		Dále v těchto souřadnicích:
+		$$P: 2\*2y=x^2$$
+		$$M[1;-3]$$
+		Hledám tečnu procházející $T[x_0,y_0]$:
+		$$ 
+		\begin{array}{r@{\ }r@{\ =\ }l}
+			T\in P: & 4 y_0 & x_0^2\\
+			M\in t: & 2(-3)+2y_0 & x_0\\
+			        & 2y_0 & x_0+6
+		\end{array}
+		$$
+		Odečteme dvojnásobek:
+		$$ 0 = x_0^2 - 2x_0 - 12 \imp x_0 = 1+\sqrt 13 \land x_0' = 1 - \sqrt 13$$
+		Dosazením:
+		$T[1+\sqrt{13};\f 72 +\f{\sqrt{13}2}]$, 
+		$T'[1-\sqrt{13};\f 72 -\f{\sqrt{13}2}]$, 
+		$$t : 2 y + 2 \(\f 72 + \f{\sqrt 13}2\) = x (1+\sqrt{13})  $$
+		$$t': 2 y + 2 \(\f 72 - \f{\sqrt 13}2\) = x (1-\sqrt{13})  $$
+		V původních souřadnicích:
+		$$t : 2 y + 3 + \sqrt {13} = (x+1) (1+\sqrt{13})  $$
+		$$t': 2 y + 3 - \sqrt {13} = (x+1) (1-\sqrt{13})  $$
+
+		$$t : 2 y + 2  - x (1+\sqrt{13})  = 0$$
+		$$t': 2 y + 2  - x (1-\sqrt{13})  = 0$$
+
+\end{enumerate}
+
+\EndDoc

@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.1)  14 APR 2020 10:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.1)  27 APR 2020 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex -DDEB -O2
+**main.tex -DDEB
 (./main.tex
 LaTeX2e <2019-10-01> patch level 1
 (./h.tex (./h-include.tex
@@ -730,16 +730,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--240
 
  []
 
-[28]) [29] (./main.aux) )
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 284--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--296
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 297--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
+
+ []
+
+<cv75.pdf, id=211, 1056.94875pt x 128.48pt>
+File: cv75.pdf Graphic file (type pdf)
+<use cv75.pdf>
+Package pdftex.def Info: cv75.pdf  used on input line 329.
+(pdftex.def)             Requested size: 317.08707pt x 38.54428pt.
+[30 <./cv75.pdf>]
+<cv76.pdf, id=221, 1041.8925pt x 110.4125pt>
+File: cv76.pdf Graphic file (type pdf)
+<use cv76.pdf>
+Package pdftex.def Info: cv76.pdf  used on input line 347.
+(pdftex.def)             Requested size: 312.57016pt x 33.124pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--359
+
+ []
+
+<cv77.pdf, id=222, 807.015pt x 120.45pt>
+File: cv77.pdf Graphic file (type pdf)
+<use cv77.pdf>
+Package pdftex.def Info: cv77.pdf  used on input line 364.
+(pdftex.def)             Requested size: 242.10637pt x 36.13527pt.
+<cv79.pdf, id=223, 925.4575pt x 91.34125pt>
+File: cv79.pdf Graphic file (type pdf)
+<use cv79.pdf>
+Package pdftex.def Info: cv79.pdf  used on input line 370.
+(pdftex.def)             Requested size: 277.63939pt x 27.40257pt.
+[31 <./cv76.pdf> <./cv77.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 379--384
+
+ []
+
+[32 <./cv79.pdf>]) [33] (./main.aux) )
 (\end occurred when \ifnum on line 12 was incomplete) 
 Here is how much of TeX's memory you used:
- 5237 strings out of 492167
- 69307 string characters out of 6131559
+ 5266 strings out of 492167
+ 69727 string characters out of 6131559
  188433 words of memory out of 5000000
- 9436 multiletter control sequences out of 15000+600000
+ 9461 multiletter control sequences out of 15000+600000
  11796 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,20n,51p,343b,251s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,20n,51p,339b,251s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -756,10 +832,10 @@ msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
 /share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (29 pages, 977217 bytes).
+Output written on main.pdf (33 pages, 1108985 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
+ 309 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

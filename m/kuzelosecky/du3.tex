@@ -1,0 +1,81 @@
+\input{h.tex}
+\BeginDoc{}
+\Pr 250/18:
+\begin{enumerate}[a)]
+	\item Ze symetrie dle osy platí $|FB_1| = |GB_1|$.
+		Ovšem jelikož $B_1$ leží na elipse, tak $|FB_1| + |GB_1| = 2|FB_1| =2a \imp a = |FB_1| = |GB_1|$. \emph{QED}
+
+		Pro $B_2$ analogicky (nebo dle symetrie dle hlavní osy). \emph{QED}
+
+	\item Z kolmosti os: $b^2 + e^2 = |B_1F|^2 = a^2$. \emph{QED}
+
+		Upravíme na $e^2= a^2 - b^2$. \emph{QED}
+
+		Jelikož $SA_1$ a $SA_2$ jsou hlavní poloosy, tak $|SA_1|=a=|SA_2|$. \emph{QED}
+
+		Jelikož $A_1SA_2$ jsou kolineární v tomto pořadí, tak $|A_1A_2| = |A_1S| + |A_2S| = 2a$. \emph{QED}
+
+\end{enumerate}
+\Pr 251/19:
+\begin{enumerate}[a)]
+	\item
+		Evidentně $S[0,0]$.
+		Hlavní poloosa ve směru osy $y$ délky $a = 4$, vedlejší $b = 2$, tedy $e = \sqrt{16 - 4} = \sqrt{12}  =  2 \sqrt 3$.
+$$
+\begin{array}{r@{\ [}c@{;}c@{]}}
+	A_1 &  0 & 4\\
+	A_2 &  0 & -4\\
+	B_1 &  2 & 0 \\
+	B_1 & -2 & 0 \\
+	F   &  0 & 2\sqrt 3\\
+	G   &  0 & -2\sqrt 3\\
+\end{array}
+$$
+		\pdf{10-3.pdf}
+\item [b,c,d,e)] Analogicky. Střed je vždy stejný a pouze se mění směr a velikost poloos.
+	V některých bodech je potřeba rovnici vydělit číslem na pravé straně.
+\end{enumerate}
+
+\Pr 251/20:
+\begin{enumerate}[a)]
+	\item
+		Evidentně $S[-3,4]$.
+		Hlavní poloosa ve směru osy $x$ délky $a = \sqrt{20}$, vedlejší $b = 2$, tedy $e = \sqrt{20 - 4} = \sqrt{16}  =  4$.
+$$
+\begin{array}{r@{\ [}c@{;}c@{]}}
+	A_1 &  -3+\sqrt{20} & 4\\
+	A_2 &  -3-\sqrt{20} & 4\\
+	B_1 &  -3 & 6 \\
+	B_1 &  -3 & 2 \\
+	F   &  1 & 4\\
+	G   &  -7 & 4\\
+\end{array}
+$$
+		\pdf{10-4.pdf}
+\item [b,c,d)] Analogicky. Pouze se mění střed, směr a velikost poloos. 
+	V některých bodech je potřeba rovnici vydělit číslem na pravé straně.
+\end{enumerate}
+
+\Pr 251/21:
+\begin{enumerate}[a)]
+	\item
+		$\ve{AB} = (2;-5) \imp \pri{AB} = \zs{[3+2t;-5t]|t\in\R}$\\
+		Dosadím:  $\f{(3+2t)^2}4+\f{(-5t)^2}{16} = 1 \imp 21t^2 + 48 t + 36 = 0 \imp t = \f{-24 \pm 2\sqrt{39}}{21}$\\
+		$\[\f{15-4\sqrt{39}}{21};\f{120+10\sqrt{39}}{21}\]$\\
+		$\[\f{15+4\sqrt{39}}{21};\f{120-10\sqrt{39}}{21}\]$
+
+		$\ve{AC} = (6;-3) \imp \ppri{AC}= \zs{[1+2t;5-t]|t\in\R^+_0}$\\
+		Dosadím:  $\f{(1+2t)^2}4+\f{(5-t)^2}{16} = 1 \imp 17t^2 + 6t + 13 = 0 \imp D 36 - 4\*17\* 13 < 0$\\
+		Průsečík není.
+
+		$\ve{BC} = (4;2) \imp {BC} = \zs{[3+2t;t]|t\in\<0;2\>}$
+		Dosadím:  $\f{(1+2t)^2}4+\f{(5-t)^2}{16} = 1 \imp 17t^2 + 48t + 20 = 0 \imp t = \f{-24\pm2\sqrt{59}}{17} < 0$\\
+		Průsečík je pouze s přímkou, nikoliv úsečkou.
+
+
+\item [b,c,d,e)] Analogicky. Vždyť je to jenom dosazení toho samého do jiné rovnice a výpočet kvadratické rovnice. 
+	Já nemám zájem celý den dosazovat a počítat kvadratické rovnice.
+\end{enumerate}
+
+
+\EndDoc

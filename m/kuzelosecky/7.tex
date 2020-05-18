@@ -1,0 +1,50 @@
+\input{h.tex}
+\BeginDoc{}
+\section{ Analytické vyjádření obrazu útvaru}
+\V Předpokládejme, že posunutí $T$ je dáno rovnicí $x' = x+m, y'=y+n$ a zobrazuje $U$ na $U'$ Potom platí:
+
+Má li útvar $U$ rovnici $V(x,y)=0$, pak útvar $U'$ má v téže soustavě souřadnic
+rovnici $V(x-m,y-n) = 0$.
+
+[Dk: Jde o rovnici, v níž dvojčleny $x-m,y-n$ nahrazují $x,y$ na všech místech, kde se vyskytují $x,y$ v původní rovnici útvaru $U$.]
+
+\Poz
+Aplikace předchozí věty:
+\begin{enumerate}
+	\item Přímka, která prochází počátkem a má směrnici $k$, má také velmi jednoduchou rovnici $y=kx$\\
+		Přímka, která prochází bodem $[x_1,y_1]$ a má směrnici $k$ se dá považovat za obraz první v posunutí $x'=x+x_1, y'=y+y_1$, má rovnici  $y-y_0 = k(x-x_0)$.
+	\item Kružnice, která má střed v počátku a poloměr $r$, má rovnici $x^2 + y^2 = r^2$.\\
+		Kružnice se středem $S[m,n]$ a poloměrem $r$ se dá považovat za obraz první kružnice v posunutí
+		$x'=x+m,y' = y+n$ a má rovnici $(x-m)^2 + (x-n)^2 = r^2$.
+
+	\item Tečna kružnice $k(O,r)$ v jejím bodě $T[x_0,y_0]$ má rovnici $xx_0+yy_0 = r^2$.
+		Tečna kružnice $k(S,r)$ je obrazem tečny první kružnice v posunutí $x'=x+m,y'=y+n$ a má rovnici
+		$(x-m)(x_0-m) + (y-n)(y_0-n) = r^2$.
+\end{enumerate}
+
+\V
+Má li útvar $U$ rovnici $V(x,y)=0$, pak jeho obraz $U'$ v souměrnosti, která vyměňuje kladné poloosy $x,y$ má rovnici $V(y,x) = 0$.
+
+[Dk: Jde o rovnici, v níž je každé $x$ nahrazeno za $y$ a $x$ je nahrazeno za $y$.]
+
+\Pr
+Kružnice $k(S,r)$ zobrazíme v souměrnosti podle osy 1. kvadrantu na kružnici $k'(S',r)$;
+tečna $t$ kružnice v bodě $T$ se zobrazí na tečnu $t'$ kružnice $k'$ v bodě $T'$.
+Určete rovnici kružnice $k'$ a tečny $t'$, je-li dáno:
+$$ S[-3,6], r = 5, T[0;10]$$
+
+Umíme zapsat rovnici kružnice $k$: $(x+3)^2 + (y-6)^2 = 25$ a rovnice tečny $t$ v jejím bodě $T$:
+$(x+3)3 + (y-6) 4  25$, tj $3x+4y-40=0$
+
+Zobrazením v osové souměrnosti získáme $S'[6;-3],T'[10;0]$.
+Rovnice kružnice $k'$: $(x-6)^2 + (y+3)^2 = 25$.
+rovnice tečny $t'$ v jejím bodě $T'$: $4x+3y - 0 =0$.
+
+\Pr 233/2:\\
+Pro rovnici $ax+by = 0$ je posunutí $a(x-x_1)+b(y-y_1) = 0$.
+
+\Pr 233/4:\\
+Má li útvar $U$ rovnici $V(x,y,z)=0$, pak v posunutí $[a,b,c]$ má rovnici $V(x-a,y-b,z-c) = 0$.
+
+
+\EndDoc
