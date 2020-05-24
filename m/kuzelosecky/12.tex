@@ -1,0 +1,45 @@
+\input{h.tex}
+\BeginDoc{}
+\section{Středové kuželosečky a jejich tečny}
+\Def
+Kružnice, elipsy a hyperboly nazýváme středové křivky 2. stupně neboli \emph{středové kuželosečky}.
+Jejich rovnice ve  kterých vystupují souřadnice středu, nazýváme rovnice ve středovém tvaru.
+\Poz
+Zapíšeme rovnice z předchozích definic:
+$$
+\begin{array}{ccc}
+	(x-m)^2 + (y-n)^2 = r^2 & \f{(x-m)^2}{a^2}+\f{(y-n)^2}{b^2}= 1 & \f{(x-m)^2}{a^2}-\f{(y-n)^2}{b^2} = 1 \\
+	{(x-m)^2}{r^2} + {(y-n)^2}{r^2} = 1 & \f{(x-m)^2}{b^2}+\f{(y-n)^2}{a^2}= 1 & -\f{(x-m)^2}{a^2}+\f{(y-n)^2}{b^2} = 1 \\
+\end{array}
+$$
+Všechny rovnice jsou tedy tvaru
+$$\pm p^2(x-m)^2 \pm q^2 (y-n)^1 = \pm s^2$$
+\Poz
+\pdf[0.3]{12-1.pdf}
+Název kuželosečky vystihuje možnost její vytvoření jako průniku rotační kružních kuželových ploch a roviny (viz obrázek).
+
+Povšimneme si \emph{vnitřku kuželové plochy} a jejího tečkoveného průniku s rovinou kuželesečky.
+U kružnice a paraboly zřejmě dostaneme útvary, kter jsem nazvali vnitřními oblastmi.
+Obdobný pojem zavedeme i pro středové kuželosečky.
+Vidíme, že zatímco elipsa má jednu vnitřní oblast hyperbola má dvě.
+Vislovíme však definici jen dle vzdáleností bodů v rovině:
+
+\Def
+\emph{Vnitřní oblstí elipsy} s ohnisky $F,G$ a s hlavní poloosou $a$ nezveme množinu všech bosů $X$ roviny, pro které platí $|FX|+|GX| < 2a$
+\Def \emph{Vnitřní oblastí jedné větve hyperboly} $H(F,G,2a)$ se nazývá množina všech bodů $X$ roviny, pro které platí $|FX|-|GX" > 2a$ a druhé větve $|GX|-|FX|>2a$.
+\V
+\begin{enumerate}
+	\item Má-li elipsa rovnici $\f{x^2}{a^2} + \f{y^2}{b^2} = 1$, pak její oblast má v téže soustavě souřadnic analytické vyjádření $\f{x^2}{a^2}+\f{y^2}{b^2} < 1$
+	\item Má-li hyperbola rovnici $\f{x^2}{a^2}-\f{y^2}{b^2} = 1$, pak sjednocení vnitřních oblastí jejích větví má alalytické vyjádření $\f{x^2}{a^2}-\f{y^2}{b^2} > 1$
+\end{enumerate}
+[Dk: Při odvozování se zachovává znaménko]
+
+\Def
+\emph{Tečnou středové kuželosečky} se nazývá přímka, která obsahuje jediný bod kuželosečky a neobsahuje žádný bod její vnitřní oblasti.
+
+\V
+Má-li středová kuželosečka rovnici
+$$\pm p^1 (x-m)^2 \pm q^2(y-n)^2 \pm s^2$$
+pak v její tečna $t$ v $T[x_0,y_0]$ má rovnici
+$$\pm p^2 (x-m)(x_0-m) \pm q^2 (y-n)(y_0-n) = \pm s^2$$
+\EndDoc

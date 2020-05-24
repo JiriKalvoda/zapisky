@@ -1,0 +1,166 @@
+\input{h.tex}
+\BeginDoc{}
+\section{Hyperbola}
+\Def Mějme dány dva ruzné body $F,G$ a takové číslo $2a$, že $0<2a<|FG|$.
+Množinu všech bodů roviny $X$, pro než platí $||fx|-|GX||=2a$ nazýváme i\emph{hyperbolou s ohnisy $FG$ a s hlavní osou $2a$.}
+Stručně ji ozmačujeme $H(F,G,2a)$.
+\emph{Větví hyperboly} nazýváme množinu všech bodů $X$ roviny, pro které platí $|FX| - |GX|   = 2a$.
+Stejně jako množinu, pro kterou platí $|GX|  - |FX| = 2a$.
+
+\Poz
+Zvláštní tvar hyperboly působí nesnáze; hyperboly nemají na ose úsečky $FG$ zádné body, proto nemají vedlejší vrcholy.
+
+Číslo $b>0$ se definuje jinak: Pomocí vztahu $b^2 = e^2 - a^2$ a stále se nazývá velikostí vedlejši poloosy.
+Ale jelikož hyperbola nemá vedlejší vrcholy, nemá ani žádnou vedlejší poloosu.
+
+\Pr
+Odvoďte analitické vyjádření hyperboly $H(F,G,2a)$, jejíž ohniska $F,G,$ leží na ose $x$.
+
+
+Zvolíme $F[-e;0];G[e;0];X[x,y]$, přitom $|FG| = 2e > 2a, b^2 = e^2 - a^2$.
+Vyjádřím charakteristickou vlastnost jednoho bodu:
+
+\begin{eqnarray*}
+	||FX|-|GX|| &=& 2a\\
+	|\sqrt{(x-e)^2+y^2}+\sqrt{(x+e)^2+y^2} & = & 2a\\
+	\sqrt{(x^2+e^2+y^2) - 4e^2x^2} &=& (x^2+e^2+y^2) - 2a^2\\
+	a^2x^2 + a^2 y^2 - e^2x^2 &=& a^4-a^2e^2\\
+	x^2(a^2-e^2) + a^2y^2 &=& a^2(a^2-e^2)\\
+	-b^2x^2 + a^2y^2  &=& -a^2-b^2\\
+	\f{x^2}{a^2} - \f{y^2}{b^2} = 1
+\end{eqnarray*}
+
+Poslední rovnice je ekvivalentní s první, proto slouží jako analytické vyjádření hyperboly, jejíž osy leží na osách soustavy souřadnic a ohniska na ose $x$.
+
+\Pr
+Ověřte, zda pro každou dvojici $a,b$ kladných reálných čísel muže rovnice odvozená v příkladě 1 vyjadřovat hyperbolu s ohnisky $F,G$ na ose $x$ a s hlavní osou $2a$.
+
+Je-li dána rovnice $\f{x^2}{s^2} - \f{y^2}{b^2}$, kde $a>0;b>0$, můžeme sestrojit $A_1[-a;0];A_2[a;0];K[a;b]$.
+Přepona $OK$ udává $e>a$, kružnice $k(O,e)$ protíná osu $x$ v bodech $F[-e;];G[e;0]$. Snadno ověříme (viz předhozí příkjlad), že hyperbola $H(F,G,2a)$ má analitické vyjádření, které bylo dáno.
+
+\Poz
+Na rozdíl od elips nerozhoduje nerovnost mezi $a,b$ o tom, na které z os leži ohniska hyperboly.
+O tom rozhoduje prohození členů rozdílu.
+
+\Def Směry, jejichž každá přímka má s hyperbolou nejvýše jeden spolecný bod, se nazyvají \emph{asymptotické směry hyperboly}.
+Přímky těchto směrů, které neobsahují žádný bod hyperboly, nazyváme \emph{asymptoty hyperboly}
+
+\Def
+U hyperboly používáme následující termíny:
+
+\begin{minipage}{0.5\textwidth}
+	\begin{tabular}{|c|l|}\hline
+		$F,G$ & ohniska \\\hline
+		$A_1,A_2$ & (hlavní) vrcholy\\\hline
+		$S$ nebo $O$ & střed \\\hline
+		$a$ & velikost hlavní poloosy\\\hline
+		$b$ & velikost vedlejší poloosy \\\hline
+		$e$ & výstřednost \\\hline
+		$a_1,a_2$ & asymptoty\\\hline
+	\end{tabular}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	\pdf{11-1.pdf}
+\end{minipage}
+
+\Pr 
+Najdět analytické vyjádření rovnoosých hyperbol $H(F,G,2a)$, jejicž kolmé asymptoty jsou rovnoběžné s $x,y$.
+
+Pracujme s hyperbolami, které mají přímo osy $x,y$  jako asymptoty. Střed je tedy $[0;0]$ a $F,G$ mají na osách 1. a 3. kvadrantu.
+Protože $a=b$, je $e = \sqrt{a^2 + b^2} = a\sqrt 2$.
+Ohniska mají pak souřadnice $F[-a;-a];G[a,a];X[x,y]$.
+
+\begin{eqnarray*}
+	||FX|-|GX|| &=& 2a\\
+	|\sqrt{(x+a)^2 + (y+a)^2} - \sqrt{(x-a)^2+(y-a)^2}| &=& 2a\\
+	y &=& cx^{-1}
+\end{eqnarray*}
+
+\V
+Uvažme $H(F,G,2a)$, které mají střed $S[m,n]$, excentricitu $e=\f{|FG|}{2}$, velikost vedlejší poloosy $b=e^2 - a^2$.
+\begin{enumerate}
+	\item Každá hyperbola, jejíž osa $FG$ je rvnoběžná s $x$ má právě jednu rovnici
+		$$\f{(x-m)^2}{a^2} - \f{(y-n)^2}{b^2} = 1$$
+	\item Každá hyperbola, jejíž osa $FG$ je rvnoběžná s $y$ má právě jednu rovnici
+		$$\f{(y-m)^2}{a^2} - \f{(x-n)^2}{b^2} = 1$$
+	\item Každá rovnoosá hyperbla, která má asymptoty rovoběžné s $x,y$ má právě jednu rovnici
+		$$ 2 (x-m) (y-n) = a^2$$
+\end{enumerate}
+Každá z rovnic vyjadřuje právě jednu hyperbolu v poloze výše popsané.
+
+\Pr 257/22:
+\begin{enumerate}
+	\item $\f{x^2}{4} - \f{y^2}{5} = 1$
+	\item $\f{y^2}{9} - \f{x^2}7 = 1$
+	\item $\f{x^2}7 - \f{y^2}9 = 1$
+	\item $\f{y^2}{9} - \f{x^2}{16} = 1$
+\end{enumerate}
+\Pr 257/23:
+\begin{enumerate}[a)]
+	\item
+		\begin{minipage}{0.4\textwidth}
+			\pdf[0.3]{11-2.pdf}
+		\end{minipage}
+		\begin{minipage}{0.4\textwidth}
+			$$
+			\begin{array}{r@{\ [}c@{;}c@{]}}
+				F & -2\sqrt 2 & 0 \\
+				G & 2\sqrt 2 & 0 \\
+				S& 0 & 0 \\
+				A_1 & -2 & 0 \\
+				A_2 & 2 & 0\\
+			\end{array}
+			$$
+			$a: x=y$\\
+			$a': x=-y$
+		\end{minipage}
+	\item[d)]
+		\begin{minipage}{0.4\textwidth}
+			\pdf[0.3]{11-3.pdf}
+		\end{minipage}
+		\begin{minipage}{0.4\textwidth}
+			$$
+			\begin{array}{r@{\ [}c@{;}c@{]}}
+				F & 0 & -\sqrt {10} \\
+				G & 0 & \sqrt{10} \\
+				S& 0 & 0 \\
+				A_1 & 0 & -3 \\
+				A_2 & 0 & 3\\
+			\end{array}
+			$$
+			$a: x=3y$\\
+			$a': x=-3y$
+		\end{minipage}
+\end{enumerate}
+
+\Pr 258/24:
+		$p:y=2x+3$\\
+		$\ppri{UV} = \zs{[3-t;t]|t\in\R^+_0}$
+\begin{enumerate}[a)]
+	\item $x^2-y^2 = 4$:
+
+		$x^2 - (2x+3)^2 = 4$\\
+		$0=3x^2+12x+13 $\\
+		$D = 12^2 - 4\*3\*13 < 0$\\
+		$$H\cap p=\emptyset$$
+
+		$(3-t)^2 - t^2 = 4$\\
+		$5-6t = 0$\\
+		$t = \f 56$
+
+		$$F\cap\ppri{UV} = \zs{\[\f{13}6;\f 56\]}$$
+
+	\item[d)] $y^2 - 9x^2 = 9$
+		$x^2 - 9(2x+3)^2 = 9$\\
+		$0=35x^2+108x+90 $\\
+		$D = 108^2 - 4\*35\*90 < 0$\\
+		$$H\cap p=\emptyset$$
+
+		$(3-t)^2 - 9t^2 = 9$\\
+		$ 0 = 8t^2 + 6t$\\
+		$t = 0 \lor t = -\f 3 4 < 0$
+		$$F\cap\ppri{UV} = \zs{\[3;0\]}$$
+\end{enumerate}
+
+
+\EndDoc
