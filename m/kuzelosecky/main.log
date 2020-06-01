@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.15)  24 MAY 2020 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.15)  1 JUN 2020 09:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -224,8 +224,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \c@chapter=\count110
 \c@roman=\count111
 \c@countOfBegin=\count112
-))
-No file main.aux.
+)) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -241,6 +240,7 @@ LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 \AtBeginShipoutBox=\box32
+
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
@@ -305,25 +305,48 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 (/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)) (./1.tex (./h.tex)
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
+)) (./main.toc
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
 .
 
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 3.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2.
+
+Overfull \hbox (4.95822pt too wide) detected at line 11
+\OMS/cmsy/b/n/10 x\OT1/cmr/bx/n/10 10. 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (4.95822pt too wide) detected at line 13
+\OMS/cmsy/b/n/10 x\OT1/cmr/bx/n/10 11. 
+ []
+
+
+Overfull \hbox (4.95822pt too wide) detected at line 14
+\OMS/cmsy/b/n/10 x\OT1/cmr/bx/n/10 12. 
+ []
+
+)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ (./1.tex (./h.tex)
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 3.
+
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 
  []
@@ -338,11 +361,13 @@ File: 1-1.pdf Graphic file (type pdf)
 <use 1-1.pdf>
 Package pdftex.def Info: 1-1.pdf  used on input line 15.
 (pdftex.def)             Requested size: 297.81493pt x 99.37201pt.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
-) (./2.tex (./h.tex) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./1-1.pdf>]
+) (./2.tex (./h.tex)
+[2 <./1-1.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -352,48 +377,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-[2]
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 115--117
 
  []
 
-[3]) (./3.tex (./h.tex) [4]
-Overfull \hbox (57.12439pt too wide) in paragraph at lines 28--30
+[4]) (./3.tex (./h.tex)
+Overfull \hbox (57.12439pt too wide) in paragraph at lines 26--28
 []\OT1/cmr/m/n/10 Polop^^Tr^^S^^Pka: $\OML/cmm/m/it/10 t > \OT1/cmr/m/n/10 0$: 
 Zde le^^Tz^^S^^P ob^^Te dv^^Te hod-noty: tedy $[]$ 
  []
 
-<3-1.pdf, id=27, 653.44125pt x 401.5pt>
+[5]
+<3-1.pdf, id=33, 653.44125pt x 401.5pt>
 File: 3-1.pdf Graphic file (type pdf)
 <use 3-1.pdf>
-Package pdftex.def Info: 3-1.pdf  used on input line 33.
+Package pdftex.def Info: 3-1.pdf  used on input line 31.
 (pdftex.def)             Requested size: 326.71982pt x 200.7495pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
-[5 <./3-1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
-) (./4.tex (./h.tex) [6]
+[6 <./3-1.pdf>]) (./4.tex (./h.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
  []
 
-[7]) (./5.tex (./h.tex) [8] [9]) (./6.tex (./h.tex)
+) (./5.tex (./h.tex) [8] [9]) (./6.tex (./h.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
  []
@@ -403,7 +429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--47
 
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 51--59
 
  []
@@ -413,40 +439,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--67
 
  []
 
-) (./7.tex (./h.tex) [11]) (./8.tex (./h.tex)
-<8-1.pdf, id=53, 289.08pt x 225.84375pt>
+) (./7.tex (./h.tex) [11]) (./8.tex (./h.tex) [12]
+<8-1.pdf, id=57, 289.08pt x 225.84375pt>
 File: 8-1.pdf Graphic file (type pdf)
 <use 8-1.pdf>
 Package pdftex.def Info: 8-1.pdf  used on input line 16.
 (pdftex.def)             Requested size: 202.35461pt x 158.08954pt.
- [12]
-<8-2.pdf, id=57, 341.275pt x 330.23375pt>
+<8-2.pdf, id=58, 341.275pt x 330.23375pt>
 File: 8-2.pdf Graphic file (type pdf)
 <use 8-2.pdf>
 Package pdftex.def Info: 8-2.pdf  used on input line 32.
 (pdftex.def)             Requested size: 170.63707pt x 165.11646pt.
- [13 <./8-1.pdf> <./8-2.pdf>] [14]) (./9.tex (./h.tex) [15] [16] [17] [18]) (./
+ [13 <./8-1.pdf>] [14 <./8-2.pdf>]) (./9.tex (./h.tex) [15] [16] [17] [18]) (./
 10.tex (./h.tex)
-
-LaTeX Warning: File `10-1.pdf' not found on input line 25.
-
-
-! Package pdftex.def Error: File `"""10-1".pdf' not found: using draft setting.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 	\pdf{10-1.pdf}
-                    
-? 
+<10-1.pdf, id=80, 159.59625pt x 102.3825pt>
+File: 10-1.pdf Graphic file (type pdf)
+<use 10-1.pdf>
+Package pdftex.def Info: 10-1.pdf  used on input line 25.
+(pdftex.def)             Requested size: 159.59584pt x 102.38225pt.
 
 Overfull \hbox (2.22221pt too wide) in paragraph at lines 11--27
 []$ $[]$ 
  []
 
-
+[19 <./10-1.pdf>]
 Overfull \hbox (3.57782pt too wide) in alignment at lines 33--36
  [][][] []
  []
@@ -456,22 +472,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-
-LaTeX Warning: File `10-2.pdf' not found on input line 48.
-
-
-! Package pdftex.def Error: File `"""10-2".pdf' not found: using draft setting.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \pdf{10-2.pdf}
-                   
-? 
-[19] [20]
-<10-3.pdf, id=87, 363.3575pt x 270.00874pt>
+<10-2.pdf, id=86, 323.2075pt x 250.9375pt>
+File: 10-2.pdf Graphic file (type pdf)
+<use 10-2.pdf>
+Package pdftex.def Info: 10-2.pdf  used on input line 48.
+(pdftex.def)             Requested size: 323.20671pt x 250.93687pt.
+[20 <./10-2.pdf>]
+<10-3.pdf, id=91, 363.3575pt x 270.00874pt>
 File: 10-3.pdf Graphic file (type pdf)
 <use 10-3.pdf>
 Package pdftex.def Info: 10-3.pdf  used on input line 123.
@@ -481,8 +488,8 @@ Overfull \hbox (18.4708pt too wide) in paragraph at lines 123--123
  [] 
  []
 
-[21 <./10-3.pdf>]
-<10-4.pdf, id=92, 363.3575pt x 270.00874pt>
+[21]
+<10-4.pdf, id=95, 363.3575pt x 270.00874pt>
 File: 10-4.pdf Graphic file (type pdf)
 <use 10-4.pdf>
 Package pdftex.def Info: 10-4.pdf  used on input line 143.
@@ -492,7 +499,7 @@ Overfull \hbox (18.4708pt too wide) in paragraph at lines 143--143
  [] 
  []
 
-[22 <./10-4.pdf>]) (./11.tex (./h.tex)
+[22 <./10-3.pdf>]) (./11.tex (./h.tex) [23 <./10-4.pdf>]
 Overfull \hbox (3.1099pt too wide) in paragraph at lines 38--40
 []\OT1/cmr/m/n/10 Je-li d^^Sana rov-nice $[] \OMS/cmsy/m/n/10 ^^@ []$\OT1/cmr/m
 /n/10 , kde $\OML/cmm/m/it/10 a > \OT1/cmr/m/n/10 0; \OML/cmm/m/it/10 b > \OT1/
@@ -511,27 +518,23 @@ d), ^^Tze hy-per-bola $\OML/cmm/m/it/10 H\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 F; G
 yj^^Sad^^Tren^^S^^P,
  []
 
+<11-1.pdf, id=104, 259.97125pt x 177.66376pt>
+File: 11-1.pdf Graphic file (type pdf)
+<use 11-1.pdf>
+Package pdftex.def Info: 11-1.pdf  used on input line 63.
+(pdftex.def)             Requested size: 259.97061pt x 177.66331pt.
 
-LaTeX Warning: File `11-1.pdf' not found on input line 63.
+Overfull \hbox (75.0277pt too wide) in paragraph at lines 63--63
+ [] 
+ []
 
-
-! Package pdftex.def Error: File `"""11-1".pdf' not found: using draft setting.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 	\pdf{11-1.pdf}
-                    
-? 
 
 Overfull \hbox (2.22221pt too wide) in paragraph at lines 51--65
 []$[]$ $[]$ 
  []
 
-[23]
-<11-2.pdf, id=100, 536.0025pt x 416.55624pt>
+[24] [25 <./11-1.pdf>]
+<11-2.pdf, id=113, 536.0025pt x 416.55624pt>
 File: 11-2.pdf Graphic file (type pdf)
 <use 11-2.pdf>
 Package pdftex.def Info: 11-2.pdf  used on input line 102.
@@ -541,8 +544,7 @@ Overfull \hbox (12.84991pt too wide) in paragraph at lines 102--102
  [] 
  []
 
-[24]
-<11-3.pdf, id=104, 638.385pt x 495.8525pt>
+<11-3.pdf, id=114, 638.385pt x 495.8525pt>
 File: 11-3.pdf Graphic file (type pdf)
 <use 11-3.pdf>
 Package pdftex.def Info: 11-3.pdf  used on input line 119.
@@ -562,8 +564,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--157
 
  []
 
-) (./12.tex (./h.tex) [25 <./11-2.pdf> <./11-3.pdf>]
-<12-1.pdf, id=111, 472.76625pt x 783.92876pt>
+[26 <./11-2.pdf> <./11-3.pdf>]) (./12.tex (./h.tex)
+<12-1.pdf, id=120, 472.76625pt x 783.92876pt>
 File: 12-1.pdf Graphic file (type pdf)
 <use 12-1.pdf>
 Package pdftex.def Info: 12-1.pdf  used on input line 18.
@@ -575,36 +577,42 @@ lo-chy \OT1/cmr/m/n/10 a jej^^S^^Pho te^^Tckoven^^Seho pr^^Wuniku s ro-vi-nou k
 u^^Tzelese^^Tcky.
  []
 
+[27 <./12-1.pdf>]
 
 LaTeX Warning: Command \frqq invalid in math mode on input line 29.
 
-[26 <./12-1.pdf>]) [27] (./main.aux) )
-(\end occurred when \ifnum on line 15 was incomplete) 
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+[29]) [30] (./main.aux) )
+(\end occurred when \ifnum on line 16 was incomplete) 
 Here is how much of TeX's memory you used:
- 5201 strings out of 492167
- 68613 string characters out of 6131558
- 166433 words of memory out of 5000000
- 9396 multiletter control sequences out of 15000+600000
- 6713 words of font info for 27 fonts, out of 8000000 for 9000
+ 5249 strings out of 492167
+ 69225 string characters out of 6131558
+ 167433 words of memory out of 5000000
+ 9431 multiletter control sequences out of 15000+600000
+ 12060 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,14n,51p,364b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbol
-s/msbm10.pfb>
-Output written on main.pdf (27 pages, 829977 bytes).
+ic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (30 pages, 868279 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 189 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

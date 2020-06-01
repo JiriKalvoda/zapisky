@@ -42,4 +42,202 @@ Má-li středová kuželosečka rovnici
 $$\pm p^1 (x-m)^2 \pm q^2(y-n)^2 \pm s^2$$
 pak v její tečna $t$ v $T[x_0,y_0]$ má rovnici
 $$\pm p^2 (x-m)(x_0-m) \pm q^2 (y-n)(y_0-n) = \pm s^2$$
+
+\Pr 262/1:\\
+Je dána hyperbola s rovnicí $16(x+2)^2-5(y-5)^2 = 80$.
+Určete rovnice všech tečen hyperboly, která má směrnici $k=2$.
+
+Tečna v $[x_0;y_0]$:
+$$ 16(x+2)(x_0+2) - 5(y-5)(y_0-5) = 80 $$
+Směrnicovy tvarurčíme pokud $y_0-5 \neq 0$:
+$$y-5 = \f{16(x_0+2)}{5(y_0-5)}(x+2) - \f{80}{5(y_0-5)}$$
+Protože $k=\f{16(x_0+2)}{5(y_0-5)} = 2$, platí pro hledané souřadnice $x_0,y_0$ dvě rovnice:
+
+\begin{eqnarray*} 
+	  16(x_0+2) &=& 10 (y_0-5) \\
+	  16(x_0+2)^2 -5 (y_0-5)^2 = 80 \\
+\end{eqnarray*}
+Dosadíme $5(y_0-5)$ na místo $8(x_0+2)$:
+\begin{eqnarray*} 
+	  [5(y_0-5)]^2 - 20 (y_0 - 5)^2 &=& 320\\
+	  (y_0-5)^2 = 64 
+\end{eqnarray*}
+Tedy $y_0-5 = 5$ nebo $y_0'-5=-8$, tedy $y_0=13$ nebo $y_0=-7$.
+Dosazeím $x_0=3$ resp. $x_0=-7$
+
+$$ t_1: 2x-y + 7 = 0$$
+$$ t_2: 2x-y + 11 = 0 $$
+
+\Pr Je dána elipsa $E: x^2+5y^0-5  = 0$ a bod $M[5;1]$.
+
+Tečna v bodě $T[x_0,y_0]$:
+$$ xx_0 + 5yy_0 - 5 = 0 $$
+Budeme hledat všechny $T_0$, pro něž tečne prochází $M$:
+
+
+\begin{eqnarray} 
+	  x_0^2 + 5y_0^2 -5 &=& 0\\
+	  5x_0  + 5y_0^2 -5 &=& 0
+\end{eqnarray}
+Dosadím:
+\begin{eqnarray*} 
+	  (1-y_0)^2 + 5y_0^2 - 5 &=& 0\\
+	  1-2y_0+y_0^2 + 5y_0^2 - 5 &=& 0\\
+	  3y_0^2 - y_0 -2 &=& 0\\
+\end{eqnarray*}
+$y_0 = 1 \lor y_0 = - \f 23$
+
+$T[0;1];T'[\f 53;-\f 23]$
+
+$\ve{TM} = (5;0) \sim (1;0)$\\
+$\ve{TM} = \(\f{10}3;\f 53\) \sim (2;1)$
+
+$$\cos \phi = \f{2}{\sqrt 1 \* \sqrt 5 } =  \f 2 5 \sqrt 5$$
+\Pr 265/30:
+Kolmice jsou tvaru $3x+2y+c=0$
+\begin{enumerate}
+	\item[b)]
+		  $$4xx_0-9yy_0 = 36$$		    
+		    Musí tedy platit $(4x_0;-9y_0) \sim (3;2) \imp 8x_0= -27y_0$
+		    \begin{eqnarray*} 
+				4(-\f{27}8 y_0)^2 - 9 y_0 &=& 36 \\
+				65y_0^2 = 64
+		    \end{eqnarray*}
+		    Tedy $y_0 = \pm \sqrt{\f{64}{65}} = \f{8\sqrt{65}}{65}$ a $x_0 = \f{-27}{8}\*\(\pm \sqrt{\f{64}{65}}\) = \mp \sqrt{\f{729}{65}} = \mp \f{27\sqrt{65}}{65}$
+		    
+		    $$t_1: 4x \f{27\sqrt{65}}{65}  + 9y \f{8\sqrt{65}}{65} = 36$$
+		    $$t_2: 4x \f{27\sqrt{65}}{65}  + 9y \f{8\sqrt{65}}{65} = - 36$$
+	  \item  Zavedeme posunuté souřadnice $x' = x-3$ a $y'=y-4$
+		    Tedy $x^2 + 2 y^2 = 4$. Kolmost se posunem nezmění.
+
+		    Dále tedy analogicky určím tečny a finálně je posunu do kůvodních souřadic.
+\end{enumerate}
+
+\Pr 265/32:\\
+\begin{enumerate}
+	  \item[a)]
+		    Tečna bodem $T:-xx_0+yy_0=9$.
+
+		    Musí procházet $M$: $6x_0+3y_0 = 9 \imp y_0 = 3-2x_0$\\
+		    A $T$ musí náležet kuželosečce: $- x_0^2 + y_0^2 = 9$
+
+		    Dosadím: $-x_0^2 + (3-2x_0)^2 = 9 \imp 3x_0^2 - 12 x_0 = 0 \imp x=0 \land x=4$.
+		    $$t_1: 3y= 9$$
+		    $$t_2: -4x - 5y = 9$$
+
+	  \item[c)] Upravím na $2(x-2)^2 - 3(y-1)^2 - 30 = 0$.
+		    Zavedením posunutých souřadnic $x' = x-2 ;y' = y-1$ získám $2x^2 - 3y^2 = 30$ a $M[3;9]$.
+
+		    Dále analogicky.
+\end{enumerate}
+
+\subsection{Obecná rovnice kuželosečky a zakreslení množiny bodů obecné kvadratické rovnice se 2 neznámými bez členu $xy$}
+\Poz 
+$$Ax^2 + By^2 + Cx + Dy + E = 0$$
+kde $(A,B)\neq \ve 0$
+
+Obě proměnné upravíme na čtverec a upravíme na středovou rovnici kuželosečky (parabolu na vrcholovou rovnici).
+
+\Pr
+Zakreslete množinu bodů danou rovnicí $3x^2-2y^2-12x-4y-2=0$:
+
+Upravíme:
+\begin{eqnarray*} 
+	3(x^2-4x)-2(y^2+2y)-2&=&0\\
+	3(x-2)^2-2(y+1)^2 &=& 2 + 4\*3 - 1 \*2 = 12\\
+	\f{(x-2)^2}{2} - \f{(y+1)^2}{6} &=& 1 \\
+\end{eqnarray*}
+
+Zakreslíme hperbolu se středem $S[2;-1]$, s hlavní osou na rovnoběžce s osou $x$, s poloosami $a=2;b=\sqrt 6$ a exentricitou $e=\sqrt{10}$ a s asymptotami:
+$$y+1 = \f{\sqrt 6}2(x-2)$$
+$$y+1 = -\f{\sqrt 6}2(x-2)$$
+
+\Poz
+Doplnění výrazů $Ax^2+Dx;Cy^2+Ey$ na druhé mocniny dvojčlenů poskytuje středové tvary rovnic kuželeoseček a tím umožnuje jejich zakreslení.
+
+\Pr 
+\begin{enumerate}[a)]
+	\item 
+		$$ \f{x^2}{12} - \f{y^2}{3} = 1$$
+		\pdf[0.5]{12-p1.pdf}
+		$$
+		\begin{array}{r@{[}c@{;}c@{]}}
+			S&0&0\\
+			A_1 &-\sqrt{12}&0\\
+			A_2 &+\sqrt{12}&0\\
+			F   &-\sqrt{15}&0\\
+			G   &+\sqrt{15}&0\\
+		\end{array}
+		$$
+		$$a: y=\f x2$$
+		$$a': y=-\f x2$$
+	\item 
+		$$ \f{x^2}{3} - \f{y^2}{9} = 1$$
+		\pdf[0.5]{12-p2.pdf}
+		$$
+		\begin{array}{r@{[}c@{;}c@{]}}
+			S&0&0\\
+			A_1 &0&-3\\
+			A_2 &0&+3\\
+			B_1 &-\sqrt 3&0\\
+			B_2 &+\sqrt 3&0\\
+			F   &0&-\sqrt 6\\
+			G   &0&+\sqrt 6\\
+		\end{array}
+		$$
+	\item 
+		$$ \f{(x^2+1)^2}{27} - \f{y^2}{9} = 1$$
+		\pdf[0.5]{12-p3.pdf}
+		$$
+		\begin{array}{r@{[}c@{;}c@{]}}
+			S&-1&0\\
+			A_1 &-1-\sqrt{27}&0\\
+			A_2 &-1+\sqrt{27}&0\\
+			F   &-1-6&0\\
+			G   &-1+6&0\\
+		\end{array}
+		$$
+		$$a: y=\f {x+1}{\sqrt 3}$$
+		$$a': y=-\f {x+1}{\sqrt 3}$$
+	\item 
+		$$ \(x^2-\f{13}2\)^2 - \(y^2-\f45\) = \f{65}2$$
+		\pdf[0.4]{12-p4.pdf}
+		$$
+		\begin{array}{r@{[}c@{;}c@{]}}
+			S&\f{13}2&\f 9 2\\
+		\end{array}
+		$$
+	\item 
+		$$16\(x-\f5 4\)^2 + 9\(y+\f 13\)^2 = -25+{25}+1 = 1$$
+		\pdf[0.5]{12-p5.pdf}
+		$$
+		\begin{array}{r@{[}c@{;}c@{]}}
+			S&\f 54&\f 13\\
+			A_1 &\f 54&0\\
+			A_2 &\f 54&-\f 2 3\\
+			B_1 &1&-\f 13\\
+			B_2 &1.5&-\f 13\\
+			F   &\f 54&\f 13 - \f{\sqrt 7}12\\
+			G   &\f 54&\f 13 + \f{\sqrt 7}12\\
+		\end{array}
+		$$
+\end{enumerate}
+
+
+\Poz
+Kritéria vzniku jednotlivých útvarů:
+
+Předpokládejme, že vznikne kuželosečka.
+
+Kružnice vznikne právě tehdy když $A=B$
+
+Elipsa vznikne právě tehdy když ${\rm sqn}(A)={\rm sqn}(B) = \pm 1$
+
+Hyperbola vznikne právě tehdy když ${\rm sqn}(A)=-{\rm sqn}(B) = \pm 1$
+
+Parabola vznikne právě tehdy když $AB = 0 \land A+B \neq 0$
+
+
+
 \EndDoc
+

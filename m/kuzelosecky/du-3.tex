@@ -1,0 +1,107 @@
+\input{h.tex}
+\BeginDoc{}
+
+
+\Pr
+Zakreslete množinu bodů danou rovnicí $3x^2-2y^2-12x-4y-2=0$:
+
+Upravíme:
+\begin{eqnarray*} 
+	3(x^2-4x)-2(y^2+2y)-2&=&0\\
+	3(x-2)^2-2(y+1)^2 &=& 2 + 4\*3 - 1 \*2 = 12\\
+	\f{(x-2)^2}{2} - \f{(y+1)^2}{6} &=& 1 \\
+\end{eqnarray*}
+
+Zakreslíme hperbolu se středem $S[2;-1]$, s hlavní osou na rovnoběžce s osou $x$, s poloosami $a=2;b=\sqrt 6$ a exentricitou $e=\sqrt{10}$ a s asymptotami:
+$$y+1 = \f{\sqrt 6}2(x-2)$$
+$$y+1 = -\f{\sqrt 6}2(x-2)$$
+
+\Poz
+Doplnění výrazů $Ax^2+Dx;Cy^2+Ey$ na druhé mocniny dvojčlenů poskytuje středové tvary rovnic kuželeoseček a tím umožnuje jejich zakreslení.
+
+\Pr 
+\begin{enumerate}[a)]
+	\item 
+		$$ \f{x^2}{12} - \f{y^2}{3} = 1$$
+		\pdf[0.5]{12-p1.pdf}
+		$$
+		\begin{array}{r@{[}c@{;}c@{]}}
+			S&0&0\\
+			A_1 &-\sqrt{12}&0\\
+			A_2 &+\sqrt{12}&0\\
+			F   &-\sqrt{15}&0\\
+			G   &+\sqrt{15}&0\\
+		\end{array}
+		$$
+		$$a: y=\f x2$$
+		$$a': y=-\f x2$$
+	\item 
+		$$ \f{x^2}{3} - \f{y^2}{9} = 1$$
+		\pdf[0.5]{12-p2.pdf}
+		$$
+		\begin{array}{r@{[}c@{;}c@{]}}
+			S&0&0\\
+			A_1 &0&-3\\
+			A_2 &0&+3\\
+			B_1 &-\sqrt 3&0\\
+			B_2 &+\sqrt 3&0\\
+			F   &0&-\sqrt 6\\
+			G   &0&+\sqrt 6\\
+		\end{array}
+		$$
+	\item 
+		$$ \f{(x^2+1)^2}{27} - \f{y^2}{9} = 1$$
+		\pdf[0.5]{12-p3.pdf}
+		$$
+		\begin{array}{r@{[}c@{;}c@{]}}
+			S&-1&0\\
+			A_1 &-1-\sqrt{27}&0\\
+			A_2 &-1+\sqrt{27}&0\\
+			F   &-1-6&0\\
+			G   &-1+6&0\\
+		\end{array}
+		$$
+		$$a: y=\f {x+1}{\sqrt 3}$$
+		$$a': y=-\f {x+1}{\sqrt 3}$$
+	\item 
+		$$ \(x^2-\f{13}2\)^2 - \(y^2-\f45\) = \f{65}2$$
+		\pdf[0.4]{12-p4.pdf}
+		$$
+		\begin{array}{r@{[}c@{;}c@{]}}
+			S&\f{13}2&\f 9 2\\
+		\end{array}
+		$$
+	\item 
+		$$16\(x-\f5 4\)^2 + 9\(y+\f 13\)^2 = -25+{25}+1 = 1$$
+		\pdf[0.5]{12-p5.pdf}
+		$$
+		\begin{array}{r@{[}c@{;}c@{]}}
+			S&\f 54&\f 13\\
+			A_1 &\f 54&0\\
+			A_2 &\f 54&-\f 2 3\\
+			B_1 &1&-\f 13\\
+			B_2 &1.5&-\f 13\\
+			F   &\f 54&\f 13 - \f{\sqrt 7}12\\
+			G   &\f 54&\f 13 + \f{\sqrt 7}12\\
+		\end{array}
+		$$
+\end{enumerate}
+
+
+\Poz
+Kritéria vzniku jednotlivých útvarů:
+
+Předpokládejme, že vznikne kuželosečka.
+
+Kružnice vznikne právě tehdy když $A=B$
+
+Elipsa vznikne právě tehdy když ${\rm sqn}(A)={\rm sqn}(B) = \pm 1$
+
+Hyperbola vznikne právě tehdy když ${\rm sqn}(A)=-{\rm sqn}(B) = \pm 1$
+
+Parabola vznikne právě tehdy když $AB = 0 \land A+B \neq 0$
+
+
+
+\EndDoc
+

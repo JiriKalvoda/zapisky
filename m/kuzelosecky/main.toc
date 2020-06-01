@@ -1,0 +1,15 @@
+\babel@toc {czech}{}
+\contentsline {section}{\numberline {§1.}Analytické vyjádření kružnice a kruhu}{1}% 
+\contentsline {section}{\numberline {§2.}Kružnice}{2}% 
+\contentsline {section}{\numberline {§3.}Vzájemná poloha kružnic, kruhů a lineárních útvarů}{5}% 
+\contentsline {section}{\numberline {§4.}Tečna kružnice}{7}% 
+\contentsline {section}{\numberline {§5.}Kulová plocha, koule}{8}% 
+\contentsline {section}{\numberline {§6.}Vyšetřování množin bodů metodou souřadnic}{10}% 
+\contentsline {section}{\numberline {§7.} Analytické vyjádření obrazu útvaru}{12}% 
+\contentsline {section}{\numberline {§8.}Parabola}{12}% 
+\contentsline {section}{\numberline {§9.}Vzájemná poloha parabol a přímek, tečna paraboly}{15}% 
+\contentsline {section}{\numberline {§10.}Elipsa}{19}% 
+\contentsline {subsubsection}{V.10.1.:$\hskip 1em\relax $ {Analytické vyjádření elipsy}}{20}% 
+\contentsline {section}{\numberline {§11.}Hyperbola}{23}% 
+\contentsline {section}{\numberline {§12.}Středové kuželosečky a jejich tečny}{27}% 
+\contentsline {subsection}{\numberline {A)}Obecná rovnice kuželosečky a zakreslení množiny bodů obecné kvadratické rovnice se 2 neznámými bez členu $xy$}{30}% 

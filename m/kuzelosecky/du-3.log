@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.15)  25 MAY 2020 09:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.15)  1 JUN 2020 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/jiri/skola/m/kuzelosecky/3.tex
-(/home/jiri/skola/m/kuzelosecky/3.tex
+**/home/jiri/skola/m/kuzelosecky/du-3.tex
+(/home/jiri/skola/m/kuzelosecky/du-3.tex
 LaTeX2e <2019-10-01> patch level 1
 (./h.tex (./h-include.tex
 \Okraje=\dimen102
@@ -224,8 +224,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \c@chapter=\count110
 \c@roman=\count111
 \c@countOfBegin=\count112
-)) (./3.aux)
-\openout1 = `3.aux'.
+)) (./du-3.aux)
+\openout1 = `du-3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
@@ -306,71 +306,75 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 (/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-.
-
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 3.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (57.12439pt too wide) in paragraph at lines 26--28
-[]\OT1/cmr/m/n/10 Polop^^Tr^^S^^Pka: $\OML/cmm/m/it/10 t > \OT1/cmr/m/n/10 0$: 
-Zde le^^Tz^^S^^P ob^^Te dv^^Te hod-noty: tedy $[]$ 
+<12-p1.pdf, id=1, 594.22pt x 396.48125pt>
+File: 12-p1.pdf Graphic file (type pdf)
+<use 12-p1.pdf>
+Package pdftex.def Info: 12-p1.pdf  used on input line 26.
+(pdftex.def)             Requested size: 297.10927pt x 198.24013pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./12-p1.pdf>]
+<12-p2.pdf, id=13, 319.1925pt x 222.8325pt>
+File: 12-p2.pdf Graphic file (type pdf)
+<use 12-p2.pdf>
+Package pdftex.def Info: 12-p2.pdf  used on input line 40.
+(pdftex.def)             Requested size: 159.59586pt x 111.41597pt.
+<12-p3.pdf, id=14, 877.2775pt x 612.2875pt>
+File: 12-p3.pdf Graphic file (type pdf)
+<use 12-p3.pdf>
+Package pdftex.def Info: 12-p3.pdf  used on input line 54.
+(pdftex.def)             Requested size: 438.63768pt x 306.143pt.
+
+Overfull \hbox (93.75188pt too wide) in paragraph at lines 54--54
+ [] 
  []
 
-<3-1.pdf, id=1, 653.44125pt x 401.5pt>
-File: 3-1.pdf Graphic file (type pdf)
-<use 3-1.pdf>
-Package pdftex.def Info: 3-1.pdf  used on input line 31.
-(pdftex.def)             Requested size: 326.71982pt x 200.7495pt.
+[2 <./12-p2.pdf> <./12-p3.pdf>]
+<12-p4.pdf, id=20, 877.2775pt x 612.2875pt>
+File: 12-p4.pdf Graphic file (type pdf)
+<use 12-p4.pdf>
+Package pdftex.def Info: 12-p4.pdf  used on input line 68.
+(pdftex.def)             Requested size: 350.90479pt x 244.91066pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
-
+Overfull \hbox (6.01898pt too wide) in paragraph at lines 68--68
+ [] 
  []
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./3-1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
-
- []
-
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
-[2] (./3.aux) )
-(\end occurred when \ifnum on line 86 was incomplete) 
+<12-p5.pdf, id=21, 666.49pt x 464.73625pt>
+File: 12-p5.pdf Graphic file (type pdf)
+<use 12-p5.pdf>
+Package pdftex.def Info: 12-p5.pdf  used on input line 76.
+(pdftex.def)             Requested size: 333.24419pt x 232.36755pt.
+[3 <./12-p4.pdf>] [4 <./12-p5.pdf>] (./du-3.aux) )
+(\end occurred when \ifnum on line 106 was incomplete) 
 Here is how much of TeX's memory you used:
- 5053 strings out of 492167
- 67210 string characters out of 6131558
- 160433 words of memory out of 5000000
- 9319 multiletter control sequences out of 15000+600000
- 6199 words of font info for 25 fonts, out of 8000000 for 9000
+ 5052 strings out of 492167
+ 67290 string characters out of 6131558
+ 157433 words of memory out of 5000000
+ 9320 multiletter control sequences out of 15000+600000
+ 5339 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,14n,51p,361b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 3.pdf (2 pages, 112793 bytes).
+ 49i,7n,51p,364b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on du-3.pdf (4 pages, 120922 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
