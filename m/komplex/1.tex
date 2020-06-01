@@ -1,0 +1,75 @@
+\input{h.tex}
+\BeginDoc{}
+\section{ Komplexní čísla, algebraický tvar komplexního čísla}
+
+\Poz  Množinu všech komplexních čísel označíme $\C$.
+
+\Def
+\emph{Komplexním číslem} $z\in\C$ nazýváme každou uspořadanou dvajici $z=(x,y)$ reálných čísel, tj. kartézského čtverce $\R^2 = \C$, na které jsou definovány rovnost a operace sčítání, odčítání, násobení a dělení takto:
+\begin{enumerate}
+	\item \emph{Rovnost komplexních čísel} $z_1=(x_1,y_1);z_2=(x_2,y_2)$ definujeme takto:
+		$$z_1=z_2 \ekv x_1=x_2 \land y_1 = y_2 $$
+		$$z_1\neq z_2 \ekv x_1\neq x_2 \lor y_1\neq y_2 $$
+
+	\item \emph{Součet komplexních čísel} $z_1=(x_1,y_1);z_2=(x_2,y_2)$ definujeme takto:
+		$$z_1+z_2 = (x_1+x_2;y_1+y_2)$$
+
+	\item \emph{Rozdíl komplexních čísel} $z_1=(x_1,y_1);z_2=(x_2,y_2)$ :
+		Rozdílem rozumíme komplexní číslo $z$, pro které platí $z_1 = z_2 +z$, zapisujeme $z=z_1-z_2$
+
+	\item \emph{Součin komplexních čísel} $z_1=(x_1,y_1);z_2=(x_2,y_2)$ definujeme takto:
+		$$z_1\*z_2 = (x_1x_2-y_1y_2;x_1y_2+x_2y_1)$$
+
+	\item \emph{Podíl komplexních čísel} $z_1=(x_1,y_1);z_2=(x_2,y_2)$ :
+		Posdílem rozumíme komplexní číslo $z$, pro které platí $z_1 = z_2 \* z$, zapisujeme $z=\f{z_1}{z_2}$
+\end{enumerate}
+
+\V Nechť $z_1  =(x_1,y_1),z_2=(x_2,y_2)\in\C$. Pak platí:
+\begin{enumerate}
+	\item $z_1-z_2 = (x_1-x_2;y_1-y_2)$
+	\item $z_2 = \ve 0: \f{z_1}{z_2} = \(\f{x_1x_2+y_1y_2}{x_2^2 + y_2^2};\f{x_2y_1-x_1y_2}{x_2^2 + y_2^2}\)$
+\end{enumerate}
+
+[Dk:
+\begin{enumerate}
+	\item $$z_1=z_2+z$$
+		Dosadím:
+		$$(x_1,y_1) = (x_2,y_2) + (x_1-x_2;y_1-y_2)$$
+		Ekvivalentně upravím:
+		$$(x_1,y_1) = (x_1-x_2+x_2;y_1-y_2+y_2)$$
+		$$(x_1,y_1) = (x_1,y_2)$$
+		Což evidentně platí. \emph{QED}
+
+	\item $$z_1=z_2\*z$$
+		Dosadím:
+		$$(x_1,y_1) = (x_2,y_2) \* \(\f{x_1x_2+y_1y_2}{x_2^2 + y_2^2};\f{x_2y_1-x_1y_2}{x_2^2 + y_2^2}\)$$
+		Ekvivalentně upravím:
+		$$(x_1,y_1) = \(
+		x_2\f{x_1x_2+y_1y_2}{x_2^2 + y_2^2}-y_2\f{x_2y_1-x_1y_2}{x_2^2 + y_2^2};
+		\f{x_1x_2+y_1y_2}{x_2^2 + y_2^2}y_2+x_2\f{x_2y_1-x_1y_2}{x_2^2 + y_2^2}
+		\)$$
+		$$(x_1,y_1) = \(
+		\f{x_1x_2^2+x_2y_1y_2-x_2y_1y_2+x_1y_2^2}{x_2^2 + y_2^2};
+		\f{x_1x_2y_2+y_1y_2^2+x_2^2y_2-x_1x_2y_2}{x_2^2 + y_2^2}
+		\)$$
+		$$(x_1,y_1) = (x_1,y_2)$$
+		Což evidentně platí. \emph{QED}
+
+\end{enumerate}
+
+\Pr 11/1:\\
+\begin{enumerate}
+	\item $5+4i$
+	\item $6+3i$
+	\item ??? Co to jako má znamenat ???
+	\item $6-9i$
+	\item analogicky
+\end{enumerate}
+
+
+
+
+
+
+
+\EndDoc
