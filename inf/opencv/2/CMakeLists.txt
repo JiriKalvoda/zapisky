@@ -26,6 +26,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
 if(ANDROID)
   add_library(2 SHARED
     main.cpp
@@ -42,4 +44,4 @@ else()
   )
 endif()
 
-target_link_libraries(2 PRIVATE Qt5::Widgets)
+target_link_libraries(2 PRIVATE Qt5::Widgets ${OpenCV_LIBS} )

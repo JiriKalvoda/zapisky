@@ -1,0 +1,4 @@
+/home/jiri/skola/inf/opencv/build-2-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/jiri/skola/inf/opencv/build-2-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/jiri/skola/inf/opencv/build-2-Desktop-Debug/CMakeFiles/2.dir
+/home/jiri/skola/inf/opencv/build-2-Desktop-Debug/CMakeFiles/2_autogen.dir
