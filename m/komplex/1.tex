@@ -66,10 +66,85 @@
 	\item analogicky
 \end{enumerate}
 
+\V
 
+Množina $\C$ má následující vlastnosti:
 
+$\forall z_1,z_2,z_3 \in \C$:
+\begin{enumerate}
+	\item $z_1+z_2 = z_2 + z_1$
+	\item $(z_1+z_2)+z_3 = z_1 + (z_2+z_3)$
+	\item $\exists o \in \C : \forall  z \in \C : z+o = o+z = z$, kde $o=(0,0)$
+	\item $\forall z \in \C : \exists z' \in \C : z+z' = z' + z = o$ ($z'$ je číslo opačné k $z$)
+	\item $z_1\*z_2 = z_2 \* z_1$
+	\item $(z_1\*z_2)\*z_3 = z_1 \* (z_2\*z_3)$
+	\item $\exists e \in \C : \forall z \in \C: z\*e = e \* z = z$, kde $e=(1,0)$
+	\item $\forall z \in \C-\zs{o}: \exists z^* \in \C - \zs{o}: z^*\*z = z\*z^* = e$
+		($z^*$ je číslo převrácené k $z$)
+	\item $(z_1+z_2)\*z_3 = z_1z_3 + z_2z_3 $
+\end{enumerate}
+[Dk:
 
+Nechť $z_k = (x_k,y_k)$, pro všechna $k$:
+\begin{enumerate}
+	\item ekvivalentní s $(x_1+x_2,y_1+y_2)$
+	\item ekvivalentní s $(x_1+x_2+x_3,y_1+y_2+y_3)$
+	\item $(x+0,y+0) = (x,y)$
+	\item $z'=-z \imp (x+-x,y+-y) = (0,0)$
+	\item ekvivalentní s $(x_1x_2-y_1y_2;x_1y_2+x_2y_1)$
+	\item analogicky dvojím dosazením
+	\item $(x_1\* 1-y_1\* 0;x_1\* 0+1 \* y_1) = (x_1,y_1)$
+	\item Dosadíme $z^* = \(\f{x}{x^2+y^2};\f{y}{x^2+y^2}\)$:
+		$\(x\f{x}{x^2+y^2}-y\f{-y}{x^2+y^2};x\f{-y}{x^2+y^2}+\f{x}{x^2+y^2}y\) = \(\f{x^2+y^2}{x^2+y^2};\f{0}{x^2+y^2}\) = (1;0)$
+	\item ekvivalentní s $\((x_1+x_2)x_3-(y_1+y_2)y_3;(x_1+x_2)y_3+x_3(y_1+y_2)\)$
+\end{enumerate}
+]
+\Pozenum
+Vlastnosti 1-4 z věty V.1.2. zajišťují, že $\C$ s operací + tvoří komutativní grupu $(\C,+ )$
+ \item Vlastnosti 5-8 z věty V.1.2. zajišťují, že $\C-\zs{o}$ s operací $\times$ tvoří komutativní grupu
+	 $(\C -\zs{o},\times )$
+ \item Vlastnosti 1-9 z věty V.1.2. zajišťují, že $\C$ s operacemi $+ ,\times$ tvoří \emph{komutativní těleso (pole)}
+$(C,+,\times )$
+\End
 
+\Poz
+\emph{Souvislost množiny $\R$ a $\C$:}\\
+Ztotožníme $\R$ s jistou podmnožinou množiny $\C$.
+ Zobrazení $\phi : \R \rightarrow \C$ definujeme takto: $\forall x \in \R :\phi(x) = (x,0)$
+ Zobrazení $\phi$ je injektivní (tedy prosté), ale není bijektivní.
+Pro $x, y \in \R$ má následující vlastnosti:
+ \begin{enumerate}
+	 \item $\phi(x)+\phi(y) = \phi(x+y)$
+	 \item $\phi(x)\*\phi(y) = \phi(x\*y)$
+ \end{enumerate}
+ $\phi$ zachovává operace $+$ ,$\times$ . Je to izomorfní zobrazení $\R$ do $\C$.
+ Lze tedy každé komplexní číslo $(x,0)$ ztotožnit s reálným číslem $x$.
+
+ \Poz
+ \emph{Konvence}\\
+ Komplexní číslo $(0,1)$ označíme $i$.\\
+ Přitom platí:
+ $(x,y) = (x,0)+(0,y)=x+iy$\\
+ $i^2 = -1$
+
+ \Def Nechť $z\in \C;z=(x,y)$:\\
+ Zápis čísla $z$ ve tvaru $z=x+iy$ nazýváme
+ \emph{algebraickým tvarem komplexního čísla} $z$.
+ Číslo $x\in\R$ nazýváme \emph{reálnou částí} a $y\in\R$ nazýváme \emph{částí imaginární}, číslo $i=(0,1)$ nazýváme \emph{imaginární jednotkou}.
+ Zapisujeme $x = {\rm Re} z, y = {\rm Im} z$.
+ \emph{Čísla} $z=x+iy$, kde $y\neq 0$, nazýváme \emph{imaginárními}, čísla $z=iy$, kde $y\neq 0$ nazýváme \emph{ryze imaginárními}.
+
+ \Poz Množina komplexních čísel je tedy sjednocením množiny čísel reálných a čísel imaginárních. 
+
+ \Poz  Při počítání s komplexními čísly v algebraickém tvaru lze tato čísla formálně chápat jako mnohočleny
+a využívat faktu, že $-1= i^2$.
+
+\Poz Platí: $\forall n \in \Z$: $i^{4n} = 1 \land i^{4n+1} = i \land i^{4n+2} = - 1 \land i^{4n+3} = -i$
+
+\Pr 
+$(2+i)+(1-2i) = 3-i$\\
+$(2+i)(1-2i) = 2  - 4i + i - 2i^2 = 2-3i+2 = 4-3i$\\
+$\f{2+i}{1-2i} = \f{2+4i+i+2i^2}{1-4i^2} = \f{5i}5 = i$
 
 
 \EndDoc

@@ -1,0 +1,146 @@
+\input{h.tex}
+\BeginDoc{}
+\def\U{{\mathbb U}}
+\section{ Gaussova rovina, goniometrický tvar komplexního čísla}
+\Poz
+Protože množina $\C$ je definována jako množina uspořádaných dvojic $\R$ čísel, lze každé
+komplexní číslo $z = (x, y)$ zobrazit v rovině s kartézskou soustavou souřadnic a ztotožnit s bodem
+$z[x, y]$.
+Reálná čísla leží na ose $x$ (osa $x$ se nazývá reálná osa).
+Ryze imaginární čísla $z = yi, y \neq 0$ leží na ose $y$ (osa $y$ se nazývá imaginární osa).
+Rovina s reálnou a imaginární osou se nazývá Gaussova rovina a v ní zobrazujeme komplexní čísla.
+Podobně lze interpretovat komplexní čísla jako vektory s pevným počátečním bodem.
+
+\Def
+Nechť $z=x+iy\in\C$. Číslo $\overline{z}=x-iy\in\C$ nazýváme \emph{komplexně sdruženým číslem} k číslu $z$.
+
+Číslo $|z| = \sqrt{x^2+y^2} \in \R$ nazýváme \emph{absolutní hodnotou komplexního čísla} $z$.
+
+Komplexní číslo $z$ s vlastností $|z|=1$ nazýváme \emph{komplexní jednotkou}.
+
+\Pozenum
+Čísla $z$ a $\overline z$ jsou osově souměrná podle reálné osy (osy $x$)
+\item Číslo $|z|$ vyjadřuje vzdálenost bodu $z$ od počátku souřadné soustavy, a tedy délku polohového
+vektoru bodu $z$. 
+\item Množinu všech komplexních jednotek označíme $\U$. 
+\item 
+ Protože obrazem množiny komplexních čísel se stejnou nenulovou absolutní hodnotou je kružnice
+se středem v počátku souřadné soustavy, je obrazem množiny $\U$ jednotková kružnice se středem
+v počátku.
+\V
+Pro každá dvě komplexně združená čísla $z=x+yi;\overline z = x-yi$ platí:
+\begin{enumerate}
+	\item $\overline{\(\overline z\)}  =  z$
+	\item $z+\overline z  = 2x$
+	\item $z\*\overline z = x^2 + y^2 = |z|^2$
+	\item $\overline{z_1+z_2} = \overline{z_1}+\overline{z_2}$
+	\item $\overline{z_1-z_2} = \overline{z_1}-\overline{z_2}$
+	\item $\overline{z_1\*z_2} = \overline{z_1}\*\overline{z_2}$
+	\item $\overline{\(\f{z_1}{z_2}\)} = \f{\overline{z_1}}{\overline{z_2}}$
+	\item $\overline{\(z^n\)} = \(\overline{z}\)^n$
+\end{enumerate}
+
+\V
+Pro absolutní hodnoty libovolných komplexních čísel $z,z_1,z_2 \in\C$ platí:
+\begin{enumerate}
+	\item $|z|\ge0$, přičemž $|z|=0 \equiv z=0$
+	\item $|z| = |-z| = |\overline z| = \sqrt{z \* \overline z}$
+	\item $|z_1\pm z_2| \le |z_1|+z_2| $
+	\item $|z_1\pm z_2| \ge |z_1|-z_2| $
+	\item $|z_1\*z_2| = |z_1| \* |z_2|$
+	\item $\f{|z_1|}{|z_2|} = \left|\f{z_1}{z_2}\right|\ \ \ (z_2\neq 0)$
+	\item ${\rm Re} z \le |z| ; {\rm Im z}\le |z|$
+\end{enumerate}
+
+\Poz Všechny vztahy platící pro reálná čísla nelze mechanicky převést do množiny komplexních čísel.
+Např.
+$|z|^2 \neq z^2$ 
+\Poz Na rozdíl od množiny reálných čísel není množina komplexních čísel uspořádaná, tedy komplexní
+čísla nelze srovnávat podle velikosti. 
+
+\Def Nechť $z=x+iy \in \C; z \neq 0$. \emph{Argumentem komplexního čilsa} nazýváme orientovaný úhel $\varphi$, který svírá kladná poloosa reálné osy s polohovým vektorem bodu $z$.
+
+\Poz Každé nenulové číslo $z$ má nekonečně mnoho argumentů, přitom každé 2 z nich se liší o
+$k \* 2\pi ; k \in \Z$.
+Je-li $\varphi \in \<0;2\pi\)$ , pak jej nazýváme \emph{hlavní argument komplexního čísla} $z$ , je jediný. 
+\V
+Každé komplexní číslo $z = x + iy;z \neq 0$ lze zapsat ve tvaru $z = |z| \*(\cos \varphi + i \sin \varphi)$, kde $|z|$ je
+absolutní hodnota $z$ a $\varphi$ je argument $z$, přičemž platí: $\cos \varphi = \f{x}{|z|}; \sin \varphi = \f y{|z|}$.
+
+[Dk.!:
+
+$|z| = \sqrt{x^2+y^2} ; \cos \varphi = \f{x}{|z|}; \sin \varphi = \f y{|z|}$
+
+$ z = x+iy = \sqrt{x^2+y^2} \* \(\f x{\sqrt{x^2+y^2}} + \f{iy}{\sqrt{x^2+y^2}}\) = |z| \* \(\cos \varphi + i \sin \varphi\)$
+
+]
+
+\Def \emph{ Goniometrický tvar komplexního čísla}
+
+Nechť $z\in\C,z\neq 0$. Pak goniometrickým tvarem tohoto čísla nazýváme zápis čísla ve tvaru $z=|z|\*(\cos \varphi + i \sin \varphi)$, kde $|z|$ je absolutní hodnota $z$ a $\varphi$ ja argument $z$, přičemž $\cos \varphi = \f x{|z|}$ a $\sin \varphi = \f y {|z|}$.
+
+\Pr Zapiště v gon. tvaru:
+\begin{enumerate}
+	\item $z=1+i$\\
+		$|z| = \sqrt 2; \varphi = \f\pi4$\\
+		$z = \sqrt 2 e^{i\f\pi 4}$
+\end{enumerate}
+\Pr Zapiště v alg. tvaru:
+\begin{enumerate}
+	\item $z= 2e^{i\f\pi3} = 2(\f 12 + i \f{\sqrt 3}2 = 1+i\sqrt 3$
+
+\end{enumerate}
+
+\Pr Nechť $z_1,z_2\in\C-\zs{0}; z_1 = |z_1| \* (\cos\varphi_1+i\sqrt\varphi_1);z_2 = |z_2| \* (\cos\varphi_2+i\sqrt\varphi_2)$
+pak platí:
+
+$z-1\*z_2 = |z_1|\*|z_2| \* (\cos \varphi_1+i \sin\varphi_1) \* (\cos \varphi_2+i \sin\varphi_2) = |z_1|\*|z_2| \* (\cos(\varphi_1+\varphi_2)+i\sin(\varphi_1+\varphi_2))$
+
+$\f{z_1}{z_2} = \f{|z_1}{|z_2} \* (\cos(\varphi_1-\varphi_2)+i\sin(\varphi_1-\varphi_2))$
+
+\Pr Vypočítejte v algebraickém i goniometrickém tvaru:
+\begin{enumerate}
+	\item $(i-\sqrt 3 i)(\sqrt 3+i) = 2\sqrt 3 - 2i$
+
+		$2 e^{i\f 53 \pi} \* 2 \* e^{i\f\pi 6} = 4 e^{i\f{11}6\pi}$
+
+	\item $\f{2e^{i\f53\pi}}{2e^{i\f\pi6}} = e^{i\f 32 \pi}$
+\end{enumerate}
+\V[Moivreova věta]
+Nechť máme nenulové kkomplexní číslo $z = |z| e^{i\varphi}; n\in\N$, pak platí:
+$$z^n = |z|^n e^{in\varphi}$$
+
+\Poz  Moivreova věta platí i pro celé exponenty. 
+
+\Poz  Součet a rozdíl, součin a podíl komplexních čísel v Gaussově rovině.
+
+Součet a rozdíl jako sčítání a odčítání vektorů. 
+
+Součin $z_1z_2$ (podíl $\f{z_1}{z_2}$):
+\begin{enumerate}
+	\item zobrazíme $z_1$ ve stejnolehnosti $H_{P,|z_2|}$ ($H_{P,|z_2|^{-1}}$):
+		Získáme $|z_1\*z_2|$.
+	\item zobrazíme $|z_1\*z_2$ ($\left|\f{z_1}{z_2}\right|)$ v rotaci $R_{P,\arg z_2}$ ($R_{P,-\arg z_2}$)
+		Získáme $z_1\*z_2$ ($\f{z_1}{z_2}$).
+		\pdf[0.7]{2-1.pdf}
+\end{enumerate}
+\Pr 
+\pdf[0.2]{2-2.pdf}
+$z_1 + z_2  = 2 + 0 i$\\
+$z_1 - z_2  = 0 - 2 i$\\
+$z_1 \* z_2  = 1-i+i+1 = 2$\\
+$\f{z_1}{z_2}  = \f{1-i}{1+i}\*\f{1-i}{1-i} = \f{1-2i-1}2=-i$\\
+\pdf[0.8]{2-3.pdf}
+$z_1 + z_2  = 1+ 6i$\\
+$z_1 - z_2  = 1+2i$\\
+$z_1 \* z_2  = 2i+4i^2 = -4+2i$\\
+$\f{z_1}{z_2}  = \f{1+4i}{2i}\*\f{i}{i} = \f{-4+i}{-2}=2-\f12i$\\
+
+\Pr 147/1:
+\begin{enumerate}
+	\item[d)] $(1-i)^n = \sqrt{2}^2 e^{-n i\f\pi 4}$
+	\item[e)] $(\sqrt 2 + i)^n = 2^n e^{-i\f\pi6}$
+	\item[f)] $\(\f{1-i}{1+i}\)^{20} = -i ^{20} = -i ^2 = 1$
+\end{enumerate}
+
+\EndDoc

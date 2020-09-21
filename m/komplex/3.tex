@@ -1,0 +1,62 @@
+\input{h.tex}
+\BeginDoc{}
+\def\U{{\mathbb U}}
+\section{Binomické rovnice}
+\Poz Nechť $a'in \R;\sqrt[n]{a}$ v reálném ooru (pokud existuje) je jediné číslo $x$
+s vlastností $x^n = a$.
+Tzn. v $\R$ existuje nejvýše jedna $\sqrt[n]a$. V množině $\C$ je situace jiná.
+
+\Def \emph{Binomickou rovnicí} s neznámou $z\in\C$ nazýváme každou rovnici tvaru $z^n = a$, kde $a\in\C,n\in\N,n\ge 2$.
+
+Každý komplexní kořen binomické rovnice nazýváme \emph{komplexní $n$-tou odmocninu} z čisla $a$.
+
+\Pr Vypočítejte:
+$z = \sqrt{1+\sqrt 3 i}$\\
+$z^2 = 1+\sqrt 3 i = 2 e^{i\f\pi 3}$
+$|z| = \sqrt 2$
+$2\varphi = \f \pi 3 + 2\pi n \imp \varphi = \f\pi 6 + \pi n \imp \varphi = \f\pi 6 \lor \varphi = \f 7 6 \pi $ 
+
+$z_0 = \sqrt 2 e^{i\f\pi6} = \f{\sqrt 6}2 + \f{\sqrt 2}2 i$\\
+$z_1 = \sqrt 2 e^{i\f\pi6} = -\f{\sqrt 6}2 -\f{\sqrt 2}2 i$
+
+\Poz  Při řešení binomických rovnic (s využitím goniometrického tvaru komplexních čísel) jde tedy i
+o řešení následujícího problému: 
+
+Určit všechna $x\in\R : (\cos x +i\sin x)^n (\cos nx +i\sin nx) = \cos\alpha +i \sin\alpha$
+
+Musí platiti: $nx = \alpha + 2k\pi;k\in\Z \imp x_k = \f{\alpha + 2k\pi}n$
+
+Je zřejmé, že pro $k\in\zs{0,1,\dots,n-1}$ získáme argumenty různých komplexních čisel.
+
+Pro $k = n+h; h \in\N_0 : x_k = \f{\alpha+2h\pi}n+2\pi \imp$ $x_h$ a $x_k$ se liší o $2\pi$, proto jsou to argumenty téhož čísla.
+
+\V Nechť $a\in\C$: pak binomická rovnice $z^n = a$ má v množině $\C$:
+\begin{enumerate}
+\item $a=0\imp$ jeden kořen
+\item $a\neq 0\imp$ právě $n$ kořenů
+$$ z_k = \sqrt[n]{|a|} \* e^{i\f{\alpha+2k\pi}n}$$
+kde $k\in\zs{0;1;\dots n-1}$, $\alpha$ \dots argument komplexního čísla $a$.
+\end{enumerate}
+
+\Pr Řešte v $\C$: $z^3 = i$.
+
+$|z|^3 = 1 \imp |z| = 1$\\
+$3\alpha = \f\pi 2 + 2k\pi \in \alpha = \f\pi 6 + \f 23\pi$
+
+$$
+\f{\sqrt 3}1+\f 12 i;
+-\f{\sqrt 3}1+\f 12 i;
+-i
+$$
+
+\Poz
+Obrazy kořenů binomické rovnice $z^n=a;n\ge 3$
+ tvoří vrcholy pravidelného $n$-úhelníka vepsaného
+do kružnice se středem v počátku souřadné soustavy a poloměrem $\sqrt[n]{|a|}$, neboť rozdíl dvou
+\uv{sousedních} kořenů je konstantní:
+
+$$ x_{i-1} - x_i = \f{\alpha + 2(i+1)\pi}n - \f{\alpha+2i\pi}n = \f{2\pi}n$$
+
+
+
+\EndDoc
