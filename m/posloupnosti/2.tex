@@ -1,0 +1,41 @@
+\input{h.tex}
+\BeginDoc{}
+\section{Analytické vyjádření kružnice a kruhu}
+\V {\huge\dots}
+\V Nechť $\zs{a_n}_{n=1}^\infty$ je AP s diferencí $d$ nechť $S_n$ je součet prvních $n$ členů. Pak platí:
+
+$$\forall n\in\N: S_n = \f 12 n (a_1+a_n)$$
+
+[Dk: sečteme po dvojicích $x$-tého prvku od začátku a $x$-tého prvku od konce. Všechny dvojice mají součet $a_1+a_n$ a případný zbylý člen je $\f{a_1+a_n}2$. ]
+
+\Pr určete součet prvnich 100 lichych přirozených čísel:
+
+$$\f{100\*(1+199)}2 = 10000$$
+
+Součet lihých přirozencyh císel do $2n-1$:
+
+$$\f {n(2n-1+1)}2 = n^2$$
+
+\V Nechť $\zs{a_n}_{n=1}^\infty$ je AP. Pak platí:
+$$\forall n\in\N: a_n = \f{a_{n-1}+a_{n+1}}2$$
+
+[Dk: $a_n = a_n-1+d \land a_n=a_{n+1}-d \imp a_n = \f{a_{n-1}+a_{n+1}}2$]
+
+\Pozenum Vyjádření členu předchozí věty je vyjádřením \emph{aritmetrického průměru} čísel $a_{n-1},a_{n+1}$.
+\item platí i obrácení V.2.3.
+
+\V Nechť $\zs{a_n}_{n=1}^\infty$ je AP. Pak platí:
+\begin{enumerate}
+\item $\zs{a_n}_{n=1}^\infty$ je rostoucí $\ekv$ $d>0$
+\item $\zs{a_n}_{n=1}^\infty$ je klesající $\ekv$ $d<0$
+\item $\zs{a_n}_{n=1}^\infty$ je konstantní $\ekv$ $d=0$
+\end{enumerate}
+
+\V Nechť $\zs{a_n}_{n=1}^\infty$ je AP. Pak platí:
+\begin{enumerate}
+\item $\zs{a_n}_{n=1}^\infty$ je zdola omezená $\ekv$ $d\ge 0$
+\item $\zs{a_n}_{n=1}^\infty$ je shora omezená $\ekv$ $d\le 0$
+\item $\zs{a_n}_{n=1}^\infty$ je omezená $\ekv$ $d=0$
+\end{enumerate}
+
+\EndDoc
