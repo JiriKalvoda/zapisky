@@ -1,0 +1,177 @@
+\input{h.tex}
+\BeginDoc{}
+\def\posloup{$\zs{a_2}_{n=1}^{\infty}$}
+\section{Rekurentně určené posloupnosti}
+
+\Pozenum
+\emph{Rekurentním určením posloupnosti} rozumíme vyjádření $n$-tého členu pomocí jednoho nebo několika
+(až všech) předchozich členů (případně pomocí $n$).
+
+Např:\\
+AP: $a_n=a_{n-1} + f$ pro $'forall n > 1$
+GP: $a_n=a_{n-1} \* q$ pro $'forall n > 1$
+
+K jednoznačnému zadání je třeba stanovit počáteční podmínky, tzn. je-li $n$-tý člen
+zadán pomocí $a_{n-1},\dots,a_{n-k}$ je třeba zadat prvních $k$ členů.
+\item Jestliže $n$-tý člen posloupnosti je vyjádřen přímo pomocí $n$
+	hovoříme o  \emph{explicitním určením posloupnosti}.
+\End
+
+
+\Poz \emph{Fibonačiho posloupnost}:\\
+$a_1=a_2=1 , a_{n+2}=a_n+a_{n+1}$, její členy jsou tzv. Fibonaciho čísla.
+
+\Pr Nalezněte explicitní vyjádření posloupnosti zadané rekurentně:
+
+$a_{n+1} = 3a_n+1,a_1=2$
+
+$a_1 = 2$
+$a_2 = 3a_1+1 = 3\* 2 + 1 = 7$
+$a_3 = 3a_2+1 = 3\*(3\* 2 +1) + 1 = 2\*3^2 + 3 +1=22$
+$a_4 = 3a_3+1 = 3\*(3\*(3\*2+1) +1) + 1 = 2\*3^3+3^2+1=67$
+
+
+$a_n = 2\*3^{n-1}+3^{n-2}+3^{n-3}+\cdots+1 = (1+3+3^2+\cdots+3^{n-2})+3^n-1 = \f{3^n-1}{3-1} + 3^{n-1} = \f{53^{n-1}-1}{2}$
+
+Nalezenou hypotézu je ale nutno dokázat indukcí:
+\begin{enumerate}
+	\item $\f{5-1}{2}=2$
+	\item $\forall n\in\N: a_n=\f{5\*3^{n-1}-1}2 \imp a_{n+1} = \f{5\*3^n-1}2$
+
+		$a_{n+1} = 3a_n+1= \f{5\*3^n-3}2 + 1 = \f{5\*3^n-1}2$
+\end{enumerate}
+
+
+
+\Pr:
+Nalezněte rekurentní vyjádření posloupnosti zadané explicitně:
+
+$$\zs{\f1{n(n+)}}_{n=1}^{\infty}$$
+
+Podílem: $\f{a_{n+1}}{a_n} = \f{\f1{(n+1)(n+2)}}{\f1{(n+1}n}=\f{n}{n+2}$\\
+$a_{n+1} = a_n \* \f n{n+1},a_1=\f 12$
+
+Rozdílem: $a_n+1-a_n = \f{1}{(n+1)(n+2)}-\f{1}{n(n+1} = \f{n-n-2}{n-n+1}{n(n+1)(n+2)}$\\
+$a_n+1 = a_n - \f2{n(n+1)(n+2)},a_1=\f 12$
+
+DÚ:
+\begin{enumerate}
+	\item Rekurent na explic:
+		\begin{enumerate}
+			\item $a_{n+1}=3a_n,a_1=1$
+
+				$a_1 = 1$\\
+				$a_2 = 1\*3$\\
+				$a_3 = 1\*3\*$\\
+				$a_4 = 1\*3\*3\*3$
+
+				$$a_n = 3^{n-1}$$
+				[Dk: MI
+				\begin{enumerate}
+					\item $3^0=0$
+					\item $a_n = 3^{n-1} \imp a_{n+1} = 3^{n-1}\*3=3^{n}$
+				\end{enumerate}
+				]
+			\item $b_{n+1}=2-b_n,b_1=0$
+
+				$b_1=0$\\
+				$b_2=2-0=0$\\
+				$b_3=2-2=0$\\
+				$b_4=2-0$
+
+				$$b_n=
+				\left\{\begin{array}{ll} 
+					0 & \text{pro lichá $n$}\\
+					2 & \text{pro sudá $n$}\\
+				\end{array}\right.
+				$$
+				[Dk: MI
+				\begin{enumerate}
+					\item $0=0$
+					\item $a_n = 
+				\left\{\begin{array}{ll} 
+					0 & \text{pro lichá $n$}\\
+					2 & \text{pro sudá $n$}\\
+				\end{array}\right.
+						\imp a_{n+1} = 3^{n-1}\*3=3^{n}
+				\left\{\begin{array}{ll} 
+					2-0=2 & \text{pro lichá $n$}\\
+					2-2=0 & \text{pro sudá $n$}\\
+				\end{array}\right.$
+				\end{enumerate}
+				]
+			\item $c_{n+1} = 2c_n-c_{n-1},c_1=1,c_2=2$
+				$c_1=1$\\
+				$c_2=2$\\
+				$c_3=2+2-1=3$\\
+				$c_4=3+3-2=4$
+				$$c_n=n$$
+				[Dk: MI
+				\begin{enumerate}
+					\item $1=1$
+					\item $a_n = n \imp a_{n+1} = 2n-(n-1)=n+1$
+				\end{enumerate}
+				]
+		\end{enumerate}
+	\item Explicitní na rekurentní:
+		\begin{enumerate}
+			\item 
+			$\zs{n^2+1}_{n=1}^\infty$
+
+				$a_{n+1} - a_n = (n+1)^2+1 -(n^2-1) = n^2+2n+1-n^2 = 2n+1$
+
+				$a_{n+1} = a_m + 2n +1;a_1=2$
+			\item
+			$\zs{\log 10^n}_{n=1}^\infty$
+
+				$a_n = \log 10^n = n \log 10 = n\*1 = n$
+
+				$a_n=a_{n-1}+1;a_1=1$
+			\item
+				$\zs{(-1)^n}_{n=1}^\infty$
+
+				$a_n = - a_{n-1};a_1=-1$
+
+		\end{enumerate}
+		\pd{4-1.pdf}
+	\Pr 23/17:
+
+	Po $x$ letech:\\
+	$c_x = c_0 p^x = \f 12 c_0$\\
+	$p^x = \f 12$
+	$\log_p p^x = \log_p \f 12$
+	$x = \log_p \f 12 = -\f{1}{\log_2 p}$
+
+	\Pr 23/18:
+	$p_1 = 1800$\\
+	$p_{n+1} = 1.02 p_n + p_1$\\
+
+	$p_n = p_1 (1.02^{n-1} + 1.02^{n-2} + 1.02^{n-3} +\cdots+ 1.02^0) = p_1 \f{1.02^{n}-1}{0.02} = 85\ 000 (1.02^{n}-1)$
+
+	$p_{10} = 85\ 00 (1.02^{10}-1)  =18645.52$
+
+	\Pr 23/19:
+	$p_{n+1}=(p_n+1000)\*\f{1}{1.02}$
+	$p_0=0$
+
+	$$p_n = 1000 (\(\f1{1.02}\)^n + \(\f1{1.02}\)^{n-1} +\cdots\f1{1.02})
+	 = 1000 \f1{1.02} \* \f{\(\f1{1.02}\)^n-1}{\f1{1.02}-1}$$
+
+	 $$p_{10}  = 8982.58$$
+
+	 \Pr 23/20: 
+	 $ p_0 = 0$
+	 $ p_{n+1} = 1.02 (p_n+x)$
+
+	 $p_n = x 1.02(1.02^{n-1}+1.02^{n-2} + \dots + 1.02^0) = x \f{1.02^n-1}{0.02}$
+
+	 $10 000 = p_{10} = x \f{1.02^{10}-1}{0.02}$\\
+	 $x = \f{200}{1.02^{10}-1} = 913.26$
+
+
+\end{enumerate}
+
+
+
+
+\EndDoc

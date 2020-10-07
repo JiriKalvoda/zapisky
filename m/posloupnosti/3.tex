@@ -1,0 +1,63 @@
+\input{h.tex}
+\BeginDoc{}
+\def\posloup{$\zs{a_2}_{n=1}^{\infty}$}
+\section{Geometrická posloupnost}
+\Def Nechť \posloup je posloupnost reálnych čísel.
+Tato \emph{posloupnost} se nazývá \emph{geometrická}, právě když $\exists q\in \R: \forall n\in\N: a_n=a_{n-1}q$. Číslo $q$  se nazývá \emph{kvocient} geometrické posloupnosti (GP).
+
+
+\Pozenum
+$a_1=0 \imp \forall n\in\N:a_n=0 $, tj. konst posl.
+\item $a_1\neq 0\land q=0 \imp \forall n\in\N-\zs{1}:a_n=0 $.
+\End
+
+\Poz
+V daslších úvahách tyto posloupnosti vyloučíme.
+
+\V
+Nechť \posloup je GP s kvocientem $q$, pak platí:
+\begin{enumerate}
+	\item $\forall n \in \N : a_n = a_1 \*q^{n-1}$
+	\item $\forall r,s \in \N : a_r = a_s \*q^{s-r}$
+\end{enumerate}
+
+[Dk:
+\begin{enumerate}
+	\item MI:
+		\begin{enumerate}
+			\item $n=1$: $a_1 = a_1 \*q^0 = a_1$.
+			\item \underline{Když platí $a_n = a_1 \* q^{n-1}$, tak platí $a_{n+1}=a_1q^n$}
+
+				$$a_1q^{n} = a_1q^{n-1}q=a_{n}q=a_{n+1}$$
+		\end{enumerate}
+	\item Podělíme vztahy pro $a_s$ a $a_r$.
+
+\end{enumerate}
+]
+
+
+\V Nechť \posloup je GP s kvocientem q. Pak pro $\forall n \in \N$ platí:
+\begin{enumerate}
+	\item $q=1: S_n = n\*a_1$
+	\item $q\neq1: S_n = a_n {q^n-1}{q-1}$
+\end{enumerate}
+
+[Dk: 
+
+$qS_n - S_n = a_1^n -a_1 \imp S_n (q-1) - a_1 (q^n-1)$ 
+
+pro $q\neq 1$: $S_n = a_1 \f{q^n-1}{q-1}$
+]
+
+\Pr Je dána posloupnost $\zs{2,2 sqrt 2,4,4\sqrt 2, 8,\dots}$, vypočítejte součet prvních 12 členů.
+
+$q=\sqrt 2$
+$$ S = 2 \f{\sqrt{2}^{12}-1}{\sqrt 2 -1} = 126 \f{\sqrt 2 + 1}{2-1} = 126 + 126 \sqrt 2$$
+
+\V Nechť \posloup je GP, pak platí: $\forall n\in\N-\zs{1}$:
+$$|a_n| = \sqrt{a_{n-1}a_{n+1}}$$
+
+
+
+
+\EndDoc
