@@ -73,6 +73,50 @@ Pak $\li b_n = A$.
 
 		Diverguje!
 
+		\V Nechť $\pos{a_n}$ a $\pos{b_n}$ jsou dvě posloupnosti. Nechť $\li a_n=A \li b_n = B$ a nechť $c\in\R$:
+		\begin{enumerate}
+			\item $\li(a_n+b_n) = A+B$
+			\item $\li(a_n-b_n) = A-B$
+			\item $\li(c\*a_n) = c\*A$
+			\item $\li(a_n\*b_n) = A\*B$
+			\item $\li\(\f{a_n}{b_n}\) = \f AB$  ($\forall n \in \N: b_n\neq 0;B \neq 0$)
+		\end{enumerate}
+
+		\Pr: Vypočítejte:
+
+		$$\li\(\f{n+1}n\)=\li\(1+\f 1 n\) = \li 1 + \li \f 1 n = 1 + 0 = 0$$
+		\Poz
+		 Konvergence AP a GP:
+		 \begin{enumerate}
+			 \item  AP je konvergentní $\ekv d=0$
+			 \item GP je konvergentní $\ekv q\in(-1,1)\cap a_1 =0$.
+		 \end{enumerate}
+
+		 \Poz Kromě limit zavedených v 1. definici tohoto paragrafu (tyto limity nazýváme \emph{vlastní limity}) existují i tzv. \emph{nevlastní limity} $\pm\infty$. 
+		 \Def Nechť $\pos{a_n}$ je posloupnost. 
+		 Řekněme, že \emph{posloupnost} $\pos{a_n}$:
+		 \begin{enumerate}
+			 \item \emph{Má nevlastní limitu $+\infty$} (diverguje k $+\infty?$) $\Ekv \forall K\in \R:\exists n_0\in\N:\forall n\ge n_0,n\in\N: a_n>K$. Zapisujeme $\lim a_n = \infty$.
+			 \item \emph{Má nevlastní limitu $+\infty$} (diverguje k $+\infty?$) $\Ekv \forall K\in \R:\exists n_0\in\N:\forall n\ge n_0,n\in\N: a_n<K$. Zapisujeme $\lim a_n = -\infty$.
+		 \end{enumerate}
+
+		 \Poz Nechť $R(x) = \f{P(x)}{Q(x)} = \f{a_nx^n+a_{n-1}x^{n-1}+\dots+a_0}{b_mx^m+b_{m-1}x^{m-1}+\dots+b_0}$ je racionální lomaná funkce.
+		 Pak platí:
+		 \begin{enumerate}
+			 \item $st\ P(x) > st\ Q(x) \imp \li R(n) = \pm \infty$
+			 \item $st\ P(x) = st\ Q(x) \imp \li R(n) = \f{a_n}{b_n}$
+			 \item $st\ P(x) < st\ Q(x) \imp \li R(n) = 0$
+		 \end{enumerate}
+
+		\V Nechť $\pos{a_n}$ a $\pos{b_n}$ jsou dvě posloupnosti takové, že$\li a_n=0$ a $\pos{b_n}$ je omezená.
+		Pak $\lim\(a_nb_n\)=0$.
+
+		\Pr
+		$$\li\(\f{(n+1)^2}{2n^2}\) = \li\(\f{n^2+2n+1}{2n^2}\) = \f 1 2$$
+		\Pr $$\li(2n^2 - 3) = +\infty$$
+
+
+
 \end{enumerate}
 
 
