@@ -1,0 +1,108 @@
+\input{h.tex}
+\BeginDoc{}
+\def\posloup{$\zs{a_n}_{n=1}^{\infty}$}
+\def\pos#1{\zs{#1}_{n=1}^{\infty}}
+\def\li{\lim_{n\rightarrow\infty}}
+\def\sup{{\rm sup\ }}
+\def\sciwinfup{{\rm inf\ }}
+\section{Suprémum a infimum množiny, konvergence omezených
+monotónních posloupností}
+
+\Def Nechť $M \neq \emptyset , M\subset \R$ je množina.\\
+Číslo $a\in\R$ (pokud existuje) nazveme \emph{horní závorou množiny} $M\ekv \forall x \in M : x \le a$.\\
+Číslo $b\in\R$ (pokud existuje) nazveme \emph{dolní  závorou množiny} $M\ekv \forall x \in M : x \ge b$.\\
+
+\Pozenum
+Zřejmě platí: číselná množina $M$ je shora omezená alespoň 1 její horní závora.
+\item
+	Číslo $c\in\R$  není horní závorou množiny $M\ekv \exists x \in M : x>c$
+\End
+
+\Def
+Nechť $M\neq \emptyset; M\subset \R$ je množina.
+Číslo $s\in\R$ nazýváme \emph{suprémem množiny} $M$, jestliže je její nejmenší horní závorou,
+tzn. že platí:
+\begin{enumerate}
+	\item $\forall x \in M : x\le s$
+	\item $\forall t \in \R,\forall x\in M: x \le t \imp t \ge s$
+\end{enumerate}
+Zapisujeme $s=\sup M$.
+
+Číslo $t\in\R$ nazýváme \emph{infimem množiny} $M$, jestliže je její nejmenší horní závorou,
+tzn. že platí:
+\begin{enumerate}
+	\item $\forall x \in M : x\ge t$
+	\item $\forall j \in \R,\forall x\in M: x \ge j \imp j \le i$
+\end{enumerate}
+Zapisujeme $s=\inf M$.
+
+\Pozenum
+Nechť $s=\sup M \imp \forall p\in\R, p<s:\exists x \in M: x>p$\\
+Nechť $t=\inf M \imp \forall p\in\R, p>t:\exists x \in M: x<p$\\
+\item  Každá neprázdná množina má nejvýše 1 suprémum a 1 infimum.
+\End
+\V[Věta o suprému a infimu]
+\begin{enumerate}
+	\item Každá neprázdná shora omezená množina reálných čísel má suprémum.
+	\item Každá neprázdná zdola omezená množina reálných čísel má infimum.
+\end{enumerate}
+\Poz V.6.1. se v některých teoriích pokládá za axiom množinyx . Jinde je toto tvrzení
+důsledkem tzv. Dedekindova axiomu.
+
+\Poz \underline{Dedekindův axiom}\\
+Nechť $X,Y$ jsou dvě neprázdné podmnožiny $\R$ s těmito vlastnostmi:
+\begin{enumerate}
+	\item $X\cup Y = \R$
+	\item $\forall x \in X , \forall y \in Y: x \le y$
+\end{enumerate}
+pak k nim $\exists z \in\R : x \le z \le y$ pro $\forall x \in X; \forall y\in Y$.
+
+\V Každá shora omezená neklesající posloupnost reálných čísel je konvergentní.
+
+Každá zdola omezená nerostoucí posloupnost reálných čísel je konvergentní.
+
+Dusledek: Každá omezená monotónní posloupnost reálných čísel je konvergentní.
+
+\Pr
+Najděte suprémum a infimum následujících množin:
+
+\begin{enumerate}
+	\item $M_1 = \(-2;3\>$
+
+		$\sup M_1 = 3$\\
+		$\inf M_1 = -2$
+	\item $M_2 = \(-\infty;1\>$
+
+		$\sup M_1 = 1$\\
+		$\inf M_1$ Neexistuje
+	\item $M_3 = \R^+$
+
+		$\sup M_1$ Neexistuje\\
+		$\inf M_1 = 0$
+	\item $M_4 = \zs{-1,0,1}$
+
+		$\sup M_1 = 1$\\
+		$\inf M_1 = -1$
+\end{enumerate}
+
+\Pr 43/7.1:
+
+Ukažte, že každé reálné číslo je limitou neklesající posloupnosti.
+
+Nechť $a+n\in\R;a\in \<0,1\),n\in\Z$ je libovolné reálné číslo.
+
+Dekadický zápis $a$ je $a = a_1 10^{-1} + a_2 10^{-2} + a_3 10^{-3} + \dots$.
+
+Limitou posloupnosti $\[n;n+a_1 10^{-1};n+a_1 10^{-1}+a_2^{-2};n+a_1 10^{-1}+a_2 10^{-2}+a_3 10^{-3}; \dots \]$.
+
+\Pr 44/2:
+Limitou je evidentně supremum.
+
+\Pr 44/3:
+Rozložme součet na úseky pro každé $n$: $\[\f{1}{2^n};\f{1}{2^n+1};\dots\f{1}{2^{n-1}-1}\].$
+
+Součet každého úseku je evidentně $> 2^n \* \f 1{2^{n-1}-1} > \f 12$. 
+
+Pro každé $x\in\R^+$ tedy existuje $n > 2x$,
+Ovšem součet prvních $2^{n+1}$ členů posloupnosti je $> n \f 12 \ge x $. \emph{QED}
+\EndDoc
