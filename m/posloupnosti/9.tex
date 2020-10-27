@@ -1,0 +1,116 @@
+\input{h.tex}
+\BeginDoc{}
+\def\posloup{$\zs{a_n}_{n=1}^{\infty}$}
+\def\pos#1{\zs{#1}_{n=1}^{\infty}}
+\def\li{\lim_{n\rightarrow\infty}}
+\def\sup{{\rm sup\ }}
+\def\sciwinfup{{\rm inf\ }}
+\def\su{\sum_{n=1}^{\infty}}
+\def\sun{\sum_{n=0}^{\infty}}
+\section{Nekonečná geometrická řada}
+\Def Nekonečnou řadou $\su a_n$ kde $\pos{a_n}$ je geometrickou posloupností s kvocientem $q$ nazýváme \emph{nakonečnou geometrickou řadou}.
+
+Číslo $q$ nazýváme \emph{kvocientem} geometrické řady.
+
+\V Nechť řada $\su a_n$ je geometrická řada s kvocientem $q$, kde $|q|<1$.
+Pak je tato řada konvergentní a má součet $S=\f{a_n}{1-q}$.
+
+[Dk:
+$$S = \lim S_n = \lim a_1 \f{q^n-1}{q-1} = \f{a_1}{q-1} \lim (q^n-1) = \f{a_1}{1-q}$$
+]
+
+\Poz Chování nekonečné geometrické řady $a_1 \neq 0$:
+\begin{enumerate}
+	\item $-1<q<1$\dots řada konverguje
+	\item $q\ge 1$\dots řada diverguje
+	\item $q\le 1$ řada osciluje
+\end{enumerate}
+
+\Pr Určete součty řad:
+\begin{enumerate}
+	\item $\su \f{1}{2^n} = \f{1/2}{1/2} = 1$
+	\item $\su \(-\f 2 3\)^{n-1} = \f{1}{5/3} = \f 35$
+
+\end{enumerate}
+
+\Pr V oboru přirozenych čísel řešte rovnici:
+$$1+\f 2x+\f4{x^2}+\f8{x^3}+\cdots = \f{4x-3}{3x-4}$$
+
+$\f{2/x}{1-2x} = \f{4x-3}{3x-4}$\\
+$\f{1}{1-2/x} = \f{4x-3}{3x-4}$\\
+$\f{x}{x-2} = \f{4x-3}{3x-4}$\\
+$3x^2-4x = 4x^2-11x+6$\\
+$x^2-7x+6 =0$\\
+$(x-6)(x-1)=0$
+
+Zk: $1+2+4+\dots \neq \f{1}{-1}$
+
+Zk: $\su \(\f 2 6\)^{n-1} \neq \f{1}{-1}$
+
+$$p=\zs{6}$$
+
+\Pr
+Řešte:
+$$\f 53=x+3x^2+x^3+3x^4+x^5+\dots$$
+$$\f 53=\(x+x^2+x^3+x^4+x^5\)+\dots + 2\(x^2+x^4+x^6\)$$
+$$\f 53=\(x+x^2+x^3+x^4+x^5\)+\dots + 2\(x^2+x^4+x^6\)$$
+
+$$\f 53 = \f{x}{1-x} + 2 \f{x^2}{1-x^2}$$
+$$\f 53 = \f{x(x+1)}{(1-x)(x+1)} + 2 \f{x^2}{1-x^2}$$
+$$\f 53-\f53x^2= x^2+ x + x^2$$
+$$5-5x^2= 6x^2+ 3x$$
+$$0= 14x^2 + 3x - 5$$
+
+$$P=\zs{-\f 57;\f 12}$$
+
+
+\Pr Je dán čtverec o straně $a$. Spojnice středů jeho stran tvoří strany dalšího čtverce,...
+Určete součet obvodů a obsahů všech takto vzniklých čtverců.
+
+$o = 4\(a + \f a {\sqrt{2}} + \f a{\sqrt{2}^2}\) = 4a  \su \(2^{-1/2}\)^{n-1} = \f{4a}{1-2^{-1/2}} = 8a+4a\sqrt 2$ 
+
+$S = \su \(\f{a}{\sqrt{2}^{n-1}}\)^2 = \f{a^2}{2^{n-1}} = \f{a^2}{1-1/2} = 2a^2$
+
+\Pr Vyjádřete $\pi$ pomocí limity posloupností obvodů pravidelného $n$-úhelníku.
+
+$$ o = \li n \* 2r \sin \f\pi n \imp  \pi = \li n\sin\f\pi n = \lim \pi = \pi$$
+
+$$ o = \li n \* 2r \tan \f\pi n \imp  \pi = \li n\tan\f\pi n = \lim \pi = \pi$$
+
+\Pr 56/3:
+\begin{enumerate}
+	\item $\sun \(\f2 3 \)^n = \f1{1-2/3} = 3$
+	\item $\sun \(\f{\sqrt 3}{\(\sqrt 3\)^n} \)^n = \f{\sqrt 3}{1-\sqrt{1/3}} = \f{\sqrt 3\(1+\sqrt {1/3}\)}{2/3} = 3\f{\sqrt 3 + 1}2$
+	\item $\sun \f 1{a^{2n}} \(1-\f 1a\) = \f{1-1/a}{1-1/a^2} = \f{1}{1+1/a} = \f a{1+a}$
+	\item $\sun \(\sin^3 a\)^n = \f{1}{1-\sin^3 a}$
+	\item Evidetně $\sqrt 2 = q>1$ tedy diverguje!
+\end{enumerate}
+
+\Pr 56/4:
+$$\f{a}{1-1/3} = 10$$
+$$a = 10\f2 3 = \f{20}3$$
+
+\Pr 56/5:
+$$\su \f{n}{2^n}  = \su \sum_{m=n}^\infty \f{1}{2^m} =\su \f{1/2^n}{1-1/2} = \su \f{2}{2^n} = \f{1}{1-1/2} = 2 $$
+
+\Pr 56/7:
+
+\begin{enumerate}
+	\item $100a=a+13$\\
+		$99 a = 13$\\
+		$a=\f{13}{99}$
+
+		$a = 13 \* \su\f 1{100^n} = \f{0.13}{1-1/100} = \f{13}{99}$
+	\item $1000(a-3)=(a-3)+142$\\
+		$999(a-3)=142$\\
+		$a=3+\f{142}{999} = \f{3139}{999}$
+
+		$a=2+142\* \su\f 1{1000^n} = \f{0.142}{1-1/1000} =3+ \f{142}{999} = \f{3139}{999}$
+	\item $100(a-5.137)=(a-5.137)+0.081$\\
+		$99 (a-5.137) = 0.00081$\\
+		$a=5.137\f{0.081}{99}= \f{14129}{2750}$
+
+		$a = 5.137 + 0.00001 \* \sum\f {81}{100^n} = \f{5137}{100}+\f{1}{100000}\*\f{80}{1-1/100} = \f{14129}{2750}$
+\end{enumerate}
+
+\EndDoc

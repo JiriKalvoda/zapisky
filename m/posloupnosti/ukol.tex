@@ -1,0 +1,36 @@
+\input{h.tex}
+\BeginDoc{}
+\def\posloup{$\zs{a_n}_{n=1}^{\infty}$}
+\def\pos#1{\zs{#1}_{n=1}^{\infty}}
+\def\li{\lim_{n\rightarrow\infty}}
+\def\sup{{\rm sup\ }}
+\def\sciwinfup{{\rm inf\ }}
+\def\su{\sum_{n=1}^{\infty}}
+
+\Pr 54/4:
+
+\begin{enumerate}
+	\item $\su \f 1{n^2+6}$
+
+		Porovnám s $\f 1{n^2}$:
+		$\li \f{1{n^2+6}}{\f1{n^2}} = \f{n^2}{n^2+6} = 1$.
+		Konverguje.
+	\item $\su \f n{3n^2-2}$
+
+		Porovnám s $\f 1{n}$:
+		$\li \f{n{3n^2-2}}{\f1{n}} = \f{n^2}{3n^2-2} = \f 13$.
+		Diverguje.
+	\item $\su \f {2n-1}{2n^2+5}$
+
+		Porovnám s $\f 1{n}$:
+		$\li \f{{2n-1}{2n^2+5}}{\f1{n}} = \f{2n^2-n}{2n^2+5} = \f 22 = 1$.
+		Diverguje.
+	\item $\su \f {n-7}{2n^3-1}$
+
+		Porovnám s $\f 1{n^2}$:
+		$\li \f{{n-7}{2n^3-1}}{\f1{n^2}} = \f{n^3-7n^2}{2n^3-1} = \f 12$.
+		Konverguje.
+\end{enumerate}
+
+
+\EndDoc
