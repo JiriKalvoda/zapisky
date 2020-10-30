@@ -1,0 +1,101 @@
+\input{h.tex}
+\BeginDoc{}
+\section{Planimetrie}
+\Pr
+\pd{4-1.pdf}
+Ukáži, že $2  t_a < b+c$:\\
+Označme $v$ jako výšku na starnu $a$.
+Dále nechť $x,y$ jsou po řadě orientované vzdálenosti od paty výšky z $A$ k $B$ a středu $AB$.
+Požadovanou nerovnost pak lze vyjádřit takto:
+$2 \sqrt{v^2+\(\f{x+y}{2}\)^2} < \sqrt{v^2+x^2}+\sqrt{v^2+y^2}$\\
+$ 4v^2+x^2+y^2+4xy < 2v^2+x^2+y^2+2\sqrt{v^2+x^2}\sqrt{v^2+y^2} $\\
+$ 2v^2+4xy < 2\sqrt{v^4+2v^2x^2+v^2y^2+x^2y^2}$\\
+$ 2v^2+2x^2y^2+2v^2xy < 2v^4+4v^2x^2+2v^2y^2+2x^2y^2$\\
+$ 0 < 2v^2$\\
+
+Požadovanou nerovnst získáme součtem těchto nerovností přes všechny strany.
+\emph{QED}
+\pd{4-2.pdf}
+Nechť $O$ je ortocentrum.
+\begin{enumerate}
+	\item $s<v_a+v_b+v_c$
+
+		Ukáži, že $a<v_b+v_c$.
+		Z trojúhelníkové nerovnosti $|BO|+|CO|<|BC|$. Jelikož je ale trojúhelník ostroúhlý, tak $O$ leží ve výškách, tedy $v_b+v_c<|BO|+|CO|<|BC|$.
+
+		Součtem těchto nerovností přes všechny strany dostaneme:
+		$v_b+v_c+v_c+v_a+v_a+v_b < a+b+c \ekv v_a+v_b+v_c < 2s$
+	\item $v_a+v_b+v_c < 2s$
+		Evidentně $a<v_b$, protože výška je jediná nejkratší spojnicí vrcholu a protější strany.
+		A jelikož trojúhelník není pravoúhlý, tak vyška není současně stranou.
+
+		Sečtením těchto nerovností přes starny dostaneme:
+		$2s = a+b+c < v_b+v_c+v_a$
+\end{enumerate}
+
+\pd{4-3.pdf}
+\pd{4-3a.pdf}
+$|\angle PBM| = |\angle PBC| = |\angle BPM|$. Tedy trojúhelník $BPM$ je rovnoramenný.
+Z toho plyne, že $|BM|=|MP|$.
+Analogicky $|PN|=|NC|$.
+V součtu tedy $|BM|+|NC|=|MP|+|PN|=|MN|$. \emph{QED}
+\pd{4-4.pdf}
+\pd{4-4a.pdf}
+Dále budeme úhlit orientovaně modulo $\pi$:
+
+Z tětivovosti platí: $\angle CEA = \angle CBA = \angle DBA = \angle DFA$. Tedy přímky $CD$ a $DF$ vzniknou z $EF$ otočením o stejný úhel, tedy musí být rovnoběžné. \emph{QED}
+\pd{4-5.pdf}
+\pd{4-5a.pdf}
+
+Označme antirovnoběžku k $BA$ vzhledem k $CD$ procházející $A$ jako $x$. Dále nechť $\zs{X}=x\cap\pri{CD}$.
+
+Platí, že $|AX|=|AD|$, protože $X$ vznikne z $D$ dle simetrice podle kolmice $CD$ prcházející $A$ ($\pri{AD}$ je obrazem $pri{AX}$ z antirovnoběžnosti a $DX$ je kolmé na osu.
+
+Jelikož $AC$ a $AX$ jsou antirovnoběžky vzhledem k $CD$ s $BC$ a $BX$, tak $|\angle CAX|=|\angle CBD|$, tady trojúhelník $CAX$ je podobný s $CBD$.
+
+Z podobnosti tedy $AX:AC = AD:AC = DB:BC$. \emph{QED}
+
+Nejsou podobné, protože věta $uss$ nefunguje :-(
+
+
+\subsection{Rovnice}
+
+
+\pd{4-6.pdf}
+$$r^2 = 15^2+(2x)^2$$
+$$r^2 = 17^2+x^2$$
+
+$$0 = 15^2-17^2+3x^2$$
+
+$x^2=\f{64}3$
+
+$r=\sqrt{17^2+\f{64}3} = \sqrt{\f{931}3} = \f{7\sqrt{57}}3$
+\pd{4-7.pdf}
+$$xu=15$$
+$$(x+xu+85)\*(u+1) = 420$$
+
+$$(x+100)\*(u+1) = 420$$
+$$15+100u + x + 100 = 420$$
+$$ 100 \f{15}x + x  = 305 $$
+$$ 1500  + x^2  = 285x $$
+$$(x-5)(x-300) = 0$$
+
+$x_1=5 \imp u_1 = 3$\\
+$x_2=300 \imp u_2 = \f1{20}$
+
+\pd{4-8.pdf}
+\begin{enumerate}
+	\item[d)] $ D = (4-6i)^2 - 4 (10-20i) = -60+32 i = (2+8i)^2 $
+
+		$x = \f{-(4-6i)+(2+8i)}{2} = -1+7i $\\
+		$x = \f{-(4-6i)-(2+8i)}{2} = -3+i $
+	\item[e)]
+		$D = (2+i)^2-4(1+i)(3+i) -5-12i = (2-3i)^2$
+
+		$x = \f{2+i+(2-3i)}{2(1+i)} = \f{2-i}{1+i} = \f12-\f32 i$
+		$x = \f{2+i-(2-3i)}{2(1+i)} = \f{i}{1+i} = \f12+\f12 i$
+\end{enumerate}
+
+
+
+\EndDoc

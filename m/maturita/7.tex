@@ -1,0 +1,62 @@
+\input{h.tex}
+\BeginDoc{}
+\def\sqn{{\rm sgn}}
+\section{Polynomy, kořeny polynomů}
+\pd{7-1.pdf}
+\begin{enumerate}
+	\item $$\(x^2\)^2+2^2 = (2-ix^2)(2+ix^2) = (x^2-2x+2)(x^2+2x+2) = (1-i)(1+i)(-1+i)(-1-i) $$
+	\item $$\(x^2\)^3 + 2^3 = (x^2+2)(x^4r-2x^2+4) = (x^2+2)(x^2-\sqrt 6 x +2)(x^2+\sqrt 6 x +2) =$$$$= (x-\sqrt{1+i\sqrt 3})(x-\sqrt{1+-\sqrt 3})(x-\sqrt{-1+i\sqrt 3})(x-\sqrt{-1-i\sqrt 3})(x+1-i)(x+1+i)$$
+\end{enumerate}
+
+\pd{7-2.pdf}
+Nechť kořeny jsou $a-b;a;a+b$.
+
+$ x^2: -27 = -(a-b+a+a+b) = -3a \imp a= 9$\\
+$ x^1: 242 = a^2-ab+a^2+ab+a^2-b^2 = 3a^2-b^2 \imp b=\pm 2 $\\
+$ x^0: k = -(a-b)a(a+b) = a(b^2-a^2)  = 9(4-81) = -693$
+\pd{7-3.pdf}
+$$ 520 = 320-x + nx$$
+$$ 200 = x(n-1)$$
+$$ \f{200}{n-1} = x$$
+
+Musí platit $200\mid n-1$.
+\pd{7-4.pdf}
+$$\f x{x-a} - \f{2a}{x+a} = \f{8a^2}{a^2-a^2}$$
+$$\f{x^2+ax-2ax+2a^2-8a^2}{x^2-a^2} = 0$$
+$$\f{-6 a^2 - a x + x^2}{x^2-a^2} = 0$$
+$$\f{-6 a^2 - a x + x^2}{x^2-a^2} = 0$$
+\pd{7-5.pdf}
+$$\f{x(ax-bx)+a+b-2ax}{a(a-b)x} = 0$$
+$$\f{a x^2 - 2 a x + a - b x^2 + b}{ax(a-b)} = 0$$
+
+$$
+\begin{array}{|c|c|}
+	a=b & \text{NDEF}\\
+	a=0 & \text{NDEF}\\
+	\text{JINAK} & \zs{\f{2 a \pm \sqrt{4 a^2 - 4 (a - b) (a + b)}}{2 (a - b)}}\\
+\end{array}
+$$
+
+\pd{7-7.pdf}
+$$
+\begin{pmatrix}
+	1&1&1&\vrule&3\\
+	1&p&p&\vrule&5\\
+	0&1&-1&\vrule&0\\
+\end{pmatrix}\sim
+\begin{pmatrix}
+	1&1&1&\vrule&3\\
+	0&p-1&p-1&\vrule&2\\
+	0&1&-1&\vrule&0\\
+\end{pmatrix}\sim
+\begin{pmatrix}
+	1&1&1&\vrule&3\\
+	0&1&-1&\vrule&0\\
+	0&0&0\vrule&2\\
+\end{pmatrix}
+$$
+Nemá řešení.
+\pd{7-8.pdf}
+\pd{7-9.pdf}
+\pd{7-r.pdf}
+\EndDoc
