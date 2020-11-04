@@ -1,0 +1,41 @@
+\input{h.tex}
+\BeginDoc{}
+\def\posloup{$\zs{a_n}_{n=1}^{\infty}$}
+\def\pos#1{\zs{#1}_{n=1}^{\infty}}
+\def\li{\lim_{n\rightarrow\infty}}
+\def\sup{{\rm sup\ }}
+\def\sciwinfup{{\rm inf\ }}
+\def\su{\sum_{n=1}^{\infty}}
+\section{Definice limity}
+\subsection{Vlastní limita v vlastním bodě}
+
+\Def Řekneme, že \emph{funkce $f$ má v bodě $x_0\in\R$ limitu $A\in\R$},
+jestliže ke každému $\epsilon \in \R^+$ existuje $\sigma \in\R^+$ takové, že pro všechna $x\in(x_0-\sigma,x_0+\sigma)-\zs{x}$,
+platí $f(x) \in (A-\epsilon,A+\epsilon)$. Píšeme:
+$$\lim_{x\rightarrow x_0} f(x) = A$$
+\pdf[0.3]{1-1.pdf}
+
+\subsection{Nevlastní limita v nevlastním bodě}
+
+\Def Řekneme, že \emph{funkce $f$ má v bodě $x_0\in\R$ limitu $+\infty$},
+jestliže ke každému $M \in \R^+$ existuje $\sigma \in\R^+$ takové, že pro všechna $x\in(x_0-\sigma,x_0+\sigma)-\zs{x}$,
+platí $f(x) > M$. Píšeme:
+$$\lim_{x\rightarrow x_0} f(x) = +\infty$$
+\pdf[0.3]{1-2.pdf}
+
+\subsection{Vlastní limita v nevlastním bodě}
+
+\Def Řekneme, že \emph{funkce $f$ má v $+\infty$ (nebo podrobněji pro $x$ jdoucí do $+\infty$ limitu $A\in\R$},
+jestliže ke každému $\epsilon \in \R^+$ existuje $K \in\R$ takové, že pro všechna $x>K$,
+platí $f(x) \in (A-\epsilon,A+\epsilon)$. Píšeme:
+$$\lim_{x\rightarrow +\infty} f(x) = A$$
+\pdf[0.3]{1-3.pdf}
+
+\subsection{Nevlastní limita v nevlastním bodě}
+
+\Def Řekneme, že \emph{funkce $f$ má v $+\infty$ (nebo podrobněji pro $x$ jdoucí do $+\infty$ limitu $+\infty$},
+jestliže ke každému $M \in \R$ existuje $K \in\R$ takové, že pro všechna $x>K$,
+platí $f(x) > M$. Píšeme:
+$$\lim_{x\rightarrow +\infty} f(x) = +\infty$$
+\pdf[0.3]{1-4.pdf}
+\EndDoc
