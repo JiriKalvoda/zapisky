@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.9)  2 NOV 2020 08:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.9)  8 NOV 2020 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/jiri/skola/m/maturita/7.tex
-(/home/jiri/skola/m/maturita/7.tex
+**/home/jiri/skola/m/maturita/9.tex
+(/home/jiri/skola/m/maturita/9.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-03> (./h.tex (./h-include.tex
 \Okraje=\dimen134
@@ -230,7 +230,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count267
 \l__pdf_internal_box=\box50
-) (./7.aux)
+) (./9.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
@@ -301,111 +301,119 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<7-1.pdf, id=1, 524.96124pt x 30.1125pt>
-File: 7-1.pdf Graphic file (type pdf)
-<use 7-1.pdf>
-Package pdftex.def Info: 7-1.pdf  used on input line 5.
-(pdftex.def)             Requested size: 369.88583pt x 21.2178pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+<9-1.pdf, id=1, 436.63126pt x 43.16125pt>
+File: 9-1.pdf Graphic file (type pdf)
+<use 9-1.pdf>
+Package pdftex.def Info: 9-1.pdf  used on input line 5.
+(pdftex.def)             Requested size: 369.88583pt x 36.5634pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (14.69516pt too wide) detected at line 7
-[][] \OT1/cmr/m/n/10 + 2[] = (2 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ix[]\OT1/
-cmr/m/n/10 )(2 + \OML/cmm/m/it/10 ix[]\OT1/cmr/m/n/10 ) = (\OML/cmm/m/it/10 x[]
- \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 2)(
-\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + 2\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 2)
- = (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 i\OT1/cmr/m/n/10 )(1 + \OML/cmm/m/i
-t/10 i\OT1/cmr/m/n/10 )(\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1 + \OML/cmm/m/it/1
-0 i\OT1/cmr/m/n/10 )(\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
- \OML/cmm/m/it/10 i\OT1/cmr/m/n/10 )
+<9-1r.pdf, id=2, 323.2075pt x 250.9375pt>
+File: 9-1r.pdf Graphic file (type pdf)
+<use 9-1r.pdf>
+Package pdftex.def Info: 9-1r.pdf  used on input line 10.
+(pdftex.def)             Requested size: 369.88583pt x 287.1936pt.
+<9-2.pdf, id=3, 626.34pt x 224.84pt>
+File: 9-2.pdf Graphic file (type pdf)
+<use 9-2.pdf>
+Package pdftex.def Info: 9-2.pdf  used on input line 11.
+(pdftex.def)             Requested size: 369.88583pt x 132.7848pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./9-1.pdf> <./9-1r.pdf> <.
+/9-2.pdf>]
+<9-3.pdf, id=27, 595.22375pt x 116.435pt>
+File: 9-3.pdf Graphic file (type pdf)
+<use 9-3.pdf>
+Package pdftex.def Info: 9-3.pdf  used on input line 25.
+(pdftex.def)             Requested size: 369.88583pt x 72.35417pt.
+<9-3r.pdf, id=28, 1393.205pt x 178.6675pt>
+File: 9-3r.pdf Graphic file (type pdf)
+<use 9-3r.pdf>
+Package pdftex.def Info: 9-3r.pdf  used on input line 27.
+(pdftex.def)             Requested size: 369.88583pt x 47.4339pt.
+<9-4.pdf, id=29, 612.2875pt x 189.70876pt>
+File: 9-4.pdf Graphic file (type pdf)
+<use 9-4.pdf>
+Package pdftex.def Info: 9-4.pdf  used on input line 28.
+(pdftex.def)             Requested size: 369.88583pt x 114.6048pt.
+<9-5.pdf, id=30, 602.25pt x 182.6825pt>
+File: 9-5.pdf Graphic file (type pdf)
+<use 9-5.pdf>
+Package pdftex.def Info: 9-5.pdf  used on input line 34.
+(pdftex.def)             Requested size: 369.88583pt x 112.20271pt.
+ [2 <./9-3.pdf> <./9-3r.pdf> <./9-4.pdf> <./9-5.pdf>]
+Overfull \hbox (47.1821pt too wide) in paragraph at lines 37--63
+\OT1/cmr/m/n/10 Kdy^^Tz $\OML/cmm/m/it/10 p \OT1/cmr/m/n/10 = 2$: $[] = [] \OMS
+/cmsy/m/n/10 ^^X [] ^^X [] ^^X
+ []
+
+<9-6.pdf, id=62, 602.25pt x 111.41624pt>
+File: 9-6.pdf Graphic file (type pdf)
+<use 9-6.pdf>
+Package pdftex.def Info: 9-6.pdf  used on input line 79.
+(pdftex.def)             Requested size: 369.88583pt x 68.43132pt.
+[3 <./9-6.pdf>]
+<9-7.pdf, id=73, 601.24625pt x 104.39pt>
+File: 9-7.pdf Graphic file (type pdf)
+<use 9-7.pdf>
+Package pdftex.def Info: 9-7.pdf  used on input line 145.
+(pdftex.def)             Requested size: 369.88583pt x 64.22255pt.
+
+Overfull \hbox (2.12682pt too wide) in paragraph at lines 149--186
+\OT1/cmr/m/n/10 Nem^^Sa ^^Tre^^Tsnen^^S^^P. Kdy^^Tz $\OML/cmm/m/it/10 a \OT1/cm
+r/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 3$: $[] = [] \OMS/cmsy/m/n/10 ^^
+X [] ^^X
  []
 
 
-Overfull \hbox (21.6318pt too wide) detected at line 8
-\OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )(
-\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10 x 
-\OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^
-@ []\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 1 \OMS/cmsy/m/n/10 ^
-^@ \OML/cmm/m/it/10 i\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 1 +
- \OML/cmm/m/it/10 i\OT1/cmr/m/n/10 )
+Overfull \hbox (30.6033pt too wide) in paragraph at lines 149--186
+[] \OMS/cmsy/m/n/10 ^^X [] ^^X [] ^^X []$ 
  []
 
-<7-2.pdf, id=2, 573.14125pt x 60.225pt>
-File: 7-2.pdf Graphic file (type pdf)
-<use 7-2.pdf>
-Package pdftex.def Info: 7-2.pdf  used on input line 11.
-(pdftex.def)             Requested size: 369.88583pt x 38.86732pt.
-<7-3.pdf, id=3, 708.6475pt x 120.45pt>
-File: 7-3.pdf Graphic file (type pdf)
-<use 7-3.pdf>
-Package pdftex.def Info: 7-3.pdf  used on input line 17.
-(pdftex.def)             Requested size: 369.88583pt x 62.87144pt.
-<7-4.pdf, id=4, 319.1925pt x 58.2175pt>
-File: 7-4.pdf Graphic file (type pdf)
-<use 7-4.pdf>
-Package pdftex.def Info: 7-4.pdf  used on input line 23.
-(pdftex.def)             Requested size: 369.88583pt x 67.46393pt.
-<7-5.pdf, id=5, 416.55624pt x 66.2475pt>
-File: 7-5.pdf Graphic file (type pdf)
-<use 7-5.pdf>
-Package pdftex.def Info: 7-5.pdf  used on input line 28.
-(pdftex.def)             Requested size: 369.88583pt x 58.82765pt.
-[1
+[4 <./9-7.pdf>]
+<9-8.pdf, id=83, 598.235pt x 99.37125pt>
+File: 9-8.pdf Graphic file (type pdf)
+<use 9-8.pdf>
+Package pdftex.def Info: 9-8.pdf  used on input line 202.
+(pdftex.def)             Requested size: 369.88583pt x 61.44122pt.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./7-1.pdf> <./7-2.pdf> <./
-7-3.pdf> <./7-4.pdf>]
-<7-7.pdf, id=42, 231.86626pt x 82.3075pt>
-File: 7-7.pdf Graphic file (type pdf)
-<use 7-7.pdf>
-Package pdftex.def Info: 7-7.pdf  used on input line 40.
-(pdftex.def)             Requested size: 369.88583pt x 131.31287pt.
-<7-8.pdf, id=43, 220.825pt x 86.3225pt>
-File: 7-8.pdf Graphic file (type pdf)
-<use 7-8.pdf>
-Package pdftex.def Info: 7-8.pdf  used on input line 59.
-(pdftex.def)             Requested size: 369.88583pt x 144.59927pt.
-<7-9.pdf, id=44, 242.9075pt x 83.31125pt>
-File: 7-9.pdf Graphic file (type pdf)
-<use 7-9.pdf>
-Package pdftex.def Info: 7-9.pdf  used on input line 60.
-(pdftex.def)             Requested size: 369.88583pt x 126.86194pt.
- [2 <./7-5.pdf> <./7-7.pdf> <./7-8.pdf>]
-<7-r.pdf, id=69, 597.50829pt x 845.0471pt>
-File: 7-r.pdf Graphic file (type pdf)
-<use 7-r.pdf>
-Package pdftex.def Info: 7-r.pdf  used on input line 61.
-(pdftex.def)             Requested size: 369.88583pt x 523.12434pt.
- [3 <./7-9.pdf>] [4 <./7-r.pdf>] (./7.aux) )
-(\end occurred when \ifnum on line 62 was incomplete) 
+Overfull \hbox (72.88081pt too wide) in paragraph at lines 216--254
+[]$[] \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 ^^X [] ^^X [] ^^X [] ^^X
+ []
+
+[5 <./9-8.pdf>] [6] (./9.aux) )
+(\end occurred when \ifnum on line 276 was incomplete) 
 Here is how much of TeX's memory you used:
- 5364 strings out of 480478
- 73719 string characters out of 5905959
- 341490 words of memory out of 5000000
- 21288 multiletter control sequences out of 15000+600000
+ 5375 strings out of 480478
+ 73851 string characters out of 5905959
+ 354490 words of memory out of 5000000
+ 21298 multiletter control sequences out of 15000+600000
  534983 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,9n,51p,358b,193s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fon
-ts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1440.pfb>
-Output written on 7.pdf (4 pages, 458338 bytes).
+ 49i,8n,51p,358b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fo
+nts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb>
+Output written on 9.pdf (6 pages, 225721 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 129 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
