@@ -38,4 +38,51 @@ jestliže ke každému $M \in \R$ existuje $K \in\R$ takové, že pro všechna $
 platí $f(x) > M$. Píšeme:
 $$\lim_{x\rightarrow +\infty} f(x) = +\infty$$
 \pdf[0.3]{1-4.pdf}
+
+\subsection{Souhrná definice limity}
+
+\begin{enumerate}
+\item
+\Def 
+\emph{Okolnímu bodu $x_0\in\R$} rozumíme otevřený interval $(x_0-\sigma;x_0+\sigma)$, kde $\sigma$ je kladné reálné číslo.
+Značíme je $O(x_0)$.
+\item \emph{Okolím bodu $+\infty$} rozumíme každý interval $(k;+\infty)$, kde $k\in\R$.
+Značíme je $O(+\infty)$.
+\item \emph{Okolím bodu $-\infty$} rozumíme každý interval $(-\infty;k)$, kde $k\in\R$.
+Značíme je $O(-\infty)$.
+\item \emph{prstencovým okolím bodu $x_0\in\R$} rozumíme množinu $O(x_0)-\zs{x_0}$. Značíme je $P(x_0)$.
+\end{enumerate}
+
+\Def Řekneme, že \emph{funkce $f$ má v bodě $x_0\in\R^*$ limitu $A\in\R^*$},
+jestliže ke každému okolí $O(A)$ bodu $A$ existuje prstencové okolí $P(x_0)$ bodu $x_0$ takové, že
+pro všechna $x\in P(x_0)$ platí $f(x)\in O(A)$.
+Píšeme:
+$$\lim_{x\rightarrow x_0} f(x) = A$$
+
+\subsection{Jednosměrné limity}
+\begin{enumerate}
+\item
+\Def 
+\emph{Levým prstencovým okolím bodu $x_0\in\R$} rozumíme interval $(x_0-\sigma,x_0)$, kde $\sigma$ je kladné reálné číslo.
+Značíme je $P^-(x_0)$.
+\item \emph{Pravým prstencovým okolím bodu $x_0\in\R$} rozumíme interval $(x_0,x_0+\sigma)$, kde $\sigma$ je kladné reálné číslo.
+Značíme je $P^+(x_0)$.
+\end{enumerate}
+
+\begin{enumerate}
+\item 
+\Def
+Řekneme, že \emph{funkce $f$ má v bodě $x_0\in\R^*$ limitu zleva} rovnu  $A\in\R^*$,
+jestliže ke každému okolí $O(A)$ bodu $A$ existuje levé prstencové okolí $P^-(x_0)$ bodu $x_0$ takové, že
+pro všechna $x\in P^-(x_0)$ platí $f(x)\in O(A)$.
+Píšeme:
+$$\lim_{x\rightarrow x_0^-} f(x) = A$$
+\item 
+Řekneme, že \emph{funkce $f$ má v bodě $x_0\in\R^*$ limitu zprava} rovnu  $A\in\R^*$,
+jestliže ke každému okolí $O(A)$ bodu $A$ existuje pravé prstencové okolí $P^+(x_0)$ bodu $x_0$ takové, že
+pro všechna $x\in P^+(x_0)$ platí $f(x)\in O(A)$.
+Píšeme:
+$$\lim_{x\rightarrow x_0^+} f(x) = A$$
+\end{enumerate}
+
 \EndDoc
