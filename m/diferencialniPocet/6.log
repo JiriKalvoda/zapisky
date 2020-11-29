@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.9)  22 NOV 2020 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.9)  29 NOV 2020 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/jiri/skola/m/diferencialniPocet/du.tex
-(/home/jiri/skola/m/diferencialniPocet/du.tex
+**/home/jiri/skola/m/diferencialniPocet/6.tex
+(/home/jiri/skola/m/diferencialniPocet/6.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-03> (./h.tex (./h-include.tex
 \Okraje=\dimen134
@@ -230,7 +230,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count267
 \l__pdf_internal_box=\box50
-) (./du.aux)
+) (./6.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
@@ -301,41 +301,50 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./du.aux) )
-(\end occurred when \ifnum on line 63 was incomplete) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (56.7942pt too wide) detected at line 79
+[] [] \OT1/cmr/m/n/10 = [] [] = [] [] = [] [] = []
+ []
+
+[2] (./6.aux) )
+(\end occurred when \ifnum on line 83 was incomplete) 
 Here is how much of TeX's memory you used:
- 5308 strings out of 480478
- 72941 string characters out of 5905959
- 339491 words of memory out of 5000000
- 21242 multiletter control sequences out of 15000+600000
- 534642 words of font info for 34 fonts, out of 8000000 for 9000
+ 5320 strings out of 480478
+ 73055 string characters out of 5905959
+ 344490 words of memory out of 5000000
+ 21252 multiletter control sequences out of 15000+600000
+ 535329 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,6n,51p,369b,192s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb>
-Output written on du.pdf (1 page, 71040 bytes).
+ 49i,7n,51p,368b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fon
+ts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/cm-super/sfbx1440.pfb>
+Output written on 6.pdf (2 pages, 110221 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

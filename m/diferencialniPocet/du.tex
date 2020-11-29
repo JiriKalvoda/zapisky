@@ -8,108 +8,56 @@
 \def\sup{{\rm sup\ }}
 \def\sciwinfup{{\rm inf\ }}
 \def\su{\sum_{n=1}^{\infty}}
-\Pr
-$$\lim_{x\r 0} x\sin\f1x = 0$$
 
-\Pr
-$$
-\lim{x\r 2} \f{x-2}{x^2-3x+2}
-=
-\lim{x\r 2} \f{x-2}{(x-2)(x-1)}
-=
-\lim{x\r 2} \f{1}{(x-1)}
-= 1
-$$
 
-$$
-\lim_{x\r -3} \f{3x^2+11x+6}{x^3+27}
-=
-\lim_{x\r -3} \f{3x-2}{1x^2-3x+9} =\f{-11}{27}
-$$
+\subsection{Autotest}
+\begin{enumerate}
+	\item nemusí být
+	\item je
+	\item vlastní
+	\item nejvýše
+	\item $\sgn(x-1)$
+	\item $x$
 
-$$
-\lim_{x\r \pi} \f{\tg x}{\sin 2x} 
-=
-\lim_{x\r \pi} \f{\sin x}{2\sin x \cos x \cos x} 
-=
-\lim_{x\r \pi} \f{1}{2\cos x \cos x} = \f 12
-$$
+		$\f 1 {x^2}$
+	\item 
+		$$
+		\lim_{x\r 3} \f{x-3}{(x-3)(x-5)} = \f 1{-2}
+		$$
 
-$$
-\lim_{x\r\f\pi4} \f{\sin x-\cos x}{\cos 2x}
-=
-\lim_{x\r\f\pi4} \f{\sin x-\cos x}{\cos^2 x-\sin^2 x}
-=
-\lim_{x\r\f\pi4} \f{-1}{\cos x+\sin x}
-=
--1
-$$
+		$$
+		\lim_{x\r -\infty} (x^3+x^2)
+		=
+		\lim_{x\r -\infty} ((x-1)x^2)
+		= -\infty \* \infty = -\infty
+		$$
 
-\Pr
-$$
-\lim_{x\r6} \f{x-6}{\sqrt{x+3}-3}
-=
-\lim_{x\r6} \f{x-6}{x+3-9} (\sqrt{x+3}+3)
-=
-\sqrt{9} + 3
-=
-6
-$$
+		$$
+		\lim_{x\r \pm\infty} \f{7x^3-3x^2+5}{4x^3+5}
+		=
+		\f{\pm 7}{\f pm 4} = \f74
+		$$
 
-$$
-\lim_{x\r 0} \f{\sqrt{x^2+1}-1}{\sqrt{x^2+16}-4}
-=
-\lim_{x\r 0} \f{\sqrt{x^2+1}-1}{x^2+16-16}(\sqrt{x^2+16}+4)
-=
-\lim_{x\r 0} \f{\sqrt{x^2+1}-1}{x^2}(\sqrt{x^2+16}+4)
-=$$$$=
-\lim_{x\r 0} \sqrt{\f{x^2+1}{x^4}}(\sqrt{x^2+16}+4)
-=
-\lim_{x\r 0} \sqrt{\f{x^2}{x^4}}(\sqrt{x^2+16}+4)
-=
-\lim_{x\r 0} \sqrt{\f{1}{x^2}}(\sqrt{x^2+16}+4)
-=8
-$$
+		$$
+		\lim_{x\r 0} \f{\sin 7x}{\sin 2x}
+		=
+		\lim_{x\r 0} \f{7x}{2x}
+		=
+		 \f{7}{2}
+		 $$
 
-$$
-\lim_{x\r -1}\f{x^3+1}{\sqrt{x^2-3x}+2x}
-=
-\lim_{x\r -1}\f{x^3+1}{x^2-3x-4x^2}\*\sqrt{x^2-3x}-2x
-=$$$$=
-\lim_{x\r -1}\f{x^3+1}{-3x(1+x)}\*\sqrt{x^2-3x}-2x
-=
-\lim_{x\r -1}\f{x^2-x+1}{-3x}\*\sqrt{x^2-3x}-2x
-=
-\f{1}3(2+2)=\f 43
-$$
+	 \item 
+		 $$
+		\lim_{x\r 3} \f{x}{x^3-27} = \f3{0^\pm} = \pm \infty
+		$$ Tedy neexistuje
 
-$$
-\lim_{x\r 1} \f{2-\sqrt{x+3}}{x^3-1}
-=
-\lim_{x\r 1} \f{4-x-3}{(x-1)(x^2+x+1)(2+\sqrt{x+3}}
-=
-\lim_{x\r 1} \f{-1}{(x^2+x+1)(2+\sqrt{x+3}}
-=
-\f{-1}{12}
-$$
-\Pr
-$0;\f 3 5 ; +\infty;+\infty$
-\Pr
 
-\Pr
-$$
-\lim_{x\r-\infty} (\sqrt{x^2+4}+x)
-=
-\lim_{x\r\infty} (\sqrt{x^2+4}-x)
-=
-\lim_{x\r\infty} \f{x^2-x^2+4}{\sqrt{x^2+4}+x}
-=0
-$$
+		$$
+		\lim_{x\r 0} \f{x-1}{x^2} = \f{-1}{0^+} = -\infty
+		$$
+\end{enumerate}
 
-\Pr
-$$\lim_{x\r+\infty} \f{\sin 5x}{x} =0$$
 
-$$\lim_{x\r0} x\cos \f  1 x = 0$$
 
 
 \EndDoc

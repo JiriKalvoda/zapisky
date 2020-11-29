@@ -1,0 +1,83 @@
+\input{h.tex}
+\BeginDoc{}
+\def\posloup{$\zs{a_n}_{n=1}^{\infty}$}
+\def\pos#1{\zs{#1}_{n=1}^{\infty}}
+\def\li{\lim_{n\rightarrow\infty}}
+\def\lix{\lim_{x\rightarrow x_0}}
+\def\r{\rightarrow}
+\def\sup{{\rm sup\ }}
+\def\sciwinfup{{\rm inf\ }}
+\def\su{\sum_{n=1}^{\infty}}
+\section{Derivace}
+
+\Def
+Nechť $x_0 \in D(f)$. Existuje-li limita
+$$ \lim_{x\r x_0} \f{f(x)-f(x_0)}{x-x_0} $$
+značíme je $f'(x_0)$ a nazýváme derivací funkce $f$ v bodě $x_0$.
+
+Je-li $f'(x_0)\in\R$, pak říkáme, že $f$ má v bodě $x_0$ vlasní derivaci.
+
+Je-li $f'(x_0)\in\zs{\pm\infty}$, pak říkáme, že $f$ má v bodě $x_0$ nevlasní derivaci.
+
+\Def
+Nechť $x_0 \in D(f)$. Existuje-li limita
+$$ \lim_{x\r x_0^+} \f{f(x)-f(x_0)}{x-x_0} $$
+značíme je $f'_+(x_0)$ a nazýváme derivací funkce $f$ v bodě $x_0$ zprava.
+
+Nechť $x_0 \in D(f)$. Existuje-li limita
+$$ \lim_{x\r x_0^-} \f{f(x)-f(x_0)}{x-x_0} $$
+značíme je $f'_+(x_0)$ a nazýváme derivací funkce $f$ v bodě $x_0$ zleva.
+
+\V  Funkce $f$ má derivaci v bodě $x_0$ právě tehdy když exisstují obě jednostrané derivace a jsou si rovny.
+
+
+\Pr
+
+$f(x)=x^2$:
+
+$$f'(0) = \lim_{x\r 0} \f{x^2-0^2}{x-0} = \lim \f{x^2}{x} = \lim x = 0$$
+
+
+\V[Bolzanova věta] Má-li funkce derivaci v nějakém bodě, pak je  v tomto bodě spojitá.
+
+\Def Nechť existuje vlastní derivace $f'(x)$  funkce $f(x)$ pro všechna $x\in M$.
+Kde $M\subset D(f)$. Pak funkci $f:y=f'(x),x\in M$ nazvěme \emph{derivací funkce $f$ na $M$}.
+
+\Poz Geometricky je derivace $f$ v bodě $x_0$ směrnici sečny grafu funkce $f$ v $x_0$.
+
+
+\Pr 191/6:
+\begin{enumerate}
+\item $(x^4+1)' = 4x^3 = 0$
+\item $(\sqrt[3]{x^2})'$:
+$$f'_+(0) = \lim_{x\r 0^+} \f{\sqrt[3]{x^2} - 0}{x-0} = \f 1 {x^{1/3}} = +\infty $$
+$$f'_-(0) = \lim_{x\r 0^-} \f{\sqrt[3]{x^2} - 0}{x-0} = - \f 1 {x^{1/3}} = -\infty $$
+Není :-(
+\item $\sgn(x)$
+Funkce není spojitá a tdy nemuže mít derivaci.
+\end{enumerate}
+
+
+
+\Pr 218/1:
+\begin{enumerate}
+	\item $f(x)=x^4-3x^2+2; x_0=0$
+
+	$$\lim_{x\r 0} \f{x^4-3x^2+2-2}{x-0} = 0 $$
+
+\item $f(x)=\sqrt{x^2-1};x_0=\sqrt 5$
+	$$
+		\lim_{x\r \sqrt 5} \f{\sqrt{x^2-1}-2}{x-\sqrt 5}
+		=
+		\lim_{x\r \sqrt 5} \f{x^2-1-4}{(x- \sqrt5)(\sqrt{x^2-1}+2)}
+		=
+		\lim_{x\r \sqrt 5} \f{x+\sqrt 5}{\sqrt{x^2-1}+2}
+		=
+		\lim_{x\r \sqrt 5} \f{2\sqrt 5}{4}
+		=
+		\f{\sqrt 5}{2}
+	$$
+\end{enumerate}
+
+
+\EndDoc
