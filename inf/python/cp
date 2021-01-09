@@ -1,0 +1,6 @@
+#!/bin/python3
+fromFile,toFile = map(open,(input("Zdroj:"),input("Cíl:")),("r","w"))
+toFile.write(fromFile.read())
+toFile.close()
+fromFile.close()
+

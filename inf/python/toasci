@@ -1,0 +1,12 @@
+#!/bin/python3
+import unicodedata
+
+def toAsci(a):
+    nkfd = unicodedata.normalize('NFKD',a) # Diakritiku rozdělí na akcent a ASCII znak
+    return u"".join([c for c in nkfd if ord(c)<2**7]) # A pak nechá jen ASCII
+
+def delAccents(a):
+    nkfd = unicodedata.normalize('NFKD',a) # Diakritiku rozdělí na akcent a ASCII znak
+    return u"".join([c for c in nkfd if not unicodedata.combining(c)]) # A pak nechá vše až na akcenty
+
+print(toAsci(input()))

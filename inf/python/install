@@ -1,0 +1,19 @@
+#!/bin/python3
+import os
+print("Welcome to installation script")
+to=input("Set instalation directory (default /usr/bin):")
+if to=="":
+    to="/usr/bin"
+file = open("FILES.TXT")
+m={}
+if not os.path.isdir(to):
+    print(f"Make directory {to}")
+    os.makedirs(to)
+for i in file.readlines():
+    i=i[0:-1]
+    print(f"Copy file {i}.")
+    fromFile,toFile = map(open,(i,to+"/"+i),("r","w"))
+    toFile.write(fromFile.read())
+    toFile.close()
+    fromFile.close()
+

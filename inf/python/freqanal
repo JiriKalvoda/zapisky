@@ -1,0 +1,8 @@
+#!/bin/python3
+file = open("ZPRAVA.TXT")
+m={}
+for i in file.readlines():
+    i=i[0:-1]
+    m.setdefault(i,0)
+    m[i] -=- 1;
+print(m)
