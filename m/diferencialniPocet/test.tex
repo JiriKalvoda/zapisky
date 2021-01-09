@@ -1,0 +1,65 @@
+\input{h.tex}
+\BeginDoc{}
+\def\posloup{$\zs{a_n}_{n=1}^{\infty}$}
+\def\pos#1{\zs{#1}_{n=1}^{\infty}}
+\def\li{\lim_{n\rightarrow\infty}}
+\def\lix{\lim_{x\rightarrow x_0}}
+\def\r{\rightarrow}
+\def\sup{{\rm sup\ }}
+\def\sciwinfup{{\rm inf\ }}
+\def\su{\sum_{n=1}^{\infty}}
+\begin{enumerate}
+	\item 
+		\begin{enumerate}
+			\item 
+				$$\lim_{x\r 1 } \f{ln x}{1-x} = \lim_{x \r 1} \f{1/x}{-1} = -1$$
+			\item 
+				$$
+				\lim_{x\r 1^+} e^{\f{\ln x}{1-x}}
+				= 
+				 e^{\lim_{x\r 1^+} \f{\ln x}{1-x}}
+				= 
+				 e^{-1} 
+				= 
+				\f 1 e
+				$$
+			\item
+				$$
+				\lim_{x\r 0} \f{2{\rm\ arcsin\ } x}{3x}
+				=
+				\lim_{x\r 0} \f{2\f{1}{\sqrt{1-x^2}}}{3}
+				=
+				\f  2 3
+				$$
+			\item
+				$$
+				\lim_{x\r\f\pi2} \( \f x{\cotg x}  - \f{\pi}{2\cos x}\)
+				=
+				\lim_{x\r\f\pi2} \( \f {1}{\f 1{\sin^2 x}} - \f{0}{-2\sin x}\)
+				=
+				1
+				$$
+		\end{enumerate}
+	\item
+		$$ e^x (2+x) x$$
+
+		Kladná $\in (-\infty; -2) \cap (0;\infty)$
+
+		Záporná $\in (-2;0)$
+
+	\item
+		$$
+		\lim_{x\r\pi} \f{x\cos 2x \sin 3x}{x^2-\pi^2}
+		=
+		\lim_{x\r\pi} \f{x\cos x \cos 2x + \sin x (\cos 2x - 2x \sin x}{2x}
+		=
+		\f{-\pi}{2\pi} = -\f 12
+		$$
+		Funkce je spojitá.
+
+
+
+
+\end{enumerate}
+
+\EndDoc

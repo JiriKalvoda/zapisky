@@ -1,0 +1,97 @@
+\input{h.tex}
+\BeginDoc{}
+\def\posloup{$\zs{a_n}_{n=1}^{\infty}$}
+\def\pos#1{\zs{#1}_{n=1}^{\infty}}
+\def\li{\lim_{n\rightarrow\infty}}
+\def\lix{\lim_{x\rightarrow x_0}}
+\def\r{\rightarrow}
+\def\sup{{\rm sup\ }}
+\def\sciwinfup{{\rm inf\ }}
+\def\su{\sum_{n=1}^{\infty}}
+\section{ Pravidla pro počítání s derivacemi}
+\subsection{Derivace základních elementárních funkcí}
+\V 
+$$
+\begin{array}{c @{=} c @{;} l}
+	(c)' & 0 & c\in\R;x\in\R\\
+	(x^r)' & rx^{r-1} & r\in\R;x\in\R\\
+	(\sin x)' & \cos x  & x\in\R\\
+	(\cos x)' & -\sin x & x\in\R\\
+	(e^x)' & e^x & x\in\R\\
+	(\tg x)' & \f{1}{\cos^2 x} & x\in\R\\
+	(\cotg x)' &  -\f{1}{\sin^2 x} & x\in\R\\
+	(\ln x)' & \f 1x & x\in\R\\
+	(\arcsin x)' & \f{1}{\sqrt{1-x^2}} & x\in(-1;1)\\
+	(\arccos x)' & -\f 1{1-x^2}& x\in(-1;1)\\
+	({\rm arctg} x)' & \f1{x^2+1} & x\in\R\\
+	({\rm arccotg} x)' & -\f{1}{x^2+1} & x\in\R\\
+	(a^x)' & a^x\ln a & x\in\R\\
+	(\log_a x)' & \f{1}{x\ln a} & x\in\R\\
+\end{array}
+$$
+
+\Pr
+$(x)' = 1$
+
+$(x^2)' = 2x$
+
+$\(\sqrt x\)' = \f 12 x^{-\f 1 2}$
+
+$\(x^{-1}\)' = -x^{-2}$
+
+\subsection{Derivace součtu, rozdílu, součinu a podílu funkcí}
+\V  Nechť existují derivace $f$, $g$ v $x_0\in\R$:
+\begin{enumerate}
+	\item $(f\pm g)'(x_0) = f'(x_0)\pm g'(x_0)$
+	\item $(f g)'(x_0) = f'(x_0)g(x_0) + f(x_0)g'(x_0)$
+	\item $(\f f g)'(x_0) = \f{f'(x_0)g(x_0) - f(x_0)g'(x_0)}{g^2(x_0)}$
+	\item $(cf)' (x_0) = cf'(x_0)$
+\end{enumerate}
+
+\Pr 199/15:
+
+\begin{enumerate}
+	\item $\(\f{3x-2}{x^2+1}\)'
+		=
+		\f{3x^2+1-6x^2-4x}{\(x^2 + 1\)}
+		=
+		\f{-3x^2-4x+1}{\(x^2 + 1\)}
+		$
+\end{enumerate}
+
+\subsection{Derivace Složené funkce}
+
+\V Nechť $f: x = f(y)$ je spojitá a ryze monotónní na intervalu $I$.
+Nechť $y_0$ je vnitřní bod intervalu $I$ a nechťmá $f$ v $y_0$ derivaci $f'(y_0)$.
+
+Pak inverzní funkce $f^{-1}$ má v bodě $x_0 = f(y) derivaci a platí:
+
+
+
+\Pr 218/3:
+\begin{enumerate}
+	\item $f(x) = 5x^2-3x \imp f'(x) = 10x -3$
+
+		$f'(1)=8;f'(2)=18;f'(-1)=-2$
+	\item $f(x)=\f{\sqrt{x}-1}x;f'(x) = -\f1{x^{2/3}}+\f 1{x^2}$
+
+		$f'(2)=\f14-\f1{4\sqrt 2},-f'(1)= - \f 12;f'(4)=0$
+\end{enumerate}
+	
+	\Pr 
+	$((x^2-1)(x^3-5))' =  (x^5-x^3-5x^2+5)' = 5x^4-3x^2-10x$
+
+	$(x^2 \tg(x))' = x^2\f{1}{\cos^2(x)} + 2x\tg(x) = x(\f{x}{\cos^2 x+2x\tg x}$
+
+	$((x^2+1)\ln x)'  = 2x \ln x + \f{x^2+1}x = 2x\ln x + x+\f1x$
+
+	\Pr
+	$(\f x{x+1})' = \f1{(x+1)^2}$
+
+	$\(\f{\cos x}{1-\sin x}\)' = \f{\sin(x)-1)\sin(x)+\cos^2(x)}{(1-\sin(x))^2}$
+
+	$\(\f{e^x }{\sin x}\)' =  \f{e^x}{\cos x} - e^x \f{\cos x}{\sin^2 x}$
+
+
+
+\EndDoc

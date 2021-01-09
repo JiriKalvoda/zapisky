@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.9)  14 NOV 2020 20:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.9)  23 NOV 2020 08:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -301,11 +301,11 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<10-1.pdf, id=1, 559.08875pt x 62.2325pt>
-File: 10-1.pdf Graphic file (type pdf)
-<use 10-1.pdf>
-Package pdftex.def Info: 10-1.pdf  used on input line 9.
-(pdftex.def)             Requested size: 369.88583pt x 41.17328pt.
+<10-2.pdf, id=1, 418.56375pt x 92.345pt>
+File: 10-2.pdf Graphic file (type pdf)
+<use 10-2.pdf>
+Package pdftex.def Info: 10-2.pdf  used on input line 9.
+(pdftex.def)             Requested size: 369.88583pt x 81.60483pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
 
 
@@ -317,98 +317,30 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<10-2.pdf, id=2, 418.56375pt x 92.345pt>
-File: 10-2.pdf Graphic file (type pdf)
-<use 10-2.pdf>
-Package pdftex.def Info: 10-2.pdf  used on input line 19.
-(pdftex.def)             Requested size: 369.88583pt x 81.60483pt.
-<10-3.pdf, id=3, 588.1975pt x 63.23625pt>
-File: 10-3.pdf Graphic file (type pdf)
-<use 10-3.pdf>
-Package pdftex.def Info: 10-3.pdf  used on input line 25.
-(pdftex.def)             Requested size: 369.88583pt x 39.7657pt.
-<10-4.pdf, id=4, 276.03125pt x 40.15pt>
-File: 10-4.pdf Graphic file (type pdf)
-<use 10-4.pdf>
-Package pdftex.def Info: 10-4.pdf  used on input line 48.
-(pdftex.def)             Requested size: 184.94292pt x 26.90218pt.
+) [1
 
-Overfull \hbox (18.6098pt too wide) detected at line 56
-\OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 xa[] \OMS/cmsy/m/n/1
-0 ^^@ \OML/cmm/m/it/10 ax[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 xx[] \OT1/cmr/m/
-n/10 = \OML/cmm/m/it/10 aa[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 xa[] \OMS/cm
-sy/m/n/10 ^^@ \OML/cmm/m/it/10 ax[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 xx[] \OT
-1/cmr/m/n/10 = (\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^@ []\OML/cmm/m/it/10 x\OT
-1/cmr/m/n/10 )([] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )
- []
-
-<10-6.pdf, id=5, 177.66376pt x 70.2625pt>
-File: 10-6.pdf Graphic file (type pdf)
-<use 10-6.pdf>
-Package pdftex.def Info: 10-6.pdf  used on input line 57.
-(pdftex.def)             Requested size: 110.96687pt x 43.88606pt.
-
-Overfull \hbox (385.9802pt too wide) detected at line 71
-[] \OMS/cmsy/m/n/10 ^^A [][] \OT1/cmr/m/n/10 = [] = [] = [] \OMS/cmsy/m/n/10 ^^
-A [][] \OT1/cmr/m/n/10 = [] = []
- []
-
-<10-7.pdf, id=6, 214.8025pt x 46.1725pt>
-File: 10-7.pdf Graphic file (type pdf)
-<use 10-7.pdf>
-Package pdftex.def Info: 10-7.pdf  used on input line 73.
-(pdftex.def)             Requested size: 73.97603pt x 15.90134pt.
-<10-8.pdf, id=7, 420.57124pt x 63.23625pt>
-File: 10-8.pdf Graphic file (type pdf)
-<use 10-8.pdf>
-Package pdftex.def Info: 10-8.pdf  used on input line 79.
-(pdftex.def)             Requested size: 369.88583pt x 55.61621pt.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./10-1.pdf> <./10-2.pdf> <
-./10-3.pdf> <./10-4.pdf> <./10-6.pdf> <./10-7.pdf>]
-<10-9.pdf, id=60, 443.6575pt x 59.22125pt>
-File: 10-9.pdf Graphic file (type pdf)
-<use 10-9.pdf>
-Package pdftex.def Info: 10-9.pdf  used on input line 84.
-(pdftex.def)             Requested size: 369.88583pt x 49.37318pt.
-<10-11.pdf, id=61, 456.70625pt x 64.24pt>
-File: 10-11.pdf Graphic file (type pdf)
-<use 10-11.pdf>
-Package pdftex.def Info: 10-11.pdf  used on input line 95.
-(pdftex.def)             Requested size: 369.88583pt x 52.0292pt.
-<10-11r.pdf, id=62, 323.2075pt x 236.885pt>
-File: 10-11r.pdf Graphic file (type pdf)
-<use 10-11r.pdf>
-Package pdftex.def Info: 10-11r.pdf  used on input line 108.
-(pdftex.def)             Requested size: 369.88583pt x 271.11076pt.
- [2 <./10-8.pdf> <./10-9.pdf> <./10-11.pdf>] [3 <./10-11r.pdf>] (./10.aux) )
-(\end occurred when \ifnum on line 109 was incomplete) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./10-2.pdf>] (./10.aux) )
+(\end occurred when \ifnum on line 15 was incomplete) 
 Here is how much of TeX's memory you used:
- 5370 strings out of 480478
- 73886 string characters out of 5905959
- 345491 words of memory out of 5000000
- 21293 multiletter control sequences out of 15000+600000
+ 5311 strings out of 480478
+ 72979 string characters out of 5905959
+ 336491 words of memory out of 5000000
+ 21243 multiletter control sequences out of 15000+600000
  534983 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,6n,51p,359b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fo
-nts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm
--super/sfbx1440.pfb>
-Output written on 10.pdf (3 pages, 164436 bytes).
+ 49i,6n,51p,359b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fon
+ts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super
+/sfbx1440.pfb>
+Output written on 10.pdf (1 page, 64110 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

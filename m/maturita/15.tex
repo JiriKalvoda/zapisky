@@ -1,0 +1,77 @@
+\input{h.tex}
+\BeginDoc{}
+\def\dec{\left| 
+\begin{array}{ccc}}
+\def\dee{\end{array}
+\right|}
+\def\d{\rm d}
+\begin{enumerate}[a)]
+	\item 
+		$ \cos 2x
+		=
+		\cos^2 x - \sin^2 x
+		= 
+		\cos^2 x - \sin^2 x (cos^2 x + \sin^2 x )
+		=
+		\cos^4 x - \sin^4 x
+		$
+	\item
+		$
+		1 - \f 12 \sin^2 2x = 1 - \f 12 \(2 \sin x \cos x\)^2
+		= \sin^2 x + \cos^2  - 2 \sin^2 x  \cos^2 x
+		= \sin^2 x  - 2 \sin^2 x  \cos^2 x + \cos^2 
+		= \sin^2 x  - 2 \sin^2 x  (1-\sin^2 x + 1) - \sin^2 x
+		= \sin^2 x  -2\sin^2 x + 2 \sin^4 x + 1 - \sin^2 x
+		2 sin^4 x - 2 \cos^2 x + 1
+		=
+		sin^4 x + \(sin^4 x - 2 \cos^2 x + 1\)
+		=
+		\sin^4 x + \cos^4 x
+		$
+	\item  
+		Nechť $a = \f \alpha 2$.
+
+		$ 1 + \cos 2a = 1 + \cos^2 a - \sin^2 a  = 1 + \cos^2 a - 1 + \cos^2 a = 2 \cos^2 a$
+	\item[d)]
+		Nechť $a = \f \alpha 2$.
+
+		$2 \sin^2 a = 2 (1-\cos^2 a) = 2 - 2  \cos^2 a
+		=
+		1 + \sin^2 a - \cos^2 a
+		=1 - \cos 2a
+		$
+	\item  
+		Nechť $a = \f \alpha 2$.
+
+		$ 2 \sin 2a + \sin 4a
+		= 4 \sin a \cos a + 2 \sin 2a \cos 2a
+		= 4 \sin a \cos a + 4 \sin a \cos a  \cos 2a
+		= 4 \sin a \cos a ( 1 +  \cos^2 a - \sin^2 a )
+		= 2 \sin 2a ( 1 +  \cos^2 a - 1 + \cos^2 a )
+		= 2 \sin 2a ( 2 \cos^2 a )
+		= 4 \sin 2a \cos^2 a
+		$
+\end{enumerate}
+
+
+$$ 
+\f{2x + 2} {x^5 - x^4 + 2x^3 - 2x^2 + x - 1}
+=
+\f{2x+2 }{(x-1) (x^2 + 1)(x^2 +1)}
+=
+\f{a}{x-1} + \f{bx+c}{x^2+1} +\f{dx+e}{(x^2+1)^2}
+\eqnl[=]
+\f{a x^4 + 2 a x^2 + a + b x^4 - b x^3 + b x^2 - b x + c x^3 - c x^2 + c x - c + d x^2 - d x + e x - e}{(x-1) (x^2 + 1)(x^2 +1)}
+\eqnl[=]
+\f{(a+b) x^4 + - (b+c) x^3 + (2 a + b - x + d) x^2  +(- b   + c  - d  + e ) x + a - c - e}{(x-1) (x^2 + 1)(x^2 +1)}
+$$
+
+$ a + b = 0$\\
+$b + c = 0$\\
+$2 a + b - x + d = 0$\\
+$- b   + c  - d  + e = 2$\\
+$a - c - e = 0$
+
+$$ \f 1{x-1} + \f{-x-1}{x^2+1} + \f{2x}{(x^2+1)^2}$$
+
+\EndDoc
